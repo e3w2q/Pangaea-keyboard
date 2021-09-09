@@ -1,47 +1,24 @@
 # Pangaea
 
-![Revision](https://img.shields.io/badge/PCB%20Revision-2-blue.svg)
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/CC%20BY-SA%204.0-brightgreen.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+![Revision](https://img.shields.io/badge/PCB%20Revision-0.1-blue.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
-Parts moveable keyboard.
+Parts adjustable keyboard.
 
 ![Pangaea](doc/pangaea_logo.jpg)
 
-## What is the Ukiha?
+## What is Pangaea?
 
-The Ukiha is a 5x12 ortholinear keyboard like the Preonic and JJ50, but with a smaller key pitch of 16mm instead of 19.05mm.
+Column staggered keyboards differ in the way the columns are shifted and the thumb keys are placed, depending on the designer's finger size and design philosophy.
 
-I like expantable keyboard boards like [SU120](https://github.com/e3w2q/su120-keyboard) and [te96](https://github.com/e3w2q/te96-keyboard), but in this case I designed a keyboard that I genuinely wanted.
+Pangaea is a column staggered keyboard that allows you to adjust the key layout for the pinky and thumb areas.
 
-The *Ukiha* (浮葉) means "floating leaf" and is taken from the Japanese classic, *Pillow Book* (枕草子).
-
-In the book, there is an example of a very small floating lotus leaf taken from a pond as a lovely thing.
-
-うつくしきもの。(中略) 蓮の浮葉のいとちひさきを、池より取りあげたる。(枕草子 第百五十一段より)
-
-![ukiha2](doc/ukiha2.jpg)
-
-## Why open source?
-
-Anyone interested in small key pitch keyboard could try.
-
-![ukiha3](doc/ukiha3.jpg)
-
-## Customizability
-
-The 4 keys in the middle of the bottom row can be replaced with 2U.
-
-You can take off the top row and make it into a 4x12 keyboard like Planck and JJ40.
+![Pangaea_0.1_1](doc/Pangaea_0.1_1.jpg)
 
 ## Link
 
-[Firmware](https://github.com/e3w2q/qmk_firmware/tree/e3w2q/keyboards/e3w2q/ukiha)
+[PCB](pcb/)
 
-[PCBの入手方法](doc/pcb_order_guide_jp.md)
+[Firmware](firmware/)
 
-[パーツリスト](doc/bom_list_jp.md)
-
-[ビルドガイド](doc/readme_jp.md)
-
-![Pangaea Map 1](doc/pangaea_map1.jpg)
-
+![Pangaea_0.1_2](doc/Pangaea_0.1_2.jpg)

@@ -1,0 +1,57 @@
+(footprint "M2_ThroughHole" (version 20210228) (generator pcbnew) (layer "F.Cu")
+  (tedit 60BA454C)
+  (descr "Resitance 3 pas")
+  (tags "R")
+  (autoplace_cost180 10)
+  (fp_text reference "" (at 0 1.651 180) (layer "F.Fab") hide
+    (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+    (tstamp 767636a6-0ef6-4762-841a-a16a3f86154e)
+  )
+  (fp_text value "" (at 0 -1.4605 180) (layer "F.Fab") hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+    (tstamp 08b32c08-c7ae-4ab0-aead-0619c8e392bc)
+  )
+  (fp_text user "${VALUE}" (at 100 -1.4605 180) (layer "F.Fab") hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+    (tstamp 069a1b7b-1222-43ca-b290-5c3a5a1ce318)
+  )
+  (fp_text user "${REFERENCE}" (at 300 1.651 180) (layer "F.Fab") hide
+    (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+    (tstamp 0eb35d41-bd6d-4448-9695-1da77a1c781e)
+  )
+  (fp_text user "${VALUE}" (at 300 -1.4605 180) (layer "F.Fab") hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+    (tstamp 1206d93f-89fe-451b-8939-72187289f8d2)
+  )
+  (fp_text user "${REFERENCE}" (at 200 1.651 180) (layer "F.Fab") hide
+    (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+    (tstamp 6d4d5ff2-7d41-4f91-a7f2-6aca844dae0d)
+  )
+  (fp_text user "${REFERENCE}" (at 0 1.651 180) (layer "F.Fab") hide
+    (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+    (tstamp 98769e19-5c92-466a-b3bc-46c75e360449)
+  )
+  (fp_text user "${VALUE}" (at 200 -1.4605 180) (layer "F.Fab") hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+    (tstamp ac7dc89b-21e0-4c49-a618-3f8f84b5fc88)
+  )
+  (fp_text user "${VALUE}" (at 0 -1.4605 180) (layer "F.Fab") hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+    (tstamp c837c572-e381-4d0b-841b-715c8c8d2a51)
+  )
+  (fp_text user "${REFERENCE}" (at 100 1.651 180) (layer "F.Fab") hide
+    (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+    (tstamp dc9107bc-eb92-40e4-8f83-9c02331164b5)
+  )
+  (pad "" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.88) (layers *.Cu *.Mask) (tstamp a7290a7a-f4d5-476c-8a7b-e91ee0cf9210))
+  (model "discret/resistor.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 0.3 0.3 0.3))
+    (rotate (xyz 0 0 0))
+  )
+  (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 0.2 0.2 0.2))
+    (rotate (xyz 0 0 0))
+  )
+)

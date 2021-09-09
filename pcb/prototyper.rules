@@ -1,0 +1,113 @@
+
+(rules PCB prototyper
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (eu.mihosoft.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 10736)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.2)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-PWR" "Via[0-1]_800:400_um" PWR
+  )
+  (via 
+    "Via[0-1]_800:400_um-VCC" "Via[0-1]_800:400_um" VCC
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    PWR "Via[0-1]_800:400_um-PWR"
+  )
+  (via_rule
+    VCC "Via[0-1]_800:400_um-VCC"
+  )
+  (class default
+    "unconnected-(J1-PadA)" data mot ss SCLK MOSI MISO X1
+    Y1 X2 X3 X4 X5 X6 Y2 Y3
+    Y4 Y5 led "unconnected-(U1-Pad6)" VCC "unconnected-(U1-Pad22)" "Net-(J5-Pad1)" "Net-(J5-Pad2)"
+    "Net-(J5-Pad3)" "Net-(J5-Pad4)" "Net-(J5-Pad5)" "Net-(J5-Pad6)" "Net-(J8-Pad1)" "Net-(J8-Pad2)" "Net-(J8-Pad4)" "Net-(J8-Pad5)"
+    "Net-(J8-Pad6)" "unconnected-(SW27-Pad1)" "unconnected-(J8-Pad3)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class PWR
+    GND
+    (clearance_class PWR)
+    (via_rule PWR)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class VCC
+    (clearance_class VCC)
+    (via_rule VCC)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

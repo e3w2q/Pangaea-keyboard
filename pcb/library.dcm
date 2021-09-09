@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RPi_GPIO
+D Raspberry Pi Hat GPIO
+K RPi Raspberry Pi GPIO
+$ENDCMP
+#
+$CMP SW_and_D
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
+#End Doc Library

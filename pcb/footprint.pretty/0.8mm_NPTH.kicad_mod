@@ -1,0 +1,25 @@
+(footprint "0.8mm_NPTH" (version 20210228) (generator pcbnew) (layer "F.Cu")
+  (tedit 60BA37FB)
+  (descr "Resitance 3 pas")
+  (tags "R")
+  (autoplace_cost180 10)
+  (fp_text reference "" (at 0 1.651) (layer "F.Fab") hide
+    (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+    (tstamp ad26416e-264e-4046-9cc1-a3d852d5ed80)
+  )
+  (fp_text value "" (at 0.5 -2.4605) (layer "F.Fab") hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+    (tstamp bfd9b298-264b-412e-b984-49142efa6e2c)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.8) (layers F&B.Cu *.Mask) (tstamp 6be7bf98-36e7-4ea0-94ad-1751a14e3190))
+  (model "discret/resistor.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 0.3 0.3 0.3))
+    (rotate (xyz 0 0 0))
+  )
+  (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 0.2 0.2 0.2))
+    (rotate (xyz 0 0 0))
+  )
+)

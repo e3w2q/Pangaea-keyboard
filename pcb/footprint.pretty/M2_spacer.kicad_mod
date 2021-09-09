@@ -1,0 +1,25 @@
+(footprint "M2_spacer" (version 20210228) (generator pcbnew) (layer "F.Cu")
+  (tedit 60CC8784)
+  (descr "Resitance 3 pas")
+  (tags "R")
+  (autoplace_cost180 10)
+  (fp_text reference "Ref**" (at 0 1.651) (layer "F.Fab") hide
+    (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+    (tstamp 00000000-0000-0000-0000-000000000000)
+  )
+  (fp_text value "Val**" (at 0 -1.4605) (layer "F.Fab") hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+    (tstamp 00000000-0000-0000-0000-000000000000)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 4.1 4.1) (drill 4.1) (layers F&B.Cu *.Mask) (tstamp 00000000-0000-0000-0000-000000000000))
+  (model "discret/resistor.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 0.3 0.3 0.3))
+    (rotate (xyz 0 0 0))
+  )
+  (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 0.2 0.2 0.2))
+    (rotate (xyz 0 0 0))
+  )
+)
