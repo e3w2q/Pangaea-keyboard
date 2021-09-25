@@ -24,31 +24,23 @@
  */
 
 #define LAYOUT( \
-	L_D4_to_B4,	L_B4_to_D4,	L_C6_to_B4,	L_B4_to_C6,	L_D7_to_B4,	L_B4_to_D7,		R_B4_to_D7,	R_D7_to_B4,	R_B4_to_C6,	R_C6_to_B4,	R_B4_to_D4,	R_D4_to_B4,	\
-	L_D4_to_B5,	L_B5_to_D4,	L_C6_to_B5,	L_B5_to_C6,	L_D7_to_B5,	L_B5_to_D7,		R_B5_to_D7,	R_D7_to_B5,	R_B5_to_C6,	R_C6_to_B5,	R_B5_to_D4,	R_D4_to_B5,	\
-	L_D4_to_F4,	L_F4_to_D4,	L_C6_to_F4,	L_F4_to_C6,	L_D7_to_F4,	L_F4_to_D7,		R_F4_to_D7,	R_D7_to_F4,	R_F4_to_C6,	R_C6_to_F4,	R_F4_to_D4,	R_D4_to_F4,	\
-	L_D4_to_F5,	L_F5_to_D4,	L_C6_to_F5,	L_F5_to_C6,	L_D7_to_F5,	L_F5_to_D7,		R_F5_to_D7,	R_D7_to_F5,	R_F5_to_C6,	R_C6_to_F5,	R_F5_to_D4,	R_D4_to_F5,	\
-	L_D4_to_F6,	L_F6_to_D4,	L_C6_to_F6,	L_F6_to_C6,	L_D7_to_F6,	L_F6_to_D7,		R_F6_to_D7,	R_D7_to_F6,	R_F6_to_C6,	R_C6_to_F6,	R_F6_to_D4,	R_D4_to_F6,	\
-		L_E6_to_B4,	L_E6_to_B5,	L_E6_to_F4,	L_E6_to_F5,	L_E6_to_F6,		R_E6_to_F6,	R_E6_to_F5,	R_E6_to_F4,	R_E6_to_B5,	R_E6_to_B4,		\
-		L_B4_to_E6,	L_B5_to_E6,	L_F4_to_E6,	L_F5_to_E6,	L_F6_to_E6,		R_F6_to_E6,	R_F5_to_E6,	R_F4_to_E6,	R_B5_to_E6,	R_B4_to_E6	\
+lc1r1,	lr1c1,	lc2r1,	lr1c2,	lc3r1,	lr1c3,	rr1c3,	rc3r1,	rr1c2,	rc2r1,	rr1c1,	rc1r1,	\
+lc1r2,	lr2c1,	lc2r2,	lr2c2,	lc3r2,	lr2c3,	rr2c3,	rc3r2,	rr2c2,	rc2r2,	rr2c1,	rc1r2,	\
+lc1r3,	lr3c1,	lc2r3,	lr3c2,	lc3r3,	lr3c3,	rr3c3,	rc3r3,	rr3c2,	rc2r3,	rr3c1,	rc1r3,	\
+lc1r4,	lr4c1,	lc2r4,	lr4c2,	lc3r4,	lr4c3,	rr4c3,	rc3r4,	rr4c2,	rc2r4,	rr4c1,	rc1r4,	\
+lc1r5,	lr5c1,	lc2r5,	lr5c2,	lc3r5,	lr5c3,	rr5c3,	rc3r5,	rr5c2,	rc2r5,	rr5c1,	rc1r5,	\
+	lc4r1,	lc4r2,	lc4r3,	lc4r4,	lc4r5,	rc4r5,	rc4r4,	rc4r3,	rc4r2,	rc4r1,		\
+	lr1c4,	lr2c4,	lr3c4,	lr4c4,	lr5c4,	rr5c4,	rr4c4,	rr3c4,	rr2c4,	rr1c4		\
 ) { \
-	{	KC_NO,	KC_NO,	KC_NO,	KC_NO,	KC_NO,	L_D4_to_B4,	L_C6_to_B4,	L_D7_to_B4,	L_E6_to_B4	}, \
-	{	KC_NO,	KC_NO,	KC_NO,	KC_NO,	KC_NO,	L_D4_to_B5,	L_C6_to_B5,	L_D7_to_B5,	L_E6_to_B5	}, \
-	{	KC_NO,	KC_NO,	KC_NO,	KC_NO,	KC_NO,	L_D4_to_F4,	L_C6_to_F4,	L_D7_to_F4,	L_E6_to_F4	}, \
-	{	KC_NO,	KC_NO,	KC_NO,	KC_NO,	KC_NO,	L_D4_to_F5,	L_C6_to_F5,	L_D7_to_F5,	L_E6_to_F5	}, \
-	{	KC_NO,	KC_NO,	KC_NO,	KC_NO,	KC_NO,	L_D4_to_F6,	L_C6_to_F6,	L_D7_to_F6,	L_E6_to_F6	}, \
-	{	L_B4_to_D4,	L_B5_to_D4,	L_F4_to_D4,	L_F5_to_D4,	L_F6_to_D4,	KC_NO,	KC_NO,	KC_NO,	KC_NO	}, \
-	{	L_B4_to_C6,	L_B5_to_C6,	L_F4_to_C6,	L_F5_to_C6,	L_F6_to_C6,	KC_NO,	KC_NO,	KC_NO,	KC_NO	}, \
-	{	L_B4_to_D7,	L_B5_to_D7,	L_F4_to_D7,	L_F5_to_D7,	L_F6_to_D7,	KC_NO,	KC_NO,	KC_NO,	KC_NO	}, \
-	{	L_B4_to_E6,	L_B5_to_E6,	L_F4_to_E6,	L_F5_to_E6,	L_F6_to_E6,	KC_NO,	KC_NO,	KC_NO,	KC_NO	}, \
-	{	KC_NO,	KC_NO,	KC_NO,	KC_NO,	KC_NO,	R_D4_to_B4,	R_C6_to_B4,	R_D7_to_B4,	R_E6_to_B4	}, \
-	{	KC_NO,	KC_NO,	KC_NO,	KC_NO,	KC_NO,	R_D4_to_B5,	R_C6_to_B5,	R_D7_to_B5,	R_E6_to_B5	}, \
-	{	KC_NO,	KC_NO,	KC_NO,	KC_NO,	KC_NO,	R_D4_to_F4,	R_C6_to_F4,	R_D7_to_F4,	R_E6_to_F4	}, \
-	{	KC_NO,	KC_NO,	KC_NO,	KC_NO,	KC_NO,	R_D4_to_F5,	R_C6_to_F5,	R_D7_to_F5,	R_E6_to_F5	}, \
-	{	KC_NO,	KC_NO,	KC_NO,	KC_NO,	KC_NO,	R_D4_to_F6,	R_C6_to_F6,	R_D7_to_F6,	R_E6_to_F6	}, \
-	{	R_B4_to_D4,	R_B5_to_D4,	R_F4_to_D4,	R_F5_to_D4,	R_F6_to_D4,	KC_NO,	KC_NO,	KC_NO,	KC_NO	}, \
-	{	R_B4_to_C6,	R_B5_to_C6,	R_F4_to_C6,	R_F5_to_C6,	R_F6_to_C6,	KC_NO,	KC_NO,	KC_NO,	KC_NO	}, \
-	{	R_B4_to_D7,	R_B5_to_D7,	R_F4_to_D7,	R_F5_to_D7,	R_F6_to_D7,	KC_NO,	KC_NO,	KC_NO,	KC_NO	}, \
-	{	R_B4_to_E6,	R_B5_to_E6,	R_F4_to_E6,	R_F5_to_E6,	R_F6_to_E6,	KC_NO,	KC_NO,	KC_NO,	KC_NO	} \
+{	lc1r1,	lc2r1,	lc3r1,	lc4r1,	lr1c1,	lr1c2,	lr1c3,	lr1c4,	}, \
+{	lc1r2,	lc2r2,	lc3r2,	lc4r2,	lr2c1,	lr2c2,	lr2c3,	lr2c4,	}, \
+{	lc1r3,	lc2r3,	lc3r3,	lc4r3,	lr3c1,	lr3c2,	lr3c3,	lr3c4,	}, \
+{	lc1r4,	lc2r4,	lc3r4,	lc4r4,	lr4c1,	lr4c2,	lr4c3,	lr4c4,	}, \
+{	lc1r5,	lc2r5,	lc3r5,	lc4r5,	lr5c1,	lr5c2,	lr5c3,	lr5c4,	}, \
+{	rc1r1,	rc2r1,	rc3r1,	rc4r1,	rr1c1,	rr1c2,	rr1c3,	rr1c4,	}, \
+{	rc1r2,	rc2r2,	rc3r2,	rc4r2,	rr2c1,	rr2c2,	rr2c3,	rr2c4,	}, \
+{	rc1r3,	rc2r3,	rc3r3,	rc4r3,	rr3c1,	rr3c2,	rr3c3,	rr3c4,	}, \
+{	rc1r4,	rc2r4,	rc3r4,	rc4r4,	rr4c1,	rr4c2,	rr4c3,	rr4c4,	}, \
+{	rc1r5,	rc2r5,	rc3r5,	rc4r5,	rr5c1,	rr5c2,	rr5c3,	rr5c4,	} \
 }
 
