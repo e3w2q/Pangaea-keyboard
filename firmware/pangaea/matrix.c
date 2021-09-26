@@ -18,6 +18,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include <stdbool.h>
 #include "matrix.h"
 #include "quantum.h"
+#include "split_util.h"
+
+#define ROWS_PER_HAND (MATRIX_ROWS / 2)
+
+// row offsets for each hand
+uint8_t thisHand, thatHand;
 
 static const pin_t row_pins[MATRIX_ROWS] = MATRIX_ROW_PINS;
 static const pin_t col_pins[MATRIX_COLS] = MATRIX_COL_PINS;
@@ -132,7 +138,14 @@ static bool read_rows_on_col(matrix_row_t current_matrix[], uint8_t current_col)
 }
 
 void matrix_init_custom(void) {
+    split_pre_init();
+
+    thisHand = isLeftHand ? 0 : (ROWS_PER_HAND);
+    thatHand = ROWS_PER_HAND - thisHand;
+
     init_pins();
+
+    split_post_init();
 }
 
 bool matrix_scan_custom(matrix_row_t current_matrix[]) {
