@@ -17,17 +17,26 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include <stdint.h>
 #include <stdbool.h>
 #include "matrix.h"
+#include "debug.h"
 #include "quantum.h"
 #include "split_util.h"
 #include "transport.h"
+#include "debounce.h"
 
 #define ROWS_PER_HAND (MATRIX_ROWS / 2)
+
+/* matrix state(1:on, 0:off) */
+extern matrix_row_t raw_matrix[MATRIX_ROWS];  // raw values
+extern matrix_row_t matrix[MATRIX_ROWS];      // debounced values
 
 // row offsets for each hand
 uint8_t thisHand, thatHand;
 
 static const pin_t row_pins[MATRIX_ROWS] = MATRIX_ROW_PINS;
 static const pin_t col_pins[MATRIX_COLS] = MATRIX_COL_PINS;
+
+// user-defined overridable functions
+__attribute__((weak)) void matrix_slave_scan_user(void) {}
 
 static inline void setPinOutput_writeLow(pin_t pin) {
     ATOMIC_BLOCK_FORCEON {
@@ -162,4 +171,42 @@ bool matrix_scan_custom(matrix_row_t current_matrix[]) {
     }
 
     return (uint8_t)changed;
+}
+
+bool matrix_post_scan(void) {
+    bool changed = false;
+    if (is_keyboard_master()) {
+        matrix_row_t slave_matrix[ROWS_PER_HAND] = {0};
+        if (!transport_master(matrix + thatHand, slave_matrix)) {
+            for (int i = 0; i < ROWS_PER_HAND; ++i) {
+                if (matrix[thatHand + i] != slave_matrix[i]) {
+                    matrix[thatHand + i] = slave_matrix[i];
+                    changed              = true;
+                }
+            }
+        } else {
+            // reset other half if disconnected
+            for (int i = 0; i < ROWS_PER_HAND; ++i) {
+                matrix[thatHand + i] = 0;
+                slave_matrix[i]      = 0;
+            }
+
+            changed = true;
+        }
+
+        matrix_scan_quantum();
+    } else {
+        transport_slave(matrix + thatHand, matrix + thisHand);
+
+        matrix_slave_scan_user();
+    }
+    return changed;
+}
+
+uint8_t matrix_scan(void) {
+    bool changed = matrix_scan_custom(raw_matrix) || matrix_post_scan();
+
+    debounce(raw_matrix, matrix + thisHand, ROWS_PER_HAND, changed);
+
+    return changed;
 }
