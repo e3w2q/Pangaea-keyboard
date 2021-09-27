@@ -19,6 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "matrix.h"
 #include "quantum.h"
 #include "split_util.h"
+#include "transport.h"
 
 #define ROWS_PER_HAND (MATRIX_ROWS / 2)
 
