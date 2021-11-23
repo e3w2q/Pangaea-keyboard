@@ -25,10 +25,10 @@
 #define ENCODERS_PAD_B {D0}
 
 /* Split Keyboard specific options */
-#define SOFT_SERIAL_PIN D3 /* serial communication pin */
+#define SOFT_SERIAL_PIN D2 /* serial communication pin */
 
 /* RGB options */
-#define RGB_DI_PIN D2
+#define RGB_DI_PIN D3
 
 #ifndef RGBLED_NUM
   #define RGBLED_NUM 6
