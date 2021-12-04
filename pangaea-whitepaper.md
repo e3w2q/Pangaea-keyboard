@@ -6,7 +6,7 @@
 
 キーレイアウトをいくつかの "島" に切り離し、それぞれの島の位置を自由に移動できるようにしたキーボードです。
 
-![WhitePaper_Abst1](doc/WhitePaper_Abst1.jpeg)
+<img src="doc/WhitePaper_Abst1.jpeg" alt="alt text" style="width:50%">
 
 ### 何ができるのか
 
@@ -32,13 +32,11 @@
 
 - 島と島の相対位置は、接続パーツで連結。自由に可動・固定ができます。
 
-![WhitePaper_Mech1](doc/WhitePaper_Mech1.jpeg)
-
-![WhitePaper_Mech2](doc/WhitePaper_Mech2.jpeg)
+<img src="doc/WhitePaper_Mech1.jpeg" alt="alt text" style="width:30%"><img src="doc/WhitePaper_Mech2.jpeg" alt="alt text" style="width:30%">
 
 - 島を繋ぐ配線はジャンパワイヤ。結線したままで自由に動かせます。
 
-![WhitePaper_Ele1](doc/WhitePaper_Ele1.jpeg)
+<img src="doc/WhitePaper_Ele1.jpeg" alt="alt text" style="width:30%">
 
 - 島を繋ぐ配線はキーマトリクス配線そのもの。自由に置き換え・拡張ができます。
 - 左右分離型, 左右間はTRS/TRRSケーブルで接続します。
@@ -46,7 +44,7 @@
     - SU120、te96 を使った追加のキー、ロータリーエンコーダー
     - トラックボール（検証中）
 
-![WhitePaper_Add1](doc/WhitePaper_Add1.jpeg)
+    <img src="doc/WhitePaper_Add1.jpeg" alt="alt text" style="width:30%">
 
 詳しくは標準仕様をチェックしてください。see: [specification](pangaea-specification-1.0.md)
 
