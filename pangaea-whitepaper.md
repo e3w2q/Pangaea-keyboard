@@ -1,18 +1,20 @@
-# Pangaea
+# White Paper on Pangaea keyboard
 
-## what's pangaea?
+## What's Pangaea?
 
 ### 何なのか
 
-キーレイアウトをいくつかの "島" に切り離し、それぞれの島の位置を自由に移動できるようにしたキーボードです。
+Pangaea (パンゲア) は、キーレイアウトをいくつかの "島" に切り離し、それぞれの島の位置を自由に移動できるようにしたキーボードです。
 
 <img src="doc/WhitePaper_Abst1.jpeg" alt="alt text" style="width:50%">
 
+キー配列のかたまりが移動する様子を大陸移動説になぞらえて、超大陸にちなんでPangaeaと名付けました。
+
 ### 何ができるのか
 
-島を動かすことで、個人の好みや手の形（癖、体型）に合わせてキー配置を調整できます。
+島を動かすことで、個人の好みや手の形（癖、体型）に合わせてキー配置を調整できます。椅子の座り心地を確かめながら座面の高さや背もたれの角度を調整するように、キーボードを使いながら心地よく使える形に調整していくことができます。
 
-## why pangaea?
+## Why Pangaea?
 
 何のために作られたのか
 
@@ -26,29 +28,24 @@
 みんなも欲しいはず！
 …という経緯で開発に至りました。
 
-## how pangaea works?
+## How Pangaea works?
 
 どうなっているのか
 
 - 島と島の相対位置は、接続パーツで連結。自由に可動・固定ができます。
+    - 例えば、レール上にスリットを開けたプレートを組み合わせることで、連続的に位置と角度が調整できます。
+    
+    <img src="doc/WhitePaper_Mech1.jpeg" alt="alt text" style="width:30%">    <img src="doc/WhitePaper_Mech2.jpeg" alt="alt text" style="width:30%">
 
-<img src="doc/WhitePaper_Mech1.jpeg" alt="alt text" style="width:30%"><img src="doc/WhitePaper_Mech2.jpeg" alt="alt text" style="width:30%">
-
-- 島を繋ぐ配線はジャンパワイヤ。結線したままで自由に動かせます。
-
-<img src="doc/WhitePaper_Ele1.jpeg" alt="alt text" style="width:30%">
-
-- 島を繋ぐ配線はキーマトリクス配線そのもの。自由に置き換え・拡張ができます。
-- 左右分離型, 左右間はTRS/TRRSケーブルで接続します。
-- Pangaea標準インターフェイスを実装した基板であれば、なんでも接続可能です。
-    - SU120、te96 を使った追加のキー、ロータリーエンコーダー
-    - トラックボール（検証中）
+- 島同士の電気的な接続は、ワイヤーなどフレキシブルな配線を使うことで結線したまま島を動かせます。
+- 島は規格にしたがって自由に置き換え・拡張ができます。
+- 追加の要素も自由に接続可能です。
+    - 追加のキー、ロータリーエンコーダー
+    - トラックボール（今後検証予定）
 
     <img src="doc/WhitePaper_Add1.jpeg" alt="alt text" style="width:30%">
 
-詳しくは標準仕様をチェックしてください。see: [specification](pangaea-specification-1.0.md)
-
-## where pangaea going?
+## Where Pangaea going?
 
 今後の展望
 
