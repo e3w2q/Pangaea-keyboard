@@ -6,7 +6,7 @@
 
 Pangaea (パンゲア) は、キーレイアウトをいくつかの "島" に切り離し、それぞれの島の位置を自由に移動できるようにしたキーボードです。
 
-<img src="doc/WhitePaper_Abst1.jpeg" alt="alt text" style="width:50%">
+<img src="images/WhitePaper_Abst1.jpeg" alt="alt text" style="width:50%">
 
 キー配列のかたまりが移動する様子を大陸移動説になぞらえて、超大陸にちなんでPangaeaと名付けました。
 
@@ -35,7 +35,7 @@ Pangaea (パンゲア) は、キーレイアウトをいくつかの "島" に�
 - 島と島の相対位置は、接続パーツで連結。自由に可動・固定ができます。
     - 例えば、レール上にスリットを開けたプレートを組み合わせることで、連続的に位置と角度が調整できます。
     
-    <img src="doc/WhitePaper_Mech1.jpeg" alt="alt text" style="width:30%">    <img src="doc/WhitePaper_Mech2.jpeg" alt="alt text" style="width:30%">
+    <img src="images/WhitePaper_Mech1.jpeg" alt="alt text" style="width:30%">    <img src="images/WhitePaper_Mech2.jpeg" alt="alt text" style="width:30%">
 
 - 島同士の電気的な接続は、ワイヤーなどフレキシブルな配線を使うことで結線したまま島を動かせます。
 - 島は規格にしたがって自由に置き換え・拡張ができます。
@@ -43,7 +43,7 @@ Pangaea (パンゲア) は、キーレイアウトをいくつかの "島" に�
     - 追加のキー、ロータリーエンコーダー
     - トラックボール（今後検証予定）
 
-    <img src="doc/WhitePaper_Add1.jpeg" alt="alt text" style="width:30%">
+    <img src="images/WhitePaper_Add1.jpeg" alt="alt text" style="width:30%">
 
 ## Where Pangaea going?
 
