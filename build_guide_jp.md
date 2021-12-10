@@ -288,18 +288,21 @@ Pangaea の設計は e3w2q さんなのです。つまり SU120 の作者さん�
 
 1. SU120を利用してキーの追加
 2. QMK Firmware の対応
+
 ### Rotary Encoder の追加
 
 Rotary Encoder を追加する方法です。
 
 1. SU120を利用して Rotary Encoder の追加
 2. QMK Firmware の対応
+
 ### Display の追加
 
-OLEDの追加例です。
+OLEDディスプレイを追加する方法です。
 
-1. SU120を利用して Display の追加
+1. OLEDディスプレイの取り付け
 2. QMK Firmware の対応
+
 ### マイコンボードの切り離し
 
 メインプレートにある Pro Micro 部分は切り離すことができます。内側にキーを追加したい場合やトラックボールを配置するなどこの部分が邪魔になる場合は切り離して、メインプレートとワイヤで配線することで別の場所に移動することができます。
