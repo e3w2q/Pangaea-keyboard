@@ -117,6 +117,8 @@ Note: 次の写真はProMicroが上面に取り付けられていますが、推
 
 ![picture 6](images/063d4ac2fd48cc3513ddb311a2d0394e6f6cdcdaa0d06b1ff0ed7a4a48f6335a.png)  
 
+![picture 7](images/32ffa581f34b0d646b031b805fd7cc1cc254557058b86134a1ca61366d237566.png)  
+
 - スイッチソケット
 - Pro Micro
 - Reset switch
@@ -135,7 +137,7 @@ Note: Pro Micro, TRRS ジャック、Reset switch も裏側に取り付けます
 2.小指プレートの組み立て
 
 - ダイオード
-- スイッチソケット
+- スイッチソケット｀｀
 
 ダイオードは縦方向にも取り付ける必要があります。キーの個数分の8個のダイオードが取り付けられているか確認します。個数を数えれば見逃しがないと思います。
 
