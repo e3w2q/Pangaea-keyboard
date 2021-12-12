@@ -129,7 +129,7 @@ Note: 次の写真はProMicroが上面に取り付けられていますが、推
 
 Note: Pro Micro, TRRS ジャック、Reset switch も裏側に取り付けます。
 
-別の実装として、写真のようにPro Micro は上に取り付けることもできて、その場合上から見て左側に取り付けます。3.5mm ジャック、Reset Switch も取り付けます。
+別の実装として、写真のようにPro Micro は上に取り付けることもできて、その場合上から見て左側の列に取り付けます。3.5mm ジャック、Reset Switch も取り付けます。
 
 ![picture 22](images/67ab104578fdced3b91575ca5da068cccac055a47365c25860a59a9be2ea70eb.jpg)  
 
