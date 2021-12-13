@@ -115,8 +115,6 @@ Note: 次の写真はProMicroが上面に取り付けられていますが、推
 
 表面実装向けの Surface Mount Device(SMD) のダイオードを利用する場合は、SMD の ダイオードの線とPCB の線の位置を合わせます。写真の例では、T4と書かれた左の線とPCBの線を合わせます。
 
-![picture 6](images/063d4ac2fd48cc3513ddb311a2d0394e6f6cdcdaa0d06b1ff0ed7a4a48f6335a.png)  
-
 ![picture 7](images/32ffa581f34b0d646b031b805fd7cc1cc254557058b86134a1ca61366d237566.png)  
 
 - スイッチソケット
