@@ -267,7 +267,9 @@ Pangaea keyboard の価値の一つは位置を調整できることです。好
 
 まずこれが便利です。
 
-PCB Wrench [Photo]
+PCB Wrenchです。組み立て後にナットを締めるときに使います。
+
+![picture 2](images/b63a2e34c6781e77d1a21906bd66550683f308d4129b8ca2eb26de8ce0a59a61.png)  
 
 私の調整した結果を例として写真を掲載します。[PHOTO]
 
