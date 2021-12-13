@@ -152,15 +152,7 @@ Note: Pro Micro, TRRS ジャック、Reset switch も裏側に取り付けます
 
 ![picture 20](images/6bcce53f80934620b18218db5a653d9b1c7b2bb7c57de2113d1901ce5737880e.jpg)  
 
-これで三つのプレートが用意できました。
-
-それぞれトッププレートにスイッチを挿入し、PCB に固定します。それぞれのプレートのトッププレートの方向です。
-
-![picture 5](images/1651ed1e01f4abee588f21293dc81c73a5ee6cbbf57d6cacc2041a118a28469f.jpg)  
-
-![picture 6](images/0477079cc677149b845d37c62d5b3265d9a6df82ff215ac21fa13e02ba05858f.jpg)  
-
-![picture 7](images/d27c56cb22e5b8cc0af3af3c9623e22fa6d8d71f143a236a87373760cafe7f19.jpg)  
+これで三つのプレートが用意できました。それぞれトッププレートにスイッチを挿入し、PCB に固定します。
 
 ### プレート間の信号接続
 
@@ -171,10 +163,10 @@ Note: Pro Micro, TRRS ジャック、Reset switch も裏側に取り付けます
 ![picture 15](images/265e11b32b4d3e79da52cd56ff77c7da640a06a07a428f72cf4426d7e051b964.jpg)  
 
 裏はこのようになっています。
+Note: 黄色の細い線は拡張用の Key と Rotay Encoder 向けの配線です。見にくいため差し替え予定です。
 
-![picture 16](images/d383ae3981553dc0fcf38ef8d6c3e6acfb4eb097b5aa347cb851257b4d14731c.jpg)  
+![picture 1](images/2563b16f43c371fcb27c8ace4c7cce0c6faa1cda3a52ce97647f8ebfde326d64.png)  
 
-Note: ※配線自体は間違いないのですが親指プレートが上下逆の配置となっています。機器のトラブルで写真が更新できない状況のためとりいそぎコメントを追記します。
 
 1.メインと親指プレートの接続
 
