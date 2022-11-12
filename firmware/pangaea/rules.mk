@@ -4,6 +4,9 @@ MCU = atmega32u4
 # Bootloader selection
 BOOTLOADER = caterina
 
+# Reduce firmware size
+LTO_ENABLE = yes
+
 # Build Options
 #   change yes to no to disable
 #

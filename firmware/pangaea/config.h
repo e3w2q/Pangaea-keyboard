@@ -15,7 +15,7 @@
 #define MATRIX_COLS 4 * 2 //duplex matrix
 
 /* key matrix pin assign */
-#define MATRIX_ROW_PINS { B4, B5, F4, F5, F6 }
+#define MATRIX_ROW_PINS { B4, B5, F4, F5, B6 }
 #define MATRIX_COL_PINS { D4, C6, D7, E6 }
 
 /* COL2ROW, ROW2COL*/
@@ -30,15 +30,28 @@
 /* RGB options */
 #define RGB_DI_PIN D3
 
+#define RGBLIGHT_EFFECT_CHRISTMAS
+
 #ifndef RGBLED_NUM
-  #define RGBLED_NUM 6
+  #define RGBLED_NUM 12
   #define RGBLIGHT_SPLIT
-  #define RGBLED_SPLIT { 3, 3 }
+  #define RGBLED_SPLIT { 6, 6 }
 #endif
+
+#define RGBLIGHT_EFFECT_ALTERNATING
+#define RGBLIGHT_EFFECT_BREATHING
+#define RGBLIGHT_EFFECT_CHRISTMAS
+#define RGBLIGHT_EFFECT_KNIGHT
+#define RGBLIGHT_EFFECT_RAINBOW_MOOD
+#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+#define RGBLIGHT_EFFECT_RGB_TEST
+#define RGBLIGHT_EFFECT_SNAKE
+#define RGBLIGHT_EFFECT_STATIC_GRADIENT
+#define RGBLIGHT_EFFECT_TWINKLE
 
 // fix iPhone and iPad power adapter issue
 // iOS device need lessthan 100
-#define USB_MAX_POWER_CONSUMPTION 100
+#define USB_MAX_POWER_CONSUMPTION 500
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
