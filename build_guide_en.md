@@ -10,7 +10,6 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
 * note:  Please refer to [Optional Features](#Optional Features) for more information on optional features.
 
 ## Index
-
 - [Pangaea Keyboard Build Guide](#pangaea-keyboard-build-guide)
   - [Index](#index)
   - [Preparation](#preparation)
@@ -19,27 +18,13 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [Identification of required parts](#identification-of-required-parts)
   - [Assembly](#assembly)
     - [Assemble the movable Bottom Plate](#assemble-the-movable-bottom-plate)
-    - [メインモジュールの組み立て](#メインモジュールの組み立て)
-      - [LED（オプション）](#ledオプション)
-      - [SHコネクタレセプタクル](#shコネクタレセプタクル)
-      - [ダイオード](#ダイオード)
-      - [スイッチソケット](#スイッチソケット)
-      - [Reset switchの取り付け](#reset-switchの取り付け)
-      - [3.5mm TRRSジャックの取り付け](#35mm-trrsジャックの取り付け)
-      - [Pro Microの取り付け](#pro-microの取り付け)
-      - [ProMicroを支える足をねじ止めする](#promicroを支える足をねじ止めする)
-      - [ProMicroカバーの取り付け](#promicroカバーの取り付け)
-      - [ロータリーエンコーダーのはんだ付け（オプション）](#ロータリーエンコーダーのはんだ付けオプション)
+    - [Assemble the Main Module](#assemble-the-main-module)
     - [小指モジュールの組み立て](#小指モジュールの組み立て)
     - [親指モジュールの組み立て](#親指モジュールの組み立て)
     - [キースイッチの取り付け](#キースイッチの取り付け)
     - [モジュールの合体](#モジュールの合体)
-      - [モジュール間の信号接続](#モジュール間の信号接続)
-      - [ボトムプレートとの結合](#ボトムプレートとの結合)
   - [ファームウェア](#ファームウェア)
     - [ファームウェアの書き込み](#ファームウェアの書き込み)
-      - [QMK Toolboxを使って書き込む](#qmk-toolboxを使って書き込む)
-      - [QMKコマンドを使って書き込む](#qmkコマンドを使って書き込む)
     - [動作確認](#動作確認)
   - [仕上げ](#仕上げ)
     - [ゴム足の取り付け](#ゴム足の取り付け)
@@ -48,9 +33,6 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [完成！](#完成)
   - [調整](#調整)
     - [キー配列の調整](#キー配列の調整)
-      - [メインモジュールの調整](#メインモジュールの調整)
-      - [親指モジュールの調整](#親指モジュールの調整)
-      - [小指モジュールの調整](#小指モジュールの調整)
     - [キーマップの変更](#キーマップの変更)
   - [オプション機能](#オプション機能)
     - [Kailh Choc v1スイッチの使用](#kailh-choc-v1スイッチの使用)
@@ -69,15 +51,16 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [ロータリーエンコーダの追加](#ロータリーエンコーダの追加)
     - [OLEDディスプレイの追加](#oledディスプレイの追加)
 
+
 ## Preparation
 
 This section describes the preparations to be made prior to assembly operations.
 
 Preparation > Assembly > Firmware > Finishing > Adjustments (> Optional Features > Further Modifications)
 
-- Understanding the structure
-- Configuration options
-- Identification of required parts
+* Understanding the structure
+* Configuration options
+* Identification of required parts
 
 ### Understanding the structure
 
@@ -222,31 +205,27 @@ For smoother operation after assembly, we recommend using washers and spring was
 
 <img src="images/screw_length.png" alt="picture 3" style="zoom:50%;" />
 
-### メインモジュールの組み立て
+### Assemble the Main Module
 
-メインモジュールから順に、各モジュールのPCBに部品を取り付けていきます。
+Components are installed on the PCB of each module, starting with Main Module.
 
-[準備](#準備) > **組み立て** > [ファームウェア](#ファームウェア) > [仕上げ](#仕上げ) > [調整](#調整)  ( > [オプション機能](#オプション機能) > [さらなる改造](#さらなる改造) )
+Preparation > Assembly > Firmware > Finishing > Adjustments (> Optional Features > Further Modifications)
 
-組み立て > [可動ボトムプレートの組み立て](#可動ボトムプレートの組み立て) > **メインモジュールの組み立て** > [小指モジュールの組み立て](#小指モジュールの組み立て) > [親指モジュールの組み立て](#親指モジュールの組み立て) > [キースイッチの取り付け](#キースイッチの取り付け) > [モジュールの合体](#モジュールの合体)
+The following components are installed in the Main module.
 
-メインモジュールには、以下の部品を取り付けます。
+* [LED(Option)]
+* [SH connector receptacle]
+* [Diode]
+* [Switch Socket]
+* [ProMicro]
+* TRRS Jack]
+* [Reset Switch (Option)]
 
-- [LED（オプション）](#LED（オプション）)
-- [SHコネクタレセプタクル](#SHコネクタレセプタクル)
-- [ダイオード](#ダイオード)
-- [スイッチソケット](#スイッチソケット)
-- [ProMicro](#ProMicro)
-- [TRRSジャック](#TRRSジャック)
-- [リセットスイッチ（オプション）](#リセットスイッチ（オプション）)
+#### LED
 
-#### LED（オプション）
+Solder the LEDs to the **reverse** side of the PCB, with the **glowing side** of the LED facing outward.  The microcontroller-embedded LEDs are sensitive to high temperatures, so lower the soldering iron temperature. 250°C or lower is recommended.
 
-LEDをPCBの**裏**面にはんだ付けします。LEDは<u>光る面が表側</u>を向きます。
-マイコン内蔵LEDは高温に弱いため、はんだごての温度を下げます。250℃以下にすることをおすすめします。
-
-LEDは取り付ける向きが決まっています。
-LEDの端子が斜めにカットされている足をPCBの三角形のマークに合わせます。（赤線部分）
+The LEDs are oriented for installation.  Align the diagonally cut leg of the LED terminal with the triangular mark on the PCB (red line). (red line part)
 
 <img src="images/DSCF8468_3.jpg" alt="picture 20" style="zoom: 40%;" /> 
 
