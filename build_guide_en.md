@@ -12,42 +12,13 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
 ## Index
 - [Pangaea Keyboard Build Guide](#pangaea-keyboard-build-guide)
   - [Index](#index)
-    - [Configuration options](#configuration-options)
-    - [Identification of required parts](#identification-of-required-parts)
   - [Assembly](#assembly)
-    - [Assemble the movable Bottom Plate](#assemble-the-movable-bottom-plate)
-    - [Assemble the Main Module](#assemble-the-main-module)
-    - [Assemble Pinky Module](#assemble-pinky-module)
-    - [Assemble Thumb Module](#assemble-thumb-module)
-    - [Install Key switches](#install-key-switches)
-    - [Combining Modules](#combining-modules)
   - [Firmware](#firmware)
-    - [Write the firmware](#write-the-firmware)
-    - [Operation check](#operation-check)
-  - [Final Steps](#final-steps)
-    - [Installation of rubber feet](#installation-of-rubber-feet)
-    - [Keycap installation](#keycap-installation)
-    - [Connecting the TRRS cable](#connecting-the-trrs-cable)
-    - [Completed](#completed)
+  - [Final steps](#final-steps)
   - [Adjustment](#adjustment)
-    - [Adjust key layout](#adjust-key-layout)
-    - [Changing the key map](#changing-the-key-map)
   - [Optional features](#optional-features)
-    - [Kailh Choc v1 switches](#kailh-choc-v1-switches)
-    - [Solder switches on PCB without sockets](#solder-switches-on-pcb-without-sockets)
-    - [Height](#height)
-    - [Tilts and Tents](#tilts-and-tents)
-    - [Tape LED](#tape-led)
-    - [Delete number rows](#delete-number-rows)
-    - [Rotary encoder](#rotary-encoder)
-    - [Delete rotary encoder part](#delete-rotary-encoder-part)
-    - [Delete the extended key](#delete-the-extended-key)
-    - [Seprate MPU board](#seprate-mpu-board)
-    - [Compatible modules](#compatible-modules)
   - [Further modifications](#further-modifications)
-    - [Adding keys](#adding-keys)
-    - [Adding rotary encoders](#adding-rotary-encoders)
-    - [Adding displays](#adding-displays)
+
 
 <img src="images/DSCF8426.jpg" style="zoom: 60%;" />
 
@@ -467,7 +438,7 @@ If there is a problem such as some switches cannot be input, check the soldering
 How could such a mistake be made? You may think so, but take a closer look.
 After checking the operation, remove the USB cable and TRRS cable before returning to the rest of the assembly work.
 
-## Final Steps
+## Final steps
 
 Final finishing touches,
 
