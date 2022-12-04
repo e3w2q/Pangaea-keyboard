@@ -561,17 +561,17 @@ Pangaea's page in Remap's keyboard catalog is here. [Pangaea - Remap](https://re
 
 This section describes the optional features of the standard kit.
 
-* [Kailh Choc v1 switches]
-* [Solder switches on PCB without sockets]
-* [Height]
-* [Tilt and Tent]
-* [Tape LED]
-* [Delete number rows]
-* [Rotaty encoder]
-* [Delete rotary encoder part]
-* [Delete the extended key]
-* [Seprate MPU board]
-* [Compatible modules]
+* [Kailh Choc v1 switches](#kailh-choc-v1-switches)
+* [Solder switches on PCB without sockets](#solder-switches-on-pcb-without-sockets)
+* [Height](#height)
+* [Tilts and Tents](#tilts-and-tents)
+* [Tape LED](#tape-led)
+* [Delete number rows](#delete-number-rows)
+* [Rotary encoder](#rotary-encoder)
+* [Delete rotary encoder part](#delete-rotary-encoder-part)
+* [Delete the extended key](#delete-the-extended-key)
+* [Seprate MPU board](#seprate-mpu-board)
+* [Compatible modules](#compatible-modules)
   
 ### Kailh Choc v1 switches
 
