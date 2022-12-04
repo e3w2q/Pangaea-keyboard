@@ -449,6 +449,7 @@ Writes firmware to the ProMicro, along with Compile.
 ```sh
 $ qmk flash -kb pangaea -km default
 ```
+
 ### Operation check
 
 After writing the firmware is completed, unplug the USB cable and then connect the left and right sides with the TRRS cable, and connect the USB cable only to the left side. <br/
@@ -469,8 +470,6 @@ After checking the operation, remove the USB cable and TRRS cable before returni
 ## 仕上げ
 
 最後の仕上げをします。
-
-[準備](#準備) > [組み立て](#組み立て) > [ファームウェア](#ファームウェア) > **仕上げ** > [調整](#調整)  ( > [オプション機能](#オプション機能) > [さらなる改造](#さらなる改造) )
 
 * [ゴム足の取り付け](#ゴム足の取り付け)
 * [キーキャップの取り付け](#キーキャップの取り付け)
