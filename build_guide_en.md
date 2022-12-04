@@ -52,6 +52,7 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [OLEDディスプレイの追加](#oledディスプレイの追加)
 
 
+
 ## Preparation
 
 This section describes the preparations to be made prior to assembly operations.
@@ -296,27 +297,26 @@ Then, use nippers to cut the pin headers that stick out on the back side into sh
 
 *note: When cutting pin headers, be very careful not to let the cut ends fly off.
 
-#### ProMicroを支える足をねじ止めする
+#### Screw down the standoffs that support the ProMicro
 
-M2 3mmのネジとM2 3mmのスペーサーを水色丸の位置に取り付けます。これはPCBのProMicro周辺部を支えるためのスペーサーです。後の工程でボトムプレートに接続されます。
+後の工程でボトムプレートに接続されます。
+Install M2 3mm screws and M2 3mm spacers at the positions indicated by the light blue circles. This spacer is used to support around the ProMicro on the PCB.  It can be combined with the bottom plate in a later process.
 
 <img src="images/DSCF8538.jpg" alt="picture 20" style="zoom: 50%;" /> 
 
-#### ProMicroカバーの取り付け
+#### ProMicro cover
 
-M2 3mmのネジとM2 6mmスペーサーをPCBの**表側**に取り付けます。PCBの裏側からM2 3mmのネジを入れて固定してください。
+Install M2 3mm screws and M2 6mm spacers on the **front** side of the Main Module PCB; insert M2 3mm screws from the backside of the Main Module PCB to secure.
+Place the cover plate over the Pro Micro and secure with M2 3mm screws in 4 places.  The plate has two sides, so be sure to align the spacers and cover with each other.
 
-Pro Microの上にカバープレートを重ねて、4箇所をM2 3mmのネジで固定します。
-プレートには裏表がありますで、スペーサーと穴が重なる向きで取り付けてください。
+#### Rotary Encoder (Option)
 
-#### ロータリーエンコーダーのはんだ付け（オプション）
-
-ロータリーエンコーダーをはんだ付けします。
-プッシュスイッチ付きの場合は、スイッチの端子もはんだ付けします。
+Solder the rotary encoder.
+If you use a toray encoder with a push switch, solder the terminals of the switch as well.
 
 <img src="images/DSCF8686.jpg" alt="picture 20" style="zoom: 67%;" /> 
 
-これでメインモジュールPCBのはんだ付けが完了しました。
+This completes the soldering of the Main Module PCB.
 
 <img src="images/DSCF8691_2.jpg" alt="picture 20" style="zoom: 50%;" />
 
