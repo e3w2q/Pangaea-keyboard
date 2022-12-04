@@ -9,11 +9,11 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
 
 * note:  Please refer to [Optional Features](#Optional Features) for more information on optional features.
 
-## Index
 - [Pangaea Keyboard Build Guide](#pangaea-keyboard-build-guide)
-  - [Index](#index)
+  - [Preparation](#preparation)
+    - [Understanding the structure](#understanding-the-structure)
     - [Configuration options](#configuration-options)
-    - [Identification of required parts](#identification-of-required-parts)
+    - [Required parts](#required-parts)
   - [Assembly](#assembly)
     - [Assemble the movable Bottom Plate](#assemble-the-movable-bottom-plate)
     - [Assemble the Main Module](#assemble-the-main-module)
@@ -24,32 +24,43 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
   - [Firmware](#firmware)
     - [Write the firmware](#write-the-firmware)
     - [Operation check](#operation-check)
-  - [Final Steps](#final-steps)
+  - [Final steps](#final-steps)
     - [Installation of rubber feet](#installation-of-rubber-feet)
     - [Keycap installation](#keycap-installation)
     - [Connecting the TRRS cable](#connecting-the-trrs-cable)
-    - [Completed!](#completed)
-  - [調整](#調整)
-    - [キー配列の調整](#キー配列の調整)
-    - [キーマップの変更](#キーマップの変更)
-  - [オプション機能](#オプション機能)
-    - [Kailh Choc v1スイッチの使用](#kailh-choc-v1スイッチの使用)
-    - [スイッチソケットを使用せずキースイッチを直接PCBにはんだ付けする](#スイッチソケットを使用せずキースイッチを直接pcbにはんだ付けする)
-    - [高さの調整](#高さの調整)
-    - [チルトとテント](#チルトとテント)
-    - [テープLEDの追加](#テープledの追加)
-    - [数字行の削除](#数字行の削除)
-    - [ロータリーエンコーダーの実装](#ロータリーエンコーダーの実装)
-    - [ロータリーエンコーダーの削除](#ロータリーエンコーダーの削除)
-    - [拡張キーの削除](#拡張キーの削除)
-    - [マイコンボード周辺部分の切り離し](#マイコンボード周辺部分の切り離し)
-    - [互換モジュールの使用](#互換モジュールの使用)
-  - [さらなる改造](#さらなる改造)
-    - [キーの追加](#キーの追加)
-    - [ロータリーエンコーダの追加](#ロータリーエンコーダの追加)
-    - [OLEDディスプレイの追加](#oledディスプレイの追加)
+    - [Completed](#completed)
+  - [Adjustment](#adjustment)
+    - [Adjust key layout](#adjust-key-layout)
+    - [Changing the key map](#changing-the-key-map)
+  - [Optional features](#optional-features)
+    - [Kailh Choc v1 switches](#kailh-choc-v1-switches)
+    - [Solder switches on PCB without sockets](#solder-switches-on-pcb-without-sockets)
+    - [Height](#height)
+    - [Tilts and Tents](#tilts-and-tents)
+    - [Tape LED](#tape-led)
+    - [Delete number rows](#delete-number-rows)
+    - [Rotary encoder](#rotary-encoder)
+    - [Delete rotary encoder part](#delete-rotary-encoder-part)
+    - [Delete the extended key](#delete-the-extended-key)
+    - [Seprate MPU board](#seprate-mpu-board)
+    - [Compatible modules](#compatible-modules)
+  - [Further modifications](#further-modifications)
+    - [Adding keys](#adding-keys)
+    - [Adding rotary encoders](#adding-rotary-encoders)
+    - [Adding displays](#adding-displays)
+
 
 <img src="images/DSCF8426.jpg" style="zoom: 60%;" />
+
+## Preparation
+
+This section describes the preparation before the assembly process.
+
+* [Understanding the structure](#understanding-the-structure)
+* [Configuration options](#configuration-options)
+* [Required parts](#required-parts)
+
+### Understanding the structure
 
 One of the most unique features of the Pangaea Keyboard is the ability to move the positions of the thumb and pinky plates  Not only can you assign what keys to what switches in the software, but you can also adjust the physical key layout.  For example, you can adjust the position of the thumb to shift slightly, or adjust the angle slightly to fit your finger.
 
@@ -85,7 +96,7 @@ The standard configuration described in this build guide is as follows,
 
 * note: If you choose an option that differs from the standard configuration, please read the assembly instructions properly before proceeding.
 
-### Identification of required parts
+### Required parts
 
 | Category                                                  | # | comment                                                     |
 | ----------------------------------------------------- | ---- | ------------------------------------------------------------ |
@@ -148,14 +159,15 @@ Here is a photo of all the circuit boards lined up. Make sure there are no short
 
 ## Assembly
 
-Preparation > Assembly > Firmware > Finishing > Adjustments (> Optional Features > Further Modifications)
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
 
-* [Assemble the movable Bottom Plate](#Assembling the movable bottom plate)
-* [Assemble the Main Module](#Assemble main module)
-* [Assemble the Pinky Module](#Assemble the pinky module)
-* [Assemble the Thumb Module](#Assemble thumb module)
-* [Attach key switch](#Attachment of keyswitch)
-* [Combine the modules](#module merging)
+* [Assemble the movable Bottom Plate](#assemble-the-movable-bottom-plate)
+* [Assemble the Main Module](#assemble-the-main-module)
+* [Assemble Pinky Module](#assemble-pinky-module)
+* [Assemble Thumb Module](#assemble-thumb-module)
+* [Install Key switches](#install-key-switches)
+* [Combining Modules](#combining-modules) 
+
 
 Even if you make a mistake in the order of assembly, it will not be irreversible. Please proceed with the assembly with ease.
 
@@ -452,7 +464,7 @@ $ qmk flash -kb pangaea -km default
 
 ### Operation check
 
-After writing the firmware is completed, unplug the USB cable and then connect the left and right sides with the TRRS cable, and connect the USB cable only to the left side. <br/
+After writing the firmware is completed, unplug the USB cable and then connect the left and right sides with the TRRS cable, and connect the USB cable only to the left side. <br/>
 Do not unplug and plug the TRRS cable while the PC and keyboard are connected with the USB cable; this may short the terminals of the TRRS jack and cause the keyboard to malfunction.
 
 Check the operation of each key on the PC.
@@ -467,7 +479,7 @@ If there is a problem such as some switches cannot be input, check the soldering
 How could such a mistake be made? You may think so, but take a closer look.
 After checking the operation, remove the USB cable and TRRS cable before returning to the rest of the assembly work.
 
-## Final Steps
+## Final steps
 
 Final finishing touches,
 
@@ -502,7 +514,7 @@ Be sure to connect the TRRS cable before connecting the keyboard and PC with the
 Also, be sure to disconnect the TRRS cable after disconnecting the keyboard from the PC.
 Disconnecting and unplugging the TRRS while the keyboard and PC are connected with the USB cable may cause the TRRS terminals to short-circuit, resulting in a malfunction.
 
-### Completed!
+### Completed
 
 It is completed. Good job!
 Here is a shot of the Polycaps Seals when they were installed.
@@ -513,194 +525,159 @@ Here is a shot of DROP's MT3 Black when installed.
 
 ![picture 9](images/60b84ec0d109d0ff8fc8ae6644fc2632dbbb4cfb449918cca01a9c03fa35eddc.jpg)  
 
+## Adjustment
 
-## 調整
+Adjust the physical key layout and the software keymap.
 
-物理的なキー配列と、ソフトウェア的なキーマップを調整します。
+* [Adjust key layout](#adjust key layout)
+* [Change keymap](#Change keymap)
 
-[準備](#準備) > [組み立て](#組み立て) > [ファームウェア](#ファームウェア) > [仕上げ](#仕上げ) > **調整**  ( > [オプション機能](#オプション機能) > [さらなる改造](#さらなる改造))
+### Adjust key layout
 
-* [キー配列の調整](#キー配列の調整)
-* [キーマップの変更](#キーマップの変更)
+Pangaea keyboard の価値の一つは位置を調整できることです。
 
-### キー配列の調整
+You can find the latest firmware from [here](https://github.com/e3w2q/Pangaea-keyboard)
 
-Pangaea keyboard の価値の一つは位置を調整できることです。好きなように調整してください、なのですが、自由度が高すぎても困ると思いますので私の例で説明します。
+#### Adjustment Main Module
 
-私の調整した結果を例として写真を掲載します。[PHOTO]
+A length scale is provided for adjustment between the left and right main plates in the x-axis and y-axis directions.
 
-#### メインモジュールの調整
+#### Adjustment Thumb Module
 
-またx軸、y軸方向の調整として左右のメインプレート間の調整用にscaleが用意されています。ある程度固定次第長さに切って使用するとよいでしょう。
-[PHOTO]
+The thumb module is adjustable in lateral position and rotation angle.  The adjustable range is ±0.0U to +1U for lateral position and 0° to 30° for rotation in the direction that the thumb tip side turns downward.
 
-- 左右の間隔調整
-- 左右の角度調整
+#### Adjustment Pinkey Module
 
-#### 親指モジュールの調整
+The pinky plate can be adjusted for vertical position and rotation angle.  The adjustable range is +0.25U to -1.25U for vertical position and 0° to 18° for rotation in the direction that the upper side turns outward.
 
-親指モジュールは、横方向の位置と回転角度を調整できます。
-調整可能範囲は、横位置は±0.0U～+1U、回転は親指先側が下に回る方向に0°～30°です。
+### Changing the key map
 
-#### 小指モジュールの調整
+The firmware written by the above procedure supports keymap changes by VIA and [Remap (remap-keys.app)](https://remap-keys.app/).
 
-小指プレートは、縦方向の位置と回転角度を調整できます。
+Please set the keymap according to the instructions of each software.
+Pangaea's page in Remap's keyboard catalog is here. [Pangaea - Remap](https://remap-keys.app/catalog/t9RGwMnHCRjLxs937jxh)
 
-調整可能範囲は、縦位置は+0.25U～-1.25U、回転は上側が外に回る方向に0°〜18°です。
+## Optional features
 
-### キーマップの変更
+This section describes the optional features of the standard kit.
 
-上記手順で書き込んだファームウェアは、VIAおよび[Remap (remap-keys.app)](https://remap-keys.app/)によるキーマップ変更に対応しています。
+* [Kailh Choc v1 switches]
+* [Solder switches on PCB without sockets]
+* [Height]
+* [Tilt and Tent]
+* [Tape LED]
+* [Delete number rows]
+* [Rotaty encoder]
+* [Delete rotary encoder part]
+* [Delete the extended key]
+* [Seprate MPU board]
+* [Compatible modules]
+  
+### Kailh Choc v1 switches
 
-各ソフトの説明にしたがってキーマップを設定してください。
+Additional parts required: Socket for Kailh Choc v1 switch, Kailh Choc v1 switch
 
-RemapのキーボードカタログにおけるPangaeaのページはこちらです。[Pangaea - Remap](https://remap-keys.app/catalog/t9RGwMnHCRjLxs937jxh)
+Compared to using Cherr MX compatible switches, the following points will change,
 
-## オプション機能
+* Type of socket and mounting orientation
+* Spacers and screw lengths to be used
 
-標準キットのオプション機能を説明します。
+### Solder switches on PCB without sockets
 
-[準備](#準備) > [組み立て](#組み立て) > [ファームウェア](#ファームウェア) > [仕上げ](#仕上げ) > [調整](#調整)  ( > **オプション機能** > [さらなる改造](#さらなる改造))
+By pouring a large amount of solder between the keyswitch foot and the hole in the PCB, the keyswitch can be attached without using a switch socket.  Be careful not to forget to attach the switch plate.
 
-* [Kailh Choc v1スイッチの使用](#Kailh-Choc-v1スイッチの使用)
-* [スイッチソケットを使用せずキースイッチを直接PCBにはんだ付けする](#スイッチソケットを使用せずキースイッチを直接PCBにはんだ付けする)
-* [高さの調整](#高さの調整)
-* [チルトとテント](#チルトとテント)
-* [テープLEDの追加](#テープledの追加)
-* [数字行の削除](#数字行の削除)
-* [ロータリーエンコーダーの実装](#ロータリーエンコーダーの実装)
-* [ロータリーエンコーダーの削除](#ロータリーエンコーダーの削除)
-* [拡張キーの削除](#拡張キーの削除)
-* [マイコンボード周辺部分の切り離し](#マイコンボード周辺部分の切り離し)
-* [互換モジュールの使用](#互換モジュールの使用)
+### Height
 
-### Kailh Choc v1スイッチの使用
+By changing the length of the spacers, the height can be adjusted for each module.
+For example, by changing the spacers, standoffs of Main Module and the Pinkey Module to longer ones, only Thumb Module can be made relatively lower.
 
-追加で必要な部品：Kailh Choc v1スイッチ用ソケット、Kailh Choc v1スイッチ
+Also, in the z-axis direction, the length of the standoffs can be made a little lower than the main plate. You can also reduce the height relative to Main plate by making only the Thumb Module using Choc switches.
 
-MX互換スイッチを使用する場合と比べて、次の点が変わります。
+### Tilts and Tents
 
-* ソケットの種類、取り付け向き
+As an application of height adjustment, the tilt and tent angle of each module can be adjusted by combining spacers of different lengths.
 
-* 使用するスペーサー、ネジの長さ
+For example, Main plate can be height adjusted in the z-axis direction. The two standoffs in the center direction can be raised and tilted toward the center.  Be careful not to tighten the screws too hard, as this will put a load on the PCB and the plate.
 
-### スイッチソケットを使用せずキースイッチを直接PCBにはんだ付けする
+### Tape LED
 
-キースイッチの足とPCBの穴の間にはんだを大量に流し込むことで、スイッチソケットを使用せずにキースイッチを付けることができます。
+Additional required components : Tape LEDs
 
-スイッチプレートをつけ忘れないよう注意してください。
+Tape LEDs can be added; you can add tape LEDs instead of NeoPixcel or implement both NeoPixel and tape LEDs.  The standard firmware allows for six LEDs. When using tape LEDs, please cut the tape LEDs so that there are six  LEDs.
 
-### 高さの調整
+### Delete number rows
 
-スペーサーの長さを変えることで、モジュールごとに高さを調整できます。
+The number of keys on Main and Pineky Modules can be changed from 4 to 3 rows.
+To reduce the number of rows, disconnect the switch plate and PCB.
 
-例えば、メインモジュールと小指モジュールのスペーサーを長いものに変更すると、親指モジュールだけを相対的に低くすることができます。
+It is not possible to undo this change, so please use your best judgment and cut carefully.
 
-また、z軸方向はスタンドオフの長さをメインプレートに比べて少し低くするといった工夫も可能です。親指プレートだけ choc にしてメインプレートに対して高さを抑えることもできます。例です。rev.2[PHOTO ]
+### Rotary encoder
 
-### チルトとテント
+Enable the rotary encoder: connect the back of Main Module to the rotary encoder with the SH connector cable.
 
-高さの調整の応用です。長さの異なるスペーサーを組み合わせることで、各モジュールのチルト、テント角度の調整ができます。
+### Delete rotary encoder part
 
-例えば、メインプレートはz軸方向の高さ調整が可能です。中心方向の2本のスタンドオフを高くし、中心に向かってチルトさせることができます。
+The rotary encoders on the main module can be deleted.  To remove the rotary encoder, disconnect the switch plate, PCB, and bottom plate.
 
-PCBやプレートに負荷がかかるので、ネジを強く締めすぎないように気を付けてください。
+It is not possible to undo this change, so please use your best judgment and cut carefully.
 
-### テープLEDの追加
+### Delete the extended key
 
-追加で必要な部品 ：テープLED
+The extension key next to the rotary encoder on Main Module can be deleted.  To delete the extension key, disconnect the switch plate, PCB, and bottom plate.
 
-テープLEDを追加できます。NeoPixcelの代わりにテープLEDを追加することも、NeoPixelとテープLEDの両方を実装することもできます。
+When you delete the extension key, the rotary encoder is deleted at the same time.
+If the rotary encoder is used and the expansion key is not used, do not remove the expansion key and remove the key switch only, for example.
 
-標準ファームウェアでは6個のLEDを使用できます。テープLEDを使用するときはLEDが6個になるようにテープLEDを切断して使用してください。
+It is not possible to undo this change, so please use your best judgment and cut carefully.
 
-### 数字行の削除
+### Seprate MPU board
 
-メインモジュール、小指モジュールのキー数を4行から3行に変更できます。
-行を減らすには、スイッチプレートおよびPCBを切断します。
+The Pro Micro portion of Main Module can be detached. If you want to add keys on the inside or place a trackball, for example, and this part gets in the way, you can detach it and move it to another location by wiring it to the main plate.
 
-元に戻せないので慎重に判断してください。
+1. detatch the PCB
+2. wiring the main plate to the Micro Pro board
 
-### ロータリーエンコーダーの実装
+ ###  Compatible modules
 
-ロータリーエンコーダーを使えるようにします。SHコネクタでProMicroの裏とロータリーエンコーダーを接続します。
+Each module can be replaced with one designed to the same standard as the Pangaea keyboard, or additional modules can be added.  In the future, there will be a part with the outermost keys of the module lowered downward.  You can also design your own compatible modules.
 
-### ロータリーエンコーダーの削除
+For more information on designing compatible modules, please refer to the "Designer's Guide (currently being written)". If you have any questions, please contact the Pangaea development team.
 
-メインモジュールのロータリーエンコーダーを削除できます。
-ロータリーエンコーダーを削除するには、スイッチプレート、PCB、およびボトムプレートを切断します。
+## Further modifications
 
-元に戻せないので慎重に判断してください。
+This section describes modifications using boards outside the standard kit.
 
-### 拡張キーの削除
+The standard kit is sufficient for simple text input, but there will be times when you will want dedicated keys for specific applications or web conferencing.
+Pangaea is freely expandable and has a standard interface for connection, making it easy to exchange parts.
 
-メインモジュールのロータリーエンコーダーの隣にある拡張キーを削除できます。
-拡張キーを削除するには、スイッチプレート、PCB、およびボトムプレートを切断します。
+As an example, we will explain how to add keys, Rotary Encoder, OLED, Joy Stick, and Dial switch.
 
-拡張キーを削除するとロータリーエンコーダーも同時に削除されます。
-ロータリーエンコーダーを使用して拡張キーを使用しない場合は、拡張キーを切り離さずにキースイッチを取り外す等で対応してください。
+The designer of Pangaea is e3w2q. e3w2q's famous work is SU120, which can be combined with SU120 to add Function key and Rotary Encoder.
 
-元に戻せないので慎重に判断してください。
+### Adding keys
 
-### マイコンボード周辺部分の切り離し
+How to add a key.
 
-メインモジュールにある Pro Micro 部分は切り離すことができます。内側にキーを追加したい場合やトラックボールを配置するなどこの部分が邪魔になる場合は切り離して、メインプレートとワイヤで配線することで別の場所に移動することができます。
+1. add a key using SU120
+2. support for QMK Firmware
 
-[Photo]()
+### Adding rotary encoders
 
-1. 切り離し
-2. メインプレートとマイコンボードの配線
+How to add a rotary encoder.
 
- ###  互換モジュールの使用
+1. add a rotary encoder using SU120
+2. support for QMK Firmware
 
-各モジュールをPangaea keyboardと同じ規格で設計された物に入れ替えたり、モジュールを追加したりできます。
+### Adding displays
 
-将来、モジュールの最も外側のキーが下方向に下がった部品も用意される予定です。
+How to add an OLED display.
 
-自分で互換モジュールを設計することも可能です。
+1. installation of OLED display
+2. support for QMK Firmware
 
-※ 互換モジュールの設計については、「設計者向けガイド（執筆中）」を参照してください。不明点等はPangaea開発チームに問い合わせてください。
 
-## さらなる改造
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
 
-標準キット外の基板を用いた改造について説明します。
 
-[準備](#準備) > [組み立て](#組み立て) > [ファームウェア](#ファームウェア) > [仕上げ](#仕上げ) > [調整
-](#調整)  ( > [オプション機能](#オプション機能) > **さらなる改造**)
-
-単純にテキスト入力だけなら標準キットで十分ですが、特定のアプリケーションやWeb会議などやはり専用のキーが欲しくなってりする場面が出てくると思います。
-Pangaea は自由に拡張でき、かつ接続の標準インタフェースを定めているためパーツの交換が容易にできます。
-
-ここではキーの追加、Rotary Encoder,OLED, Joy Stick, Dial switch の追加方法について説明します。
-
-Pangaea の設計者は e3w2q さんです。e3w2qさんの有名な作品にSU120があります。SU120 と組み合わせることで Function key や Rotary Encoder などを追加することができます。
-
-作例はこちらです。Rev.2 での様子です。
-[photo]
-
-### キーの追加
-
-キーを追加する方法です。
-
-1. SU120を利用してキーの追加
-2. QMK Firmware の対応
-
-### ロータリーエンコーダの追加
-
-ロータリーエンコーダを追加する方法です。
-
-1. SU120を利用してロータリーエンコーダの追加
-2. QMK Firmware の対応
-
-### OLEDディスプレイの追加
-
-OLEDディスプレイを追加する方法です。
-
-1. OLEDディスプレイの取り付け
-2. QMK Firmware の対応
-
----
-
-以上。
-
-[目次](#目次) > [準備](#準備) > [組み立て](#組み立て) > [ファームウェア](#ファームウェア) > [仕上げ](#仕上げ) > [調整](#調整)  ( > [オプション機能](#オプション機能) > [さらなる改造](#さらなる改造) )
+EOF.
