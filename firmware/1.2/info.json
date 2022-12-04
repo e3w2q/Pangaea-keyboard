@@ -1,0 +1,9 @@
+{
+  "keyboard_name": "Pangaea"
+  "manufacture": "Keytectonix"
+  "usb": {
+    "vid": "0x1209"
+    "pid": "0x4655"
+    "device_version": "0.0.1"
+    },
+}
