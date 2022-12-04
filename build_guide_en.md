@@ -145,7 +145,7 @@ Please use JST SH cables with the same pin assignments on both ends, reverse cab
 <img src="images/DSCF8481.jpg" alt="sh-cable" style="zoom:40%;" />
 
 The type and number of components required may vary depending on the option selected.
-Please refer to [Optional Features](#Optional Features) for more information about optional features.
+Please refer to [Optional features](#optional-features) for more information about optional features.
 
 Here is a photo of all the circuit boards lined up. Make sure there are no shortages.
 
