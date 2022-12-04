@@ -12,8 +12,6 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
 ## Index
 - [Pangaea Keyboard Build Guide](#pangaea-keyboard-build-guide)
   - [Index](#index)
-  - [Preparation](#preparation)
-    - [Understanding the structure](#understanding-the-structure)
     - [Configuration options](#configuration-options)
     - [Identification of required parts](#identification-of-required-parts)
   - [Assembly](#assembly)
@@ -21,7 +19,7 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [Assemble the Main Module](#assemble-the-main-module)
     - [Assemble Pinky Module](#assemble-pinky-module)
     - [Assemble Thumb Module](#assemble-thumb-module)
-    - [キースイッチの取り付け](#キースイッチの取り付け)
+    - [Install Key switches](#install-key-switches)
     - [Combining Modules](#combining-modules)
   - [ファームウェア](#ファームウェア)
     - [ファームウェアの書き込み](#ファームウェアの書き込み)
@@ -50,24 +48,6 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [キーの追加](#キーの追加)
     - [ロータリーエンコーダの追加](#ロータリーエンコーダの追加)
     - [OLEDディスプレイの追加](#oledディスプレイの追加)
-
-
-
-## Preparation
-
-This section describes the preparations to be made prior to assembly operations.
-
-Preparation > Assembly > Firmware > Finishing > Adjustments (> Optional Features > Further Modifications)
-
-* Understanding the structure
-* Configuration options
-* Identification of required parts
-
-### Understanding the structure
-
-First, the structure and terminology.  When the engraved side of the keycap is facing up, the upper side is defined as the front side and the lower side as the back side.
-
-The photo shows the keyboard assembled.
 
 <img src="images/DSCF8426.jpg" style="zoom: 60%;" />
 
@@ -354,7 +334,7 @@ After soldering is finished, the following picture should look like this. Check 
 
 Now we have three PCB for Main, Pinky and Thumb.
 
-### キースイッチの取り付け
+### Install Key switches
 
 Insert the key switches into the top plate of each module and secure it by inserting the legs of the keyswitch into the sockets on the PCB.
 Be careful not to bend the legs of the key switch when inserting it into the socket.
@@ -399,19 +379,9 @@ If the cable does not fit well between the PCB and the bottom plate, use tape to
 
 #### Coupling with bottom plate
 
-いよいよ、PCBとボトムプレートを統合していきます。スイッチがついたメインモジュール、親指モジュール、小指モジュールをボトムプレートの上に乗せてトッププレートの上からM2 3mmネジで固定します。
-
-まず、メインモジュールをボトムプレートに取り付けます。
-
-ボトムプレートのスペーサーをPCBの穴に通しやすくするため、ボトムプレートのネジを少し緩めてから重ねます。<br/>
-斜めにならず隙間なく重なったらスイッチプレートの表面からネジを入れて締めます。<br/>
-ネジを締めたら、先ほど緩めたボトムプレートの側のネジを締めなおします。<br/>
-固定箇所は4箇所です。
-
 Finally, the PCB and Bottom Plate are integrated. Place Main Module with switches, Thumb Module, and Pinkey Module on top of the Bottom Plate and secure them with M2 3mm screws from the top plate.
 
 First, attach the main module to the bottom plate.
-
 To make it easier to pass the bottom plate spacers through the PCB holes, loosen the bottom plate screws slightly before overlapping them. <br/>
 When they overlap without any gaps and not at an angle, insert the screws from the surface of the switch plate and tighten them. <br/>
 After tightening the screws, retighten the screws on the side of the bottom plate that you loosened earlier. <br/>
@@ -428,7 +398,6 @@ Here is a photo of the back side.
 <img src="images/DSCF8719.jpg" alt="-" style="zoom: 33%;" />
 
 Also secure the bottom plate and the feet supporting the ProMicro with M2 3mm screws. Fix two places from the bottom of the bottom plate with M2 3mm screws.
-
 Join the right hand side in the same manner.
 
 <img src="images/DSCF8720.jpg" alt="-" style="zoom: 33%;" />
