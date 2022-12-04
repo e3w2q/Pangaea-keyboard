@@ -46,8 +46,8 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [Compatible modules](#compatible-modules)
   - [Further modifications](#further-modifications)
     - [Adding keys](#adding-keys)
-    - [Adding rotary encoder](#adding-rotary-encoder)
-    - [Adding OLED display](#adding-oled-display)
+    - [Adding rotary encoders](#adding-rotary-encoders)
+    - [Adding displays](#adding-displays)
 
 <img src="images/DSCF8426.jpg" style="zoom: 60%;" />
 
@@ -650,14 +650,14 @@ How to add a key.
 1. add a key using SU120
 2. support for QMK Firmware
 
-### Adding rotary encoder
+### Adding rotary encoders
 
 How to add a rotary encoder.
 
 1. add a rotary encoder using SU120
 2. support for QMK Firmware
 
-### Adding OLED display
+### Adding displays
 
 How to add an OLED display.
 
