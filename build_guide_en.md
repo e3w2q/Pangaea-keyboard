@@ -22,8 +22,8 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [Install Key switches](#install-key-switches)
     - [Combining Modules](#combining-modules)
   - [Firmware](#firmware)
-    - [ファームウェアの書き込み](#ファームウェアの書き込み)
-    - [動作確認](#動作確認)
+    - [Write the firmware](#write-the-firmware)
+    - [Operation check](#operation-check)
   - [仕上げ](#仕上げ)
     - [ゴム足の取り付け](#ゴム足の取り付け)
     - [キーキャップの取り付け](#キーキャップの取り付け)
@@ -404,75 +404,67 @@ Join the right hand side in the same manner.
 
 ## Firmware
 
-ファームウェアを書き込み、動作確認をします。
+Write firmware into ProMicro and check operation.
 
-[準備](#準備) > [組み立て](#組み立て) > **ファームウェア** > [仕上げ](#仕上げ) > [調整](#調整) ( > [オプション機能](#オプション機能) > [さらなる改造](#さらなる改造))
+* [Write firmware]
+  * [Write using QMK Toolbox]
+  * [Write using QMK command]
 
-* [ファームウェアの書き込み](#ファームウェアの書き込み)
-  * [QMK Toolboxを使って書き込む](#QMK Toolboxを使って書き込む)
-  * [QMKコマンドを使って書き込む](#QMKコマンドを使って書き込む)
+* [Operation check]
 
-* [動作確認](#動作確認)
+In this state, write the firmware and check the operation. If you are confident, you may skip this step and conduct it after completion.
 
-この状態でファームウェアを書き込んで動作を確認します。自信がある方はここをスキップして、完成してから実施しても構いません。
 
-### ファームウェアの書き込み
+### Write the firmware
 
-下記いずれかの方法でファームウェアを書き込みます。
+Write the firmware in one of the following ways.  Download the hex from remap stie.
 
-hexはremapからダウンロードしてください。
+#### Write the firmware using QMK Toolbox
 
-#### QMK Toolboxを使って書き込む
+Use QMK Toolbox.
 
-QMK Toolboxを使います。
+Open the hex file in QMK Toolbox. Connect the keyboard.
 
-QMK Toolboxでhexファイルを開きます。
-キーボードを接続します。
+Press the reset switch to reboot the keyboard in bootloader mode. <br/>
+If it is successful and you enter bootloader mode, you will see the message "~device connected" in QMK Toolbox.
 
-リセットスイッチを押して、キーボードをブートローダーモードで再起動します。<br/>
-成功してブートローダモードに入ると、QMK Toolboxに「～device connected」というメッセージが表示されます。
+If pressing the reset switch does not put you in bootloader mode, try pressing the reset switch twice quickly.
 
-もしリセットスイッチを押してもブートローダモードにならない場合は、リセットスイッチを素早く2回押してみてください。
+Click the "Flush" button on the QML Toolbox. <br/>
+Wait without unplugging the USB cable. <br/>
+When the QMK Toolbox screen indicates success, the write is successful; you can unplug the USB cable.
 
-QML Toolboxの「Flush」ボタンをクリックします。<br/>
-USBケーブルを抜かずに待機します。<br/>
-QMK Toolboxの画面に成功の旨が表示されたら、書き込み成功です。USBケーブルを抜くことができます。
+Then write the firmware to the other Pro Micro in the same way.  There is no difference between the left and right firmware.
 
-続いて、もう一つのPro Microにも同じ方法でファームウェアを書き込みます。
-左右でファームウェアの違いはありません。
+#### Write the firmwarey using QMK command line tool
 
-#### QMKコマンドを使って書き込む
-
-QMK の directory に移動してから、
+Go to the QMK directory, and then type
 
 ```sh
-cd qmk_firmware
+$ cd qmk_firmware
 ```
 
-ProMicro に firmware を書き込みます。Compileも一緒に行います。
+Writes firmware to the ProMicro, along with Compile.
 
 ```sh
-qmk flash -kb pangaea -km default
+$ qmk flash -kb pangaea -km default
 ```
+### Operation check
 
-### 動作確認
+After writing the firmware is completed, unplug the USB cable and then connect the left and right sides with the TRRS cable, and connect the USB cable only to the left side. <br/
+Do not unplug and plug the TRRS cable while the PC and keyboard are connected with the USB cable; this may short the terminals of the TRRS jack and cause the keyboard to malfunction.
 
-ファームウェアの書き込みが完了したら、USBケーブルを抜いてから左右をTRRSケーブルで接続し、左側にだけUSBケーブルを接続します。<br/>
-PCとキーボードをUSBケーブルで接続した状態でTRRSケーブルを抜き差ししないでください。TRRSジャックの端子がショートして、キーボードが故障する可能性があります。
+Check the operation of each key on the PC.
+If there is a problem such as some switches cannot be input, check the soldering carefully. If only some keys cannot be input, the possible causes include
 
-PCで各キーの動作を確認します。
+* The diode is not installed or not soldered properly
+* The diode is installed in the wrong direction
+* The switch socket is installed backwards and the switch is not stuck in the first place
+* The switch socket is not soldered properly, resulting in poor contact
+* The leg of the switch is broken and not properly inserted into the switch socket
 
-一部のスイッチが入力できないなど問題があればハンダ付けをよく確認してください。一部のキーだけが入力できない場合、原因として下記のようなことが考えられます。
-
-- ダイオードが取り付けられていない
-- ダイオードの方向が逆に取り付けられている
-- スイッチソケットを逆に取り付けていて、そもそもスイッチが刺さっていない
-- スイッチソケットのハンダ付けが不十分で、接触不良
-- スイッチの足が折れていて、正常にスイッチソケットに刺さっていない
-
-そんなミスするわけない！と思うかもしれませんが、よく見てみましょう。
-
-動作確認が終わったら、USBケーブルとTRRSケーブルを取り外してから、残りの組み立て作業に戻ります。
+How could such a mistake be made? You may think so, but take a closer look.
+After checking the operation, remove the USB cable and TRRS cable before returning to the rest of the assembly work.
 
 ## 仕上げ
 
