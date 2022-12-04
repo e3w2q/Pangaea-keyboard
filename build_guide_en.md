@@ -29,10 +29,10 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [Keycap installation](#keycap-installation)
     - [Connecting the TRRS cable](#connecting-the-trrs-cable)
     - [Completed!](#completed)
-  - [調整](#調整)
-    - [キー配列の調整](#キー配列の調整)
-    - [キーマップの変更](#キーマップの変更)
-  - [オプション機能](#オプション機能)
+  - [Adjustment](#adjustment)
+    - [Adjust key layout](#adjust-key-layout)
+    - [Changing the key map](#changing-the-key-map)
+  - [Optional features](#optional-features)
     - [Kailh Choc v1スイッチの使用](#kailh-choc-v1スイッチの使用)
     - [スイッチソケットを使用せずキースイッチを直接PCBにはんだ付けする](#スイッチソケットを使用せずキースイッチを直接pcbにはんだ付けする)
     - [高さの調整](#高さの調整)
@@ -514,53 +514,42 @@ Here is a shot of DROP's MT3 Black when installed.
 ![picture 9](images/60b84ec0d109d0ff8fc8ae6644fc2632dbbb4cfb449918cca01a9c03fa35eddc.jpg)  
 
 
-## 調整
+## Adjustment
 
-物理的なキー配列と、ソフトウェア的なキーマップを調整します。
+Adjust the physical key layout and the software keymap.
 
-[準備](#準備) > [組み立て](#組み立て) > [ファームウェア](#ファームウェア) > [仕上げ](#仕上げ) > **調整**  ( > [オプション機能](#オプション機能) > [さらなる改造](#さらなる改造))
+* [Adjust key layout](#adjust key layout)
+* [Change keymap](#Change keymap)
 
-* [キー配列の調整](#キー配列の調整)
-* [キーマップの変更](#キーマップの変更)
+### Adjust key layout
 
-### キー配列の調整
+Pangaea keyboard の価値の一つは位置を調整できることです。
 
-Pangaea keyboard の価値の一つは位置を調整できることです。好きなように調整してください、なのですが、自由度が高すぎても困ると思いますので私の例で説明します。
 
-私の調整した結果を例として写真を掲載します。[PHOTO]
+**TBD: V1.2a firmware**
 
-#### メインモジュールの調整
+#### Adjustment Main Module
 
-またx軸、y軸方向の調整として左右のメインプレート間の調整用にscaleが用意されています。ある程度固定次第長さに切って使用するとよいでしょう。
-[PHOTO]
+A length scale is provided for adjustment between the left and right main plates in the x-axis and y-axis directions.
 
-- 左右の間隔調整
-- 左右の角度調整
+#### Adjustment Thumb Module
 
-#### 親指モジュールの調整
+The thumb module is adjustable in lateral position and rotation angle.  The adjustable range is ±0.0U to +1U for lateral position and 0° to 30° for rotation in the direction that the thumb tip side turns downward.
 
-親指モジュールは、横方向の位置と回転角度を調整できます。
-調整可能範囲は、横位置は±0.0U～+1U、回転は親指先側が下に回る方向に0°～30°です。
+#### Adjustment Pinkey Module
 
-#### 小指モジュールの調整
+The pinky plate can be adjusted for vertical position and rotation angle.  The adjustable range is +0.25U to -1.25U for vertical position and 0° to 18° for rotation in the direction that the upper side turns outward.
 
-小指プレートは、縦方向の位置と回転角度を調整できます。
+### Changing the key map
 
-調整可能範囲は、縦位置は+0.25U～-1.25U、回転は上側が外に回る方向に0°〜18°です。
+The firmware written by the above procedure supports keymap changes by VIA and [Remap (remap-keys.app)](https://remap-keys.app/).
 
-### キーマップの変更
+Please set the keymap according to the instructions of each software.
+Pangaea's page in Remap's keyboard catalog is here. [Pangaea - Remap](https://remap-keys.app/catalog/t9RGwMnHCRjLxs937jxh)
 
-上記手順で書き込んだファームウェアは、VIAおよび[Remap (remap-keys.app)](https://remap-keys.app/)によるキーマップ変更に対応しています。
+## Optional features
 
-各ソフトの説明にしたがってキーマップを設定してください。
-
-RemapのキーボードカタログにおけるPangaeaのページはこちらです。[Pangaea - Remap](https://remap-keys.app/catalog/t9RGwMnHCRjLxs937jxh)
-
-## オプション機能
-
-標準キットのオプション機能を説明します。
-
-[準備](#準備) > [組み立て](#組み立て) > [ファームウェア](#ファームウェア) > [仕上げ](#仕上げ) > [調整](#調整)  ( > **オプション機能** > [さらなる改造](#さらなる改造))
+This section describes the optional features of the standard kit.
 
 * [Kailh Choc v1スイッチの使用](#Kailh-Choc-v1スイッチの使用)
 * [スイッチソケットを使用せずキースイッチを直接PCBにはんだ付けする](#スイッチソケットを使用せずキースイッチを直接PCBにはんだ付けする)
@@ -702,5 +691,3 @@ OLEDディスプレイを追加する方法です。
 ---
 
 以上。
-
-[目次](#目次) > [準備](#準備) > [組み立て](#組み立て) > [ファームウェア](#ファームウェア) > [仕上げ](#仕上げ) > [調整](#調整)  ( > [オプション機能](#オプション機能) > [さらなる改造](#さらなる改造) )
