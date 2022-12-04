@@ -21,7 +21,7 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [Assemble Thumb Module](#assemble-thumb-module)
     - [Install Key switches](#install-key-switches)
     - [Combining Modules](#combining-modules)
-  - [ファームウェア](#ファームウェア)
+  - [Firmware](#firmware)
     - [ファームウェアの書き込み](#ファームウェアの書き込み)
     - [動作確認](#動作確認)
   - [仕上げ](#仕上げ)
@@ -402,7 +402,7 @@ Join the right hand side in the same manner.
 
 <img src="images/DSCF8720.jpg" alt="-" style="zoom: 33%;" />
 
-## ファームウェア
+## Firmware
 
 ファームウェアを書き込み、動作確認をします。
 
