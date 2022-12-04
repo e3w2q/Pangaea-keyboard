@@ -19,10 +19,10 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
   - [Assembly](#assembly)
     - [Assemble the movable Bottom Plate](#assemble-the-movable-bottom-plate)
     - [Assemble the Main Module](#assemble-the-main-module)
-    - [小指モジュールの組み立て](#小指モジュールの組み立て)
-    - [親指モジュールの組み立て](#親指モジュールの組み立て)
+    - [Assemble Pinky Module](#assemble-pinky-module)
+    - [Assemble Thumb Module](#assemble-thumb-module)
     - [キースイッチの取り付け](#キースイッチの取り付け)
-    - [モジュールの合体](#モジュールの合体)
+    - [Combining Modules](#combining-modules)
   - [ファームウェア](#ファームウェア)
     - [ファームウェアの書き込み](#ファームウェアの書き込み)
     - [動作確認](#動作確認)
@@ -299,7 +299,6 @@ Then, use nippers to cut the pin headers that stick out on the back side into sh
 
 #### Screw down the standoffs that support the ProMicro
 
-後の工程でボトムプレートに接続されます。
 Install M2 3mm screws and M2 3mm spacers at the positions indicated by the light blue circles. This spacer is used to support around the ProMicro on the PCB.  It can be combined with the bottom plate in a later process.
 
 <img src="images/DSCF8538.jpg" alt="picture 20" style="zoom: 50%;" /> 
@@ -311,8 +310,7 @@ Place the cover plate over the Pro Micro and secure with M2 3mm screws in 4 plac
 
 #### Rotary Encoder (Option)
 
-Solder the rotary encoder.
-If you use a toray encoder with a push switch, solder the terminals of the switch as well.
+Solder the rotary encoder.  If you use a toray encoder with a push switch, solder the terminals of the switch as well.
 
 <img src="images/DSCF8686.jpg" alt="picture 20" style="zoom: 67%;" /> 
 
@@ -320,98 +318,86 @@ This completes the soldering of the Main Module PCB.
 
 <img src="images/DSCF8691_2.jpg" alt="picture 20" style="zoom: 50%;" />
 
-### 小指モジュールの組み立て
+### Assemble Pinky Module
 
-続いて、小指モジュールの組み立てです。
+Next, Pinky Module is assembled.
 
-[準備](#準備) > **組み立て** > [ファームウェア](#ファームウェア) > [仕上げ](#仕上げ) > [調整](#調整)  ( > [オプション機能](#オプション機能) > [さらなる改造](#さらなる改造) )
+Solder the following components as for Main Module,
 
-組み立て > [可動ボトムプレートの組み立て](#可動ボトムプレートの組み立て) > [メインモジュールの組み立て](#メインモジュールの組み立て) > **小指モジュールの組み立て** > [親指モジュールの組み立て](#親指モジュールの組み立て) > [キースイッチの取り付け](#キースイッチの取り付け) > [モジュールの合体](#モジュールの合体)
+* SH connector, receptacle
+* Diode
+* Switch socket
 
-メインモジュールと同様に、以下の部品をはんだ付けします。
-
-- SHコネクタレセプタクル
-- ダイオード
-- スイッチソケット
-
-キーの個数分の8個のダイオードが取り付けられているか確認します。個数を数えれば見逃しがないと思います。
+Make sure that eight diodes are soldered for the number of keys. If you count the number of diodes, you will not miss anything.
 
 <img src="images/DSCF8643.jpg" alt="picture 20" style="zoom: 50%;" />
 
-MX互換スイッチを用いる場合は、PCBに「Pinkey-MX」と書いてある場所にSHコネクタを取り付けます。
-※chocスイッチを用いる場合は、「Pinkey-Choc」と書いてある場所にSHコネクタを取り付けてください。
+When using Cherry MX compatible switches, solder SH connectors where it says "Pinkey-MX" on the PCB.
+*note: When using choc switches, solder the SH connector where it says "Pinkey-Choc" on the PCB.
 
-### 親指モジュールの組み立て
+### Assemble Thumb Module
 
-最後に親指モジュールを組み立てます。
+Finally, Thumb Module is assembled.
 
-[準備](#準備) > **組み立て** > [ファームウェア](#ファームウェア) > [仕上げ](#仕上げ) > [調整](#調整)  ( > [オプション機能](#オプション機能) > [さらなる改造](#さらなる改造) )
+Solder the following components in the same manner as for Main Module and Pinky Module.
 
-組み立て > [可動ボトムプレートの組み立て](#可動ボトムプレートの組み立て) > [メインモジュールの組み立て](#メインモジュールの組み立て) > [小指モジュールの組み立て](#小指モジュールの組み立て) > **親指モジュールの組み立て** > [キースイッチの取り付け](#キースイッチの取り付け) > [モジュールの合体](#モジュールの合体)
+* SH connector
+* Diodes
+* Switch sockets
 
-メインモジュール、小指モジュールと同様に、以下の部品をはんだ付けします。
+Choose one of two positions to solder the SH connector. Operation is the same regardless of which way it is soldered.
+Imagine the range of motion and select the one that is easier to handle the cable.  It is recommended that the left hand side be attached at the position closer to the left when viewed from the front, and the right hand side be attached at the position closer to the right when viewed from the front.
 
-- SHコネクタ
-- ダイオード
-- スイッチソケット
-
-SHコネクタの取り付け位置は2箇所から1つを選択します。どちらに接続しても動作は同じです。
-可動範囲をイメージして、ケーブルの取り回しがしやすい方を選択してください。
-左手側は表から見て左寄りの位置、右手側は表から見て右寄りの位置にそれぞれ取り付けるのがおすすめです。
-
-はんだ付けが終わると、次の写真のようになります。ダイオードの方向に間違いがないか再度確認してください。
+After soldering is finished, the following picture should look like this. Check again that the diodes are oriented correctly.
 
 <img src="images/DSCF8652.jpg" alt="picture 20" style="zoom: 50%;" />  
 
-以上で、メイン・小指・親指の三つのPCBプレートが用意できました。
+Now we have three PCB for Main, Pinky and Thumb.
 
 ### キースイッチの取り付け
 
-[準備](#準備) > **組み立て** > [ファームウェア](#ファームウェア) > [仕上げ](#仕上げ) > [調整](#調整)  ( > [オプション機能](#オプション機能) > [さらなる改造](#さらなる改造) )
-
- 組み立て > [可動ボトムプレートの組み立て](#可動ボトムプレートの組み立て) > [メインモジュールの組み立て](#メインモジュールの組み立て) > [小指モジュールの組み立て](#小指モジュールの組み立て) > [親指モジュールの組み立て](#親指モジュールの組み立て) > **キースイッチの取り付け** > [モジュールの合体](#モジュールの合体)
-
-各モジュールのトッププレートにキースイッチを挿入し、キースイッチの足をPCBのソケットに挿しこんで固定します。
-ソケットに挿しこむ際にキースイッチの足が曲がらないよう、注意してください。
+Insert the key switches into the top plate of each module and secure it by inserting the legs of the keyswitch into the sockets on the PCB.
+Be careful not to bend the legs of the key switch when inserting it into the socket.
 
 <img src="images/DSCF8692.jpg" alt="picture 20" style="zoom: 40%;" />  
 <img src="images/DSCF8693.jpg" alt="picture 20" style="zoom: 40%;" />  
 
-すべてのスイッチの足が曲がらずにソケットに入っていることを、裏側から観察して確認します。
+Observe from the backside to verify that all switch legs are in the sockets without bending.
 
 <img src="images/DSCF8680.jpg" alt="picture 20" style="zoom: 50%;" />  
 
-### モジュールの合体
+### Combining Modules
 
-モジュールを合体していきます。
+The three modules will be combined.
 
-[準備](#準備) > **組み立て** > [ファームウェア](#ファームウェア) > [仕上げ](#仕上げ) > [調整](#調整)  ( > [オプション機能](#オプション機能) > [さらなる改造](#さらなる改造) )
+#### Signal connection between modules
 
- 組み立て > [可動ボトムプレートの組み立て](#可動ボトムプレートの組み立て) > [メインモジュールの組み立て](#メインモジュールの組み立て) > [小指モジュールの組み立て](#小指モジュールの組み立て) > [親指モジュールの組み立て](#親指モジュールの組み立て) > [キースイッチの取り付け](#キースイッチの取り付け) > **モジュールの合体**
+Connect signals between plates using a cable with SH connectors.
 
-#### モジュール間の信号接続
+Connect the cable to the Main Module.  If a rotary encoder is installed, also connect the cable between the rotary encoder and Main Module PCB.
 
-プレート同士の信号をSHコネクタを用いて接続します。
-
-メインモジュールにケーブルコネクタを接続します。
-ロータリーエンコーダーを取り付けた場合は、ロータリーエンコーダーとProMicroを接続します。
 <img src="images/DSCF8714.jpg" alt="-" style="zoom: 33%;" />
-ケーブルを絶縁テープ等でPCBに固定します。
+
+Fix the cable to the PCB with insulating tape, etc.
+
 <img src="images/DSCF8715.jpg" alt="-" style="zoom: 33%;" />
-ケーブルの反対側を小指モジュール、親指モジュールに接続します。
+
+Connect the other end of the cable to Pinky and Thumb Modules.
+
 <img src="images/DSCF8716.jpg" alt="-" style="zoom: 33%;" />
 
-あまりワイヤが短いと調整の時に引っ張ってしまって可動域に制約が出たり、ワイヤが切れたりします。少なくとも10cm程度の長さを確保したほうがよいです。余り長くても邪魔になりますのでボトムプレートと組み合わせて確認してみるとよいと思います。
+If the wire is too short, it may be pulled during adjustment, resulting in a restricted range of motion, or the wire may break. It is recommended that the wire be at least 10 cm long. If the wire is too long, it will interfere with the bottom plate.
+
 
 <details>
-<summary>Tips: ケーブルの整理</summary>
+<summary>Tips: Organize cables</summary>
 <div>
-ケーブルがPCBとボトムプレートの間にうまく収まらない場合は、テープでケーブルをPCBに固定してからボトムプレートを組み立ててください。
+If the cable does not fit well between the PCB and the bottom plate, use tape to secure the cable to the PCB before assembling the bottom plate.
 <img src="images/DSCF8550.jpg" alt="-" style="zoom: 33%;" />
 </div>
 </details>
 
-#### ボトムプレートとの結合
+#### Coupling with bottom plate
 
 いよいよ、PCBとボトムプレートを統合していきます。スイッチがついたメインモジュール、親指モジュール、小指モジュールをボトムプレートの上に乗せてトッププレートの上からM2 3mmネジで固定します。
 
@@ -422,20 +408,28 @@ SHコネクタの取り付け位置は2箇所から1つを選択します。ど�
 ネジを締めたら、先ほど緩めたボトムプレートの側のネジを締めなおします。<br/>
 固定箇所は4箇所です。
 
+Finally, the PCB and Bottom Plate are integrated. Place Main Module with switches, Thumb Module, and Pinkey Module on top of the Bottom Plate and secure them with M2 3mm screws from the top plate.
+
+First, attach the main module to the bottom plate.
+
+To make it easier to pass the bottom plate spacers through the PCB holes, loosen the bottom plate screws slightly before overlapping them. <br/>
+When they overlap without any gaps and not at an angle, insert the screws from the surface of the switch plate and tighten them. <br/>
+After tightening the screws, retighten the screws on the side of the bottom plate that you loosened earlier. <br/>
+There are four fixing points.
+
 <img src="images/DSCF8717.jpg" alt="-" style="zoom: 33%;" />
 
-小指モジュール、親指モジュールも同様にM2 3mmのネジで固定します。<br/>
-固定箇所はそれぞれ4箇所です。
+There are four fixed locations for each.
 
 <img src="images/DSCF8718.jpg" alt="-" style="zoom: 33%;" />
 
-裏側です。
+Here is a photo of the back side.
 
 <img src="images/DSCF8719.jpg" alt="-" style="zoom: 33%;" />
 
-また、ボトムプレートとProMicroを支える足もM2 3mmのネジで固定します。ボトムプレートの下からM2 3mmのネジで2箇所を固定します。
+Also secure the bottom plate and the feet supporting the ProMicro with M2 3mm screws. Fix two places from the bottom of the bottom plate with M2 3mm screws.
 
-右手側も同様に結合します。
+Join the right hand side in the same manner.
 
 <img src="images/DSCF8720.jpg" alt="-" style="zoom: 33%;" />
 
