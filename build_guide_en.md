@@ -24,11 +24,11 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
   - [Firmware](#firmware)
     - [Write the firmware](#write-the-firmware)
     - [Operation check](#operation-check)
-  - [仕上げ](#仕上げ)
-    - [ゴム足の取り付け](#ゴム足の取り付け)
-    - [キーキャップの取り付け](#キーキャップの取り付け)
-    - [TRRSケーブルの接続](#trrsケーブルの接続)
-    - [完成！](#完成)
+  - [Final Steps](#final-steps)
+    - [Installation of rubber feet](#installation-of-rubber-feet)
+    - [Keycap installation](#keycap-installation)
+    - [Connecting the TRRS cable](#connecting-the-trrs-cable)
+    - [Completed!](#completed)
   - [調整](#調整)
     - [キー配列の調整](#キー配列の調整)
     - [キーマップの変更](#キーマップの変更)
@@ -467,55 +467,52 @@ If there is a problem such as some switches cannot be input, check the soldering
 How could such a mistake be made? You may think so, but take a closer look.
 After checking the operation, remove the USB cable and TRRS cable before returning to the rest of the assembly work.
 
-## 仕上げ
+## Final Steps
 
-最後の仕上げをします。
+Final finishing touches,
 
-* [ゴム足の取り付け](#ゴム足の取り付け)
-* [キーキャップの取り付け](#キーキャップの取り付け)
-* [TRRSケーブルの接続](#trrsケーブルの接続)
+* [Installation of rubber feet]
+* [Install the key caps]
+* [Connect the TRRS cable]
 
-### ゴム足の取り付け
+### Installation of rubber feet
 
-ボトムプレートの裏側にゴム足を貼り付けます。ゴム足の厚さは3.8mmがキーボード全体に余計な厚みが出ないベストなサイズです。
-
-ゴム足の位置に決まりはありませんが、写真のようにプレートの四隅に貼り付けるとバランスが取れて良いでしょう。
+Attach the rubber feet to the back of the bottom plate. The thickness of 3.8mm is the best size for the rubber feet without adding extra thickness to the entire keyboard.  There is no rule for the position of the rubber feet, but it is best to stick them on the four corners of the plate as shown in the photo to keep a good balance.
 
 <img src="images/rubber-feet.jpg" alt="rubber-feet" style="zoom: 15%;"/>
 
-可動範囲を確認しながら、可動の邪魔にならない位置に貼り付けてください。
-以下は、v.1.2の例です。
+While checking the range of motion, affix it in a position that does not interfere with the motion.
+The following is an example for version 1.2.
 
 <img src="images/DSCF7427.jpg" alt="picture 20" style="zoom: 67%;" />  
 
-さらなる安定を求める場合は、ブリッジプレートに2.2mm厚のゴム足を追加してください。
-1.6mm厚のブリッジプレートと2.2mm厚のゴム足を合計した高さが、ちょうどボトムプレートの3.8mm厚のゴム足と同じ高さになります。
+For additional stability, add 2.2mm-thick rubber feet to the bridge plate.  The total height of the 1.6mm-thick bridge plate and the 2.2mm-thick rubber feet is exactly the same as the 3.8mm-thick rubber feet on the bottom plate.
 
 <img src="images/DSCF7428.jpg" alt="picture 20" style="zoom: 67%;" />  
 
-### キーキャップの取り付け
+### Keycap installation
 
-キーキャップをはめます。ロータリーエンコーダーを取り付けた場合はノブもはめます。
+Install the key caps. If a rotary encoder is installed, install the knob as well.
 
-### TRRSケーブルの接続
+### Connecting the TRRS cable
 
-左右のキーボードをTRRSケーブルで接続します。
+Connect the left and right keyboards with the TRRS cable.
 
-必ずキーボードとPCをUSBケーブルで接続する前にTRRSケーブルを接続してください。
-また、必ずキーボードとPCの接続を外してからTRRSケーブルを抜くようにしてください。
-キーボードとPCをUSBケーブルで接続したままTRRSの抜き差しをすると、TRRS端子がショートして故障の原因になる可能性があります。
+Be sure to connect the TRRS cable before connecting the keyboard and PC with the USB cable.
+Also, be sure to disconnect the TRRS cable after disconnecting the keyboard from the PC.
+Disconnecting and unplugging the TRRS while the keyboard and PC are connected with the USB cable may cause the TRRS terminals to short-circuit, resulting in a malfunction.
 
-### 完成！
+### Completed!
 
-完成です。お疲れ様でした！
-
-Polycaps Sealsを取り付けたときの様子です。
+It is completed. Good job!
+Here is a shot of the Polycaps Seals when they were installed.
 
 <img src="images/DSCF8724.jpg" alt="-" style="zoom: 67%;" />
 
-DROP の MT3 Black を取り付けたときの様子です。
+Here is a shot of DROP's MT3 Black when installed.
 
 ![picture 9](images/60b84ec0d109d0ff8fc8ae6644fc2632dbbb4cfb449918cca01a9c03fa35eddc.jpg)  
+
 
 ## 調整
 
