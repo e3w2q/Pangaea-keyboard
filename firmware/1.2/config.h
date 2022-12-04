@@ -7,14 +7,14 @@
 
 /* key matrix size */
 #define MATRIX_ROWS 5 * 2 // split keyboard
-#define MATRIX_COLS 4 * 2 // duplex matrix
+#define MATRIX_COLS 5 * 2 // duplex matrix
 
 #define BOOTMAGIC_LITE_ROW 0
 #define BOOTMAGIC_LITE_COLUMN 1
 
 /* key matrix pin assign */
 #define MATRIX_ROW_PINS { B4, B5, F4, F5, B6 }
-#define MATRIX_COL_PINS { D4, C6, D7, E6 }
+#define MATRIX_COL_PINS { D4, C6, D7, E6, F6 }
 
 /* COL2ROW, ROW2COL*/
 // #define DIODE_DIRECTION COL2ROW
@@ -27,7 +27,7 @@
 
 // fix iPhone and iPad power adapter issue
 // iOS device need lessthan 100
-#define USB_MAX_POWER_CONSUMPTION 100
+#define USB_MAX_POWER_CONSUMPTION 500
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5

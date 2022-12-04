@@ -184,49 +184,49 @@ enum encoder_number {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  [0] = LAYOUT(
- _______,_______,_______,_______,_______,_______,                _______,_______,_______,_______,_______,_______,
-  KC_ESC,   KC_1,   KC_2,   KC_3,   KC_4,   KC_5,                   KC_6,   KC_7,   KC_8,   KC_9,   KC_0,KC_MINS,
-  KC_TAB,   KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,                   KC_Y,   KC_U,   KC_I,   KC_O,   KC_P, KC_EQL,
- K2_CTAB,   KC_A,   KC_S,   KC_D,   KC_F,   KC_G,                   KC_H,   KC_J,   KC_K,   KC_L,KC_SCLN,KC_QUOT,
- KC_LSFT,   KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,KC_LBRC,KC_RBRC,   KC_N,   KC_M,KC_COMM, KC_DOT,KC_SLSH,KC_RSFT,
-         KC_LALT,  RAISE,KC_BSPC, K2_GDEL,XXXXXXX,               XXXXXXX, KC_ENT, KC_SPC,  LOWER,XXXXXXX,
-         _______,_______,_______,                                        _______,_______,_______
+ _______,_______,_______,_______,_______,_______,                                _______,_______,_______,_______,_______,_______,
+  KC_ESC,   KC_1,   KC_2,   KC_3,   KC_4,   KC_5,                                   KC_6,   KC_7,   KC_8,   KC_9,   KC_0,KC_MINS,
+  KC_TAB,   KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,                                   KC_Y,   KC_U,   KC_I,   KC_O,   KC_P, KC_EQL,
+ K2_CTAB,   KC_A,   KC_S,   KC_D,   KC_F,   KC_G,_______,_______,_______,_______,   KC_H,   KC_J,   KC_K,   KC_L,KC_SCLN,KC_QUOT,
+ KC_LSFT,   KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,KC_LBRC,_______,_______,KC_RBRC,   KC_N,   KC_M,KC_COMM, KC_DOT,KC_SLSH,KC_RSFT,
+         KC_LALT,  RAISE,KC_BSPC, K2_GDEL,XXXXXXX,                               XXXXXXX, KC_ENT, KC_SPC,  LOWER,XXXXXXX,
+         _______,_______,_______,                                                        _______,_______,_______
  ),
  [_LOWER] = LAYOUT( // Lower + minus- to enter debug layout
- _______,_______,_______,_______,_______,_______,                 _______,_______,_______,_______,_______,_______,
-  KC_GRV,  KC_F1,  KC_F2,  KC_F3,  KC_F4,  KC_F5,                 KC_F6  ,  KC_F7,  IMEON,KC_LBRC,KC_RBRC,DF(_DBG),
- K2_VTAB,_______,KC_HOME, KC_END,_______, K2_CAD,                 KC_PGUP,ALT_TAB,  KC_UP,  IMEON, IMEOFF,K2_HDXA,
- _______,_______,K2_DECI,K2_DECI,K2_INCI,K2_RSTR,                 KC_BSPC,KC_LEFT,KC_DOWN,KC_RGHT,KC_DEL ,KC_PIPE,
- _______,RGB_SPI,RGB_HUI,RGB_SAI,RGB_VAI,RGB_M_P,RGB_TOG,  K2_CS3,KC_PGDN,KC_BTN1,K2_SMLF,K2_BIGF,KC_BSLS,_______,
-         _______,_______,_______,_______,_______,                 _______,_______,_______,_______,_______,
-         _______,_______,_______,                                         _______,_______,_______
+ _______,_______,_______,_______,_______,_______,                                _______,_______,_______,_______,_______,_______,
+  KC_GRV,  KC_F1,  KC_F2,  KC_F3,  KC_F4,  KC_F5,                                KC_F6  ,  KC_F7,  IMEON,KC_LBRC,KC_RBRC,DF(_DBG),
+ K2_VTAB,_______,KC_HOME, KC_END,_______, K2_CAD,                                KC_PGUP,ALT_TAB,  KC_UP,  IMEON, IMEOFF,K2_HDXA,
+ _______,_______,K2_DECI,K2_DECI,K2_INCI,K2_RSTR,_______,_______,_______,_______,KC_BSPC,KC_LEFT,KC_DOWN,KC_RGHT,KC_DEL ,KC_PIPE,
+ _______,RGB_SPI,RGB_HUI,RGB_SAI,RGB_VAI,RGB_M_P,RGB_TOG,_______,_______, K2_CS3,KC_PGDN,KC_BTN1,K2_SMLF,K2_BIGF,KC_BSLS,_______,
+         _______,_______,_______,_______,_______,                                _______,_______,_______,_______,_______,
+         _______,_______,_______,                                                        _______,_______,_______
  ),
  [_RAISE] = LAYOUT(
- _______,_______,_______,_______,_______,_______,                 _______,_______,_______,_______,_______,_______,
- KC_TILD,_______,_______, K2_CS3, K2_CS4, K2_CS5,                 K2_CS6 ,  KC_F7,  KC_F8,  KC_F9, KC_F10,_______,
- _______,_______,  K2_WW,  K2_WE,QK_BOOT,_______,                 _______,_______, KC_INS,_______,_______,_______,
- _______,  K2_WA,  K2_WS,  K2_WD,  K2_WF,KC_BSPC,                 _______,_______,  K2_WK,_______,_______,_______,
- _______,  K2_WZ,  K2_WX,  K2_WC,  K2_WV, KC_DEL,RGB_TOG,  K2_CS4,  K2_WN,K2_WM  ,K2_DECI,K2_INCI,_______,_______,
-         _______,_______,_______,_______,_______,                 _______,_______,_______,_______,_______,
-         _______,_______,_______,                                         _______,_______,_______
+ _______,_______,_______,_______,_______,_______,                                _______,_______,_______,_______,_______,_______,
+ KC_TILD,_______,_______, K2_CS3, K2_CS4, K2_CS5,                                K2_CS6 ,  KC_F7,  KC_F8,  KC_F9, KC_F10,_______,
+ _______,_______,  K2_WW,  K2_WE,QK_BOOT,_______,                                _______,_______, KC_INS,_______,_______,_______,
+ _______,  K2_WA,  K2_WS,  K2_WD,  K2_WF,KC_BSPC,_______,_______,_______,_______,_______,_______,  K2_WK,_______,_______,_______,
+ _______,  K2_WZ,  K2_WX,  K2_WC,  K2_WV, KC_DEL,RGB_TOG,_______,_______, K2_CS4,  K2_WN,K2_WM  ,K2_DECI,K2_INCI,_______,_______,
+         _______,_______,_______,_______,_______,                                _______,_______,_______,_______,_______,
+         _______,_______,_______,                                                        _______,_______,_______
  ),
  [_ADJUST] = LAYOUT(
- _______,_______,_______,_______,_______,_______,                 _______,_______,_______,_______,_______,_______,
- _______,_______,EMAIL  ,K2_CCS3,K2_CCS4, K2_CS5,                 K2_CCS6,  KC_F7,  KC_F8,  KC_F9, KC_F10, KC_F11,
- _______,_______,_______,K2_DADD,QK_BOOT,_______,                 _______,_______,KC_MS_U,_______,    GPW,_______,
- _______,_______,K2_DLFT,K2_DTAB,K2_DRHT,    GID,                 _______,KC_MS_L,KC_MS_D,KC_MS_R,_______,_______,
- _______,_______,_______,K2_DDEL,_______,_______,ALT_TAB, K2_CS5, _______,KC_BTN1,KC_BTN2,KC_BTN2,_______,_______,
-         _______,_______,_______,_______,_______,                 _______,_______,_______,_______,_______,
-         _______,_______,_______,                                        _______,_______,_______
+ _______,_______,_______,_______,_______,_______,                                _______,_______,_______,_______,_______,_______,
+ _______,_______,EMAIL  ,K2_CCS3,K2_CCS4, K2_CS5,                                K2_CCS6,  KC_F7,  KC_F8,  KC_F9, KC_F10, KC_F11,
+ _______,_______,_______,K2_DADD,QK_BOOT,_______,                                _______,_______,KC_MS_U,_______,    GPW,_______,
+ _______,_______,K2_DLFT,K2_DTAB,K2_DRHT,    GID,_______,_______,_______,_______,_______,KC_MS_L,KC_MS_D,KC_MS_R,_______,_______,
+ _______,_______,_______,K2_DDEL,_______,_______,ALT_TAB,_______,_______,K2_CS5, _______,KC_BTN1,KC_BTN2,KC_BTN2,_______,_______,
+         _______,_______,_______,_______,_______,                                _______,_______,_______,_______,_______,
+         _______,_______,_______,                                                        _______,_______,_______
  ),
  [_DBG] = LAYOUT( // Debug layout. Press ESC key to return to the default layer.
- _______,_______,_______,_______,_______,_______,                 _______,_______,_______,_______,_______,_______,
- DF(_QWERTY),RGB_M_P,RGB_M_B,RGB_M_R,RGB_M_G,RGB_M_T,             RGB_M_P,RGB_M_B,RGB_M_R,RGB_M_SW,RGB_M_TW,DF(_QWERTY),
- _______,RGB_M_SW,RGB_M_SN,RGB_M_TW,_______,RGB_M_K,              RGB_TOG,_______,_______,RGB_MOD,_______,_______,
- _______,RGB_HUI,RGB_SAI,RGB_SPI,RGB_VAI,RGB_MOD,                 RGB_VAI,RGB_SAI,RGB_HUI,RGB_SPI,   KC_A,KC_B,
- _______,RGB_HUD,RGB_SAD,RGB_SPD,RGB_VAD,RGB_RMOD,KC_1, _______,  _______,_______,_______,_______,_______,_______,
-         KC_1   ,   KC_2,   KC_3,   KC_4,   KC_5,                  KC_6  ,   KC_7,   KC_8,_______,   KC_0,
-         _______,_______,_______,                                          _______,_______,_______
+ _______,_______,_______,_______,_______,_______,                                _______,_______,_______,_______,_______,_______,
+ DF(_QWERTY),RGB_M_P,RGB_M_B,RGB_M_R,RGB_M_G,RGB_M_T,                            RGB_M_P,RGB_M_B,RGB_M_R,RGB_M_SW,RGB_M_TW,DF(_QWERTY),
+ _______,RGB_M_SW,RGB_M_SN,RGB_M_TW,_______,RGB_M_K,                             RGB_TOG,_______,_______,RGB_MOD,_______,_______,
+ _______,RGB_HUI,RGB_SAI,RGB_SPI,RGB_VAI,RGB_MOD,_______,_______,_______,_______,RGB_VAI,RGB_SAI,RGB_HUI,RGB_SPI,   KC_A,KC_B,
+ _______,RGB_HUD,RGB_SAD,RGB_SPD,RGB_VAD,RGB_RMOD,KC_1,_______,_______,_______,  _______,_______,_______,_______,_______,_______,
+         KC_1   ,   KC_2,   KC_3,   KC_4,   KC_5,                                 KC_6  ,   KC_7,   KC_8,_______,   KC_0,
+         _______,_______,_______,                                                        _______,_______,_______
  ),
 };
 
