@@ -254,49 +254,47 @@ This is a view of the Main Module PCB for the left hand side from the back. We w
 
 #### Switch socket
 
-スイッチソケットも同様にPCBの**裏**側にはんだ付けします。
-
-MX互換スイッチを用いる場合は上側にソケットを取り付けます。
+The switch socket is similarly soldered to the **back** side of the PCB.  If Cherry MX compatible switch is used, install the socket on the top side.
 
 <img src="images/DSCF8691_2.jpg" alt="picture 20" style="zoom: 67%;" />
 
-#### Reset switchの取り付け
+#### Reset switch
 
-PCBの**表**側からはんだ付けします。
+Solder from the **Surface** side of the PCB.
 
-#### 3.5mm TRRSジャックの取り付け
+#### 3.5mm TRRS jack
 
-PCBの**表**側からはんだ付けします。
+Solder from the **Surface** side of the PCB.
 
-#### Pro Microの取り付け
+#### Pro Micro
 
-ProMicroをメインプレートPCBの**表側**に取り付けます。ProMicroの向きは実装面を下にします。つまり、ProMicroのつるつるの面が上を向き、ProMicroの色々部品がついている面は隠れる向きです。
+Mount the ProMicro on the **front** side of Main Plate PCB with the ProMicro facing down, i.e., the smooth side of the ProMicro is facing up and the side with the various components on it is hidden.
 
-※ コンスルーを使用する場合は、「ProMicro コンスルー 」で検索してみてください。遊舎工房の資料が分かりやすいです。[コンスルー（スプリングピンヘッダ）の取り付け方を教えて下さい – 遊舎工房サポートサイト (zendesk.com)](https://yushakobo.zendesk.com/hc/ja/articles/360044233974-コンスルー-スプリングピンヘッダ-の取り付け方を教えて下さい)
+*note: If you want to use the spring pin header, please search for "ProMicro spring pin header". In case of Japan, Yousha Kobo's materials are easy to understand.[コンスルー（スプリングピンヘッダ）の取り付け方を教えて下さい – 遊舎工房サポートサイト (zendesk.com)](https://yushakobo.zendesk.com/hc/ja/articles/360044233974-コンスルー-スプリングピンヘッダ-の取り付け方を教えて下さい)
 
-まず、ProMicro付属のピンヘッダーをPCBに差し込みます。短いほうを上にして、長いほうを差し込みます。
+First, insert the ProMicro supplied pin headers into the PCB. Insert the long one with the short side up.
 
 <img src="images/DSCF8521.jpg" alt="picture 20" style="zoom: 40%;" />
 
-裏側はこのように飛び出します。
+The back side pops out like this.
 
 <img src="images/DSCF8523.jpg" alt="picture 20" style="zoom: 40%;" />
 
-次に、ProMicroを上から重ねます。
+Next, ProMicro is layered on top.
 
 <img src="images/DSCF8525.jpg" alt="picture 20" style="zoom: 40%;" />
 
-ProMicroとピンヘッダーをはんだ付けします。隣り合ったピンとはんだがブリッジしないよう注意してください。
+Solder the ProMicro and pin headers. Be careful not to bridge the solder with adjacent pins.
 
 <img src="images/DSCF8528.jpg" alt="picture 20" style="zoom: 40%;" />
 
-そして、裏側に飛び出したピンヘッダーをニッパーで短く切り、PangaeaのPCBとピンヘッダーをはんだ付けします。
+Then, use nippers to cut the pin headers that stick out on the back side into short pieces, and solder the pin headers to the Pangaea Main Plate PCB.
 
 <img src="images/DSCF8508.jpg" alt="picture 20" style="zoom: 40%;" />
 
 <img src="images/DSCF8530.jpg" alt="picture 20" style="zoom: 40%;" />
 
-※ピンヘッダーを切るときは、切れ端が飛ばないよう十分注意してください。
+*note: When cutting pin headers, be very careful not to let the cut ends fly off.
 
 #### ProMicroを支える足をねじ止めする
 
