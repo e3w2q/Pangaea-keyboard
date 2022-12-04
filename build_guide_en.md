@@ -10,15 +10,57 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
 * note:  Please refer to [Optional Features](#Optional Features) for more information on optional features.
 
 - [Pangaea Keyboard Build Guide](#pangaea-keyboard-build-guide)
+  - [Preparation](#preparation)
+    - [Understanding the structure](#understanding-the-structure)
+    - [Configuration options](#configuration-options)
+    - [Required parts](#required-parts)
   - [Assembly](#assembly)
+    - [Assemble the movable Bottom Plate](#assemble-the-movable-bottom-plate)
+    - [Assemble the Main Module](#assemble-the-main-module)
+    - [Assemble Pinky Module](#assemble-pinky-module)
+    - [Assemble Thumb Module](#assemble-thumb-module)
+    - [Install Key switches](#install-key-switches)
+    - [Combining Modules](#combining-modules)
   - [Firmware](#firmware)
+    - [Write the firmware](#write-the-firmware)
+    - [Operation check](#operation-check)
   - [Final steps](#final-steps)
+    - [Installation of rubber feet](#installation-of-rubber-feet)
+    - [Keycap installation](#keycap-installation)
+    - [Connecting the TRRS cable](#connecting-the-trrs-cable)
+    - [Completed](#completed)
   - [Adjustment](#adjustment)
+    - [Adjust key layout](#adjust-key-layout)
+    - [Changing the key map](#changing-the-key-map)
   - [Optional features](#optional-features)
+    - [Kailh Choc v1 switches](#kailh-choc-v1-switches)
+    - [Solder switches on PCB without sockets](#solder-switches-on-pcb-without-sockets)
+    - [Height](#height)
+    - [Tilts and Tents](#tilts-and-tents)
+    - [Tape LED](#tape-led)
+    - [Delete number rows](#delete-number-rows)
+    - [Rotary encoder](#rotary-encoder)
+    - [Delete rotary encoder part](#delete-rotary-encoder-part)
+    - [Delete the extended key](#delete-the-extended-key)
+    - [Seprate MPU board](#seprate-mpu-board)
+    - [Compatible modules](#compatible-modules)
   - [Further modifications](#further-modifications)
+    - [Adding keys](#adding-keys)
+    - [Adding rotary encoders](#adding-rotary-encoders)
+    - [Adding displays](#adding-displays)
 
 
 <img src="images/DSCF8426.jpg" style="zoom: 60%;" />
+
+## Preparation
+
+This section describes the preparation before the assembly process.
+
+* [Understanding the structure](#understanding-the-structure)
+* [Configuration options](#configuration-options)
+* [Required parts](#required-parts)
+
+### Understanding the structure
 
 One of the most unique features of the Pangaea Keyboard is the ability to move the positions of the thumb and pinky plates  Not only can you assign what keys to what switches in the software, but you can also adjust the physical key layout.  For example, you can adjust the position of the thumb to shift slightly, or adjust the angle slightly to fit your finger.
 
@@ -54,7 +96,7 @@ The standard configuration described in this build guide is as follows,
 
 * note: If you choose an option that differs from the standard configuration, please read the assembly instructions properly before proceeding.
 
-### Identification of required parts
+### Required parts
 
 | Category                                                  | # | comment                                                     |
 | ----------------------------------------------------- | ---- | ------------------------------------------------------------ |
@@ -117,14 +159,15 @@ Here is a photo of all the circuit boards lined up. Make sure there are no short
 
 ## Assembly
 
-Preparation > Assembly > Firmware > Finishing > Adjustments (> Optional Features > Further Modifications)
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
 
-* [Assemble the movable Bottom Plate](#Assembling the movable bottom plate)
-* [Assemble the Main Module](#Assemble main module)
-* [Assemble the Pinky Module](#Assemble the pinky module)
-* [Assemble the Thumb Module](#Assemble thumb module)
-* [Attach key switch](#Attachment of keyswitch)
-* [Combine the modules](#module merging)
+* [Assemble the movable Bottom Plate](#assemble-the-movable-bottom-plate)
+* [Assemble the Main Module](#assemble-the-main-module)
+* [Assemble Pinky Module](#assemble-pinky-module)
+* [Assemble Thumb Module](#assemble-thumb-module)
+* [Install Key switches](#install-key-switches)
+* [Combining Modules](#combining-modules) 
+
 
 Even if you make a mistake in the order of assembly, it will not be irreversible. Please proceed with the assembly with ease.
 
@@ -632,5 +675,9 @@ How to add an OLED display.
 
 1. installation of OLED display
 2. support for QMK Firmware
+
+
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
+
 
 EOF.
