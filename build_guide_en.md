@@ -229,33 +229,30 @@ The LEDs are oriented for installation.  Align the diagonally cut leg of the LED
 
 <img src="images/DSCF8468_3.jpg" alt="picture 20" style="zoom: 40%;" /> 
 
-#### SHコネクタレセプタクル
+#### SH connector - receptacle
 
-SHコネクタのレセプタクルをPCBの**裏**面にはんだ付けします。やや難しいので慎重に行います。
-小指モジュール用、親指モジュール用のコネクタをそれぞれ取り付けます。
-
-ロータリーエンコーダーを使用する場合は、ロータリーエンコーダー用のSHコネクタもはんだ付けします。
+Solder the receptacle of the SH connector to the **back** side of the PCB. This is somewhat difficult, so do it carefully. Attach the connectors for the pinky module and the thumb module, respectively.
+If a rotary encoder is used, also solder the SH connector for the rotary encoder.
 
 <img src="images/DSCF8485.jpg" alt="picture 20" style="zoom: 40%;" /> 
 
-#### ダイオード
+#### Diode
 
-ダイオードをPCBの**裏**面にはんだ付けします。
+Solder the diode to the **back** side of the PCB.
 
-ダイオードの方向は、PCB上の白い線（PCBが白地の場合は黒い線）と、ダイオードの黒い線を合わせます。
+Orient the diode so that the white line on the PCB (or the black line if the PCB is white) aligns with the black line on the diode.
 
 <img src="images/DSCF8441.jpg" alt="picture 20" style="zoom: 40%;" /> 
 
 <img src="images/db102ce236ea3b06e92ff9be887bdc986abb1811367a4291042e3f9954540378.png" alt="picture 5" style="zoom:33%;" />  
 
-表面実装向けの Surface Mount Device(SMD) のダイオードを利用する場合は、SMD の ダイオードの線とPCB の線の位置を合わせます。写真の例では、T4と書かれた左の線とPCBの線を合わせます。
+When using Surface Mount Device (SMD) diodes, align the wires of the SMD diode with the wires on the PCB. In the example in the photo, the left wire marked T4 is aligned with the wire on the PCB.
 
 ![picture 7](images/32ffa581f34b0d646b031b805fd7cc1cc254557058b86134a1ca61366d237566.png)  
 
+This is a view of the Main Module PCB for the left hand side from the back. We will now assemble the left one first.
 
-左手用のメインモジュールPCBを裏から見た状態です。これから左を先に実装します。
-
-#### スイッチソケット
+#### Switch socket
 
 スイッチソケットも同様にPCBの**裏**側にはんだ付けします。
 
