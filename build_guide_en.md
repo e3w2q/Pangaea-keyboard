@@ -9,9 +9,7 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
 
 * note:  Please refer to [Optional Features](#Optional Features) for more information on optional features.
 
-## Index
 - [Pangaea Keyboard Build Guide](#pangaea-keyboard-build-guide)
-  - [Index](#index)
   - [Assembly](#assembly)
   - [Firmware](#firmware)
   - [Final steps](#final-steps)
