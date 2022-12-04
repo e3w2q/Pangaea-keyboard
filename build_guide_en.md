@@ -7,7 +7,7 @@ The concept of the Pangaea keyboard is explained in [White Paper](whitepaper_en.
 The firmware is described in the [Firmware](#Firmware) section, and the QMK Firmware source code is available [here](firmware/).
 The Pangaea Keyboard has a wide variety of optional features that allow you to select the configuration of your choice.  This build guide describes the assembly procedure for a standard configuration.
 
-* note:  Please refer to [Optional Features](#Optional Features) for more information on optional features.
+* note:  Please refer to [Optional features](#optional-features) for more information on optional features.
 
 - [Pangaea Keyboard Build Guide](#pangaea-keyboard-build-guide)
   - [Preparation](#preparation)
@@ -79,7 +79,7 @@ In addition, the modules are connected by cables to transmit electrical signals 
 
 The Pangaea keyboard has a variety of optional features.  This build guide describes the assembly procedure for a standard configuration.  
 
-*note: For more information on optional features, please refer to [Optional Features](#Optional Features).
+*note: For more information on optional features, please refer to [Optional features](#optional-features)
 
 The standard configuration described in this build guide is as follows,
 
@@ -113,7 +113,7 @@ The standard configuration described in this build guide is as follows,
 | Thumb module bottom plate                             | 2    | Common parts for both side                                   |
 | Pinkey bridge palte                                   | 2    | Common parts for both side                                   |
 | Thumb bridge plate                                    | 2    | Common parts for both side                                   |
-| --- **Electric patrs**---                             |      |                                                              |
+| --- **Electric patrs** ---                            |      |                                                              |
 | ProMicro or compatible                                | 2    | ATmega32U4                                                   |
 | Pin header                                            | 4    | Included with ProMicro                                       |
 | Tact switch                                           | 2*   | *It can also be omitted                                      |
@@ -529,8 +529,8 @@ Here is a shot of DROP's MT3 Black when installed.
 
 Adjust the physical key layout and the software keymap.
 
-* [Adjust key layout](#adjust key layout)
-* [Change keymap](#Change keymap)
+* [Adjust key layout](#adjust-key-layout)
+* [Changing the key map](#changing-the-key-map)
 
 ### Adjust key layout
 
