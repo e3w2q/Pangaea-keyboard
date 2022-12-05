@@ -139,7 +139,7 @@ The standard configuration described in this build guide is as follows,
 | Rubber foot, 2.2mm thick                              | 10   | Attach to bridge plate                                       |
 | Rubber foot, 3.8mm thick                              | 20   | Attach to bottom plate                                       |
 
-Please refer to [Parts List (BOM)](bom_list_en) for detailed model numbers and availability of each part.
+Please refer to [Parts List (BOM)](bom_list_jp.md) for detailed model numbers and availability of each part.
 Please use JST SH cables with the same pin assignments on both ends, reverse cable.
 
 <img src="images/DSCF8481.jpg" alt="sh-cable" style="zoom:40%;" />
