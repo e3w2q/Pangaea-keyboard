@@ -26,3 +26,9 @@ https://user-images.githubusercontent.com/50942793/145424793-fb12e412-2e66-4725-
 [Firmware](firmware/)
 
 [PCB](pcb/)
+
+## License
+
+* firmware: GPLv3
+* Garber files: CC-BY-NC
+* other files: MIT
