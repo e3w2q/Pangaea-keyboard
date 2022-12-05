@@ -151,7 +151,6 @@ Here is a photo of all the circuit boards lined up. Make sure there are no short
 
 <img src="images/plate_all.jpg" alt="all-parts" style="zoom:40%;"/>
 
-
 * The main module PCB has different parts on the left and right sides.
 * The pinky and thumb modules are the same on the right and left hand sides.
 * The main module switch plate, main module bottom plate, and bridge plate are the same on the left and right sides, but the orientation used is different
@@ -167,7 +166,6 @@ Here is a photo of all the circuit boards lined up. Make sure there are no short
 * [Assemble Thumb Module](#assemble-thumb-module)
 * [Install Key switches](#install-key-switches)
 * [Combining Modules](#combining-modules) 
-
 
 Even if you make a mistake in the order of assembly, it will not be irreversible. Please proceed with the assembly with ease.
 
@@ -241,7 +239,7 @@ Orient the diode so that the white line on the PCB (or the black line if the PCB
 
 When using Surface Mount Device (SMD) diodes, align the wires of the SMD diode with the wires on the PCB. In the example in the photo, the left wire marked T4 is aligned with the wire on the PCB.
 
-![picture 7](images/32ffa581f34b0d646b031b805fd7cc1cc254557058b86134a1ca61366d237566.png)  
+![picture 7](images/32ffa581f34b0d646b031b805fd7cc1cc254557058b86134a1ca61366d237566.png)
 
 This is a view of the Main Module PCB for the left hand side from the back. We will now assemble the left one first.
 
