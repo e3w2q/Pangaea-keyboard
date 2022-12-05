@@ -25,9 +25,9 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [Write the firmware](#write-the-firmware)
     - [Operation check](#operation-check)
   - [Final steps](#final-steps)
-    - [Installation of rubber feet](#installation-of-rubber-feet)
-    - [Keycap installation](#keycap-installation)
-    - [Connecting the TRRS cable](#connecting-the-trrs-cable)
+    - [Rubbter feet](#rubbter-feet)
+    - [Keycap](#keycap)
+    - [TRRS cable](#trrs-cable)
     - [Completed](#completed)
   - [Adjustment](#adjustment)
     - [Adjust key layout](#adjust-key-layout)
@@ -145,7 +145,7 @@ Please use JST SH cables with the same pin assignments on both ends, reverse cab
 <img src="images/DSCF8481.jpg" alt="sh-cable" style="zoom:40%;" />
 
 The type and number of components required may vary depending on the option selected.
-Please refer to [Optional Features](#Optional Features) for more information about optional features.
+Please refer to [Optional features](#optional-features) for more information about optional features.
 
 Here is a photo of all the circuit boards lined up. Make sure there are no shortages.
 
@@ -206,15 +206,15 @@ Preparation > Assembly > Firmware > Finishing > Adjustments (> Optional Features
 
 The following components are installed in the Main module.
 
-* [LED(Option)]
-* [SH connector receptacle]
+* [LED (Optional)]
+* [SH connector]
 * [Diode]
-* [Switch Socket]
+* [Switch socket]
 * [ProMicro]
-* TRRS Jack]
-* [Reset Switch (Option)]
+* [TRRS jack]
+* [Reset switch (Optional)]
 
-#### LED
+#### LED (Optional)
 
 Solder the LEDs to the **reverse** side of the PCB, with the **glowing side** of the LED facing outward.  The microcontroller-embedded LEDs are sensitive to high temperatures, so lower the soldering iron temperature. 250°C or lower is recommended.
 
@@ -483,11 +483,11 @@ After checking the operation, remove the USB cable and TRRS cable before returni
 
 Final finishing touches,
 
-* [Installation of rubber feet]
-* [Install the key caps]
-* [Connect the TRRS cable]
+ * [Rubbter feet](#rubbter-feet)
+ * [Keycap](#keycap)
+ * [TRRS cable](#trrs-cable)
 
-### Installation of rubber feet
+### Rubbter feet
 
 Attach the rubber feet to the back of the bottom plate. The thickness of 3.8mm is the best size for the rubber feet without adding extra thickness to the entire keyboard.  There is no rule for the position of the rubber feet, but it is best to stick them on the four corners of the plate as shown in the photo to keep a good balance.
 
@@ -502,11 +502,11 @@ For additional stability, add 2.2mm-thick rubber feet to the bridge plate.  The 
 
 <img src="images/DSCF7428.jpg" alt="picture 20" style="zoom: 67%;" />  
 
-### Keycap installation
+### Keycap
 
 Install the key caps. If a rotary encoder is installed, install the knob as well.
 
-### Connecting the TRRS cable
+### TRRS cable
 
 Connect the left and right keyboards with the TRRS cable.
 
@@ -534,7 +534,7 @@ Adjust the physical key layout and the software keymap.
 
 ### Adjust key layout
 
-Pangaea keyboard の価値の一つは位置を調整できることです。
+One of the values of the Pangaea keyboard is the ability to adjust key positions.
 
 You can find the latest firmware from [here](https://github.com/e3w2q/Pangaea-keyboard)
 
@@ -561,17 +561,17 @@ Pangaea's page in Remap's keyboard catalog is here. [Pangaea - Remap](https://re
 
 This section describes the optional features of the standard kit.
 
-* [Kailh Choc v1 switches]
-* [Solder switches on PCB without sockets]
-* [Height]
-* [Tilt and Tent]
-* [Tape LED]
-* [Delete number rows]
-* [Rotaty encoder]
-* [Delete rotary encoder part]
-* [Delete the extended key]
-* [Seprate MPU board]
-* [Compatible modules]
+* [Kailh Choc v1 switches](#kailh-choc-v1-switches)
+* [Solder switches on PCB without sockets](#solder-switches-on-pcb-without-sockets)
+* [Height](#height)
+* [Tilts and Tents](#tilts-and-tents)
+* [Tape LED](#tape-led)
+* [Delete number rows](#delete-number-rows)
+* [Rotary encoder](#rotary-encoder)
+* [Delete rotary encoder part](#delete-rotary-encoder-part)
+* [Delete the extended key](#delete-the-extended-key)
+* [Seprate MPU board](#seprate-mpu-board)
+* [Compatible modules](#compatible-modules)
   
 ### Kailh Choc v1 switches
 
