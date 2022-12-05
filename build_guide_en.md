@@ -519,10 +519,6 @@ Here is a shot of the Polycaps Seals when they were installed.
 
 <img src="images/DSCF8724.jpg" alt="-" style="zoom: 67%;" />
 
-Here is a shot of DROP's MT3 Black when installed.
-
-![picture 9](images/60b84ec0d109d0ff8fc8ae6644fc2632dbbb4cfb449918cca01a9c03fa35eddc.jpg)  
-
 ## Adjustment
 
 Adjust the physical key layout and the software keymap.
