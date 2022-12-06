@@ -50,7 +50,7 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [Adding displays](#adding-displays)
 
 
-<img src="images/DSCF8426.jpg" style="zoom: 60%;" />
+<img src="images/DSCF8426.jpg" style="zoom: 60%;"/>
 
 ## Preparation
 
@@ -670,8 +670,6 @@ How to add an OLED display.
 1. installation of OLED display
 2. support for QMK Firmware
 
-
 [Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
 
-
-EOF.
+EOF
