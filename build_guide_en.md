@@ -1,10 +1,10 @@
 # Pangaea Keyboard Build Guide
 
-This is a build guide for assembling the Pangaea Keyboard.
+This is a build guide for the Pangaea Keyboard.
 
-The intended audience will be those who have assembled keyboard kits before.  If you have never assembled a keyboard kit or are not confident about assembling one, please expand the "Tips" section and check it out.
+The intended audience will be those who have assembled keyboard kits before.  If you have never built a keyboard kit or are not confident about assembling one, please expand the "Tips" section and check it out.
 The concept of the Pangaea keyboard is explained in [White Paper](whitepaper_en.md).
-The firmware is described in the [Firmware](#Firmware) section, and the QMK Firmware source code is available [here](firmware/).
+The firmware is described in the [Firmware](#Firmware) section, and QMK Firmware source code is available [here](firmware/).
 The Pangaea Keyboard has a wide variety of optional features that allow you to select the configuration of your choice.  This build guide describes the assembly procedure for a standard configuration.
 
 * note:  Please refer to [Optional features](#optional-features) for more information on optional features.
