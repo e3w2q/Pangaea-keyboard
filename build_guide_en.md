@@ -1,6 +1,6 @@
 # Pangaea Keyboard Build Guide
 
-This is a build guide for the Pangaea Keyboard.
+This is a build guide for the Pangaea Keyboard.  The original guide written in Japanese is [here](https://github.com/e3w2q/Pangaea-keyboard/blob/main/build_guide_jp.md).
 
 The intended audience will be those who have assembled keyboard kits before.  If you have never built a keyboard kit or are not confident about assembling one, please expand the "Tips" section and check it out.
 The concept of the Pangaea keyboard is explained in [White Paper](whitepaper_en.md).
