@@ -22,7 +22,7 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [Install Key switches](#install-key-switches)
     - [Combining Modules](#combining-modules)
   - [Firmware](#firmware)
-    - [Write the firmware](#write-the-firmware)
+    - [Flash the firmware](#flash-the-firmware)
     - [Operation check](#operation-check)
   - [Final steps](#final-steps)
     - [Rubbter feet](#rubbter-feet)
@@ -31,11 +31,11 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [Completed](#completed)
   - [Adjustment](#adjustment)
     - [Adjust key layout](#adjust-key-layout)
-    - [Changing the key map](#changing-the-key-map)
+    - [Modifying the key map](#modifying-the-key-map)
   - [Optional features](#optional-features)
     - [Kailh Choc v1 switches](#kailh-choc-v1-switches)
     - [Solder switches on PCB without sockets](#solder-switches-on-pcb-without-sockets)
-    - [Height](#height)
+    - [Height adjustment](#height-adjustment)
     - [Tilts and Tents](#tilts-and-tents)
     - [Tape LED](#tape-led)
     - [Delete number rows](#delete-number-rows)
@@ -126,8 +126,8 @@ The standard configuration described in this build guide is as follows,
 | Diodes                                                | 60   |                                                              |
 | Switch socket for hotswap                             | 60   |                                                              |
 | Cherry MX compatible key switch                       | 60   |                                                              |
-| SK682MINI-E (LED)                                     | 12   | *optional, it can be omitted.                                |
-| Rotary encoder (potentiometer)                        | 2*   | *optional, it can be omitted                                 |
+| SK682MINI-E (LED)                                     | 12   | optional, it can be omitted.                                |
+| Rotary encoder (potentiometer)                        | 2*   | optional, it can be omitted                                 |
 | JST SH 4pin reverse cable 10cm length                 | 2*   | Connection between main and rotary encoder, optinal          |
 | JST SH 4pin reverse cable 10cm length                 | 2    | Connection between main and pinky module                     |
 | JST SH 4pin reverse cable 15cm length                 | 2    | Connection between main and thumb modules                    |
@@ -174,16 +174,16 @@ Here is a photo of all the circuit boards lined up. Make sure there are no short
 * [Assemble Thumb Module](#assemble-thumb-module)
 * [Install Key switches](#install-key-switches)
 * [Combining Modules](#combining-modules) 
-
+* 
 Even if you make a mistake in the order of assembly, it will not be irreversible. Please proceed with the assembly with ease.
 
 ### Assemble the movable Bottom Plate
 
 First, assemble the movable Bottom Plate, which is the best part of the Pangaea Keyboard, the variable mechanism.
 
-Then, attach 8mm screws and 8mm spacers at the positions circled in red. From the back side, stack the screw heads, bridge plate, bottom plate, and spacers in this order.
+Then, attach 8mm screws and 8mm spacers at the positions circled in red. From the back side, stack the screw heads, Bridge Plate, Bottom Plate, and spacers in this order.
 
-The finished keyboard will look like the picture below. It contains a mechanism that allows the pinky and thumb modules to be freely adjusted in relation to the main module.  
+The finished keyboard will look like the picture below. It contains a mechanism that allows the pinky and thumb modules to be freely adjusted in relation to Main Module.
 
 <img src="images/DSCF8710.jpg" alt="picture 3" style="zoom:67%;" />
 
@@ -195,45 +195,50 @@ The picture below shows it from the back.
 <summary>Tips: Using washers</summary>
 <div>
 For smoother operation after assembly, we recommend using washers and spring washers for moving parts. If you screw directly, the screws will loosen easily, and it will be inconvenient to use a screwdriver to screw in the screws for adjustment. By using washers and spring washers, the parts can be moved even when the screws are tightened to some extent, which makes adjustment after assembly easier.
-
-<img src="images/b1e843c930b5d5a4a3331d23bac49f055a0c1e8cba4a9a129905668647902217.jpg" alt="picture 8"/> 
 </div>
 </details>
 
+
 *note: The lengths of screws and spacers used for assembly are shown in the figure below.
 
-<img src="images/screw_length.png" alt="picture 3" style="zoom:50%;" />
+![screw](images/screw_length.png)
 
 ### Assemble the Main Module
 
 Components are installed on the PCB of each module, starting with Main Module.
 
-Preparation > Assembly > Firmware > Finishing > Adjustments (> Optional Features > Further Modifications)
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
 
 The following components are installed in the Main module.
 
-* [LED (Optional)]
+* [LED (optional)]
 * [SH connector]
 * [Diode]
 * [Switch socket]
 * [ProMicro]
 * [TRRS jack]
-* [Reset switch (Optional)]
+* [Reset switch (optional)]
 
 #### LED (Optional)
 
 Solder the LEDs to the **reverse** side of the PCB, with the **glowing side** of the LED facing outward.  The microcontroller-embedded LEDs are sensitive to high temperatures, so lower the soldering iron temperature. 250°C or lower is recommended.
 
-The LEDs are oriented for installation.  Align the diagonally cut leg of the LED terminal with the triangular mark on the PCB (red line). (red line part)
+The LEDs are oriented for installation.  Align the diagonally cut leg of the LED terminal with the triangular mark on the PCB (red line).
 
 <img src="images/DSCF8468_3.jpg" alt="picture 20" style="zoom: 40%;" /> 
 
 #### SH connector - receptacle
 
 Solder the receptacle of the SH connector to the **back** side of the PCB. This is somewhat difficult, so do it carefully. Attach the connectors for the pinky module and the thumb module, respectively.
-If a rotary encoder is used, also solder the SH connector for the rotary encoder.
+
+If you use a rotary encoder is used, also solder the SH connector for the rotary encoder.
 
 <img src="images/DSCF8485.jpg" alt="picture 20" style="zoom: 40%;" /> 
+
+Pour solder into the through-holes from the back side and solder the fixing feet on both ends of the SH connector.
+(Translator's note: If you forget to do this, the connector may come off due to lack of strength when inserting or removing the cables.)
+
+<img src="images/DSCF8521.jpg" alt="picture 20" style="zoom: 40%;" />
 
 #### Diode
 
@@ -243,13 +248,11 @@ Orient the diode so that the white line on the PCB (or the black line if the PCB
 
 <img src="images/DSCF8441.jpg" alt="picture 20" style="zoom: 40%;" /> 
 
-<img src="images/db102ce236ea3b06e92ff9be887bdc986abb1811367a4291042e3f9954540378.png" alt="picture 5" style="zoom:33%;" />  
-
 When using Surface Mount Device (SMD) diodes, align the wires of the SMD diode with the wires on the PCB. In the example in the photo, the left wire marked T4 is aligned with the wire on the PCB.
 
 ![picture 7](images/32ffa581f34b0d646b031b805fd7cc1cc254557058b86134a1ca61366d237566.png)
 
-This is a view of the Main Module PCB for the left hand side from the back. We will now assemble the left one first.
+This is a view of Main Module PCB for the left hand side from the back. We will now assemble the left one first.
 
 #### Switch socket
 
@@ -260,6 +263,7 @@ The switch socket is similarly soldered to the **back** side of the PCB.  If Che
 #### Reset switch
 
 Solder from the **Surface** side of the PCB.
+*note: The reset switch cannot be installed on the right hand side. (When resetting, short the through-hole with tweezers, etc. instead of pressing the reset switch.)
 
 #### 3.5mm TRRS jack
 
@@ -270,6 +274,7 @@ Solder from the **Surface** side of the PCB.
 Mount the ProMicro on the **front** side of Main Plate PCB with the ProMicro facing down, i.e., the smooth side of the ProMicro is facing up and the side with the various components on it is hidden.
 
 *note: If you want to use the spring pin header, please search for "ProMicro spring pin header". In case of Japan, Yousha Kobo's materials are easy to understand.[コンスルー（スプリングピンヘッダ）の取り付け方を教えて下さい – 遊舎工房サポートサイト (zendesk.com)](https://yushakobo.zendesk.com/hc/ja/articles/360044233974-コンスルー-スプリングピンヘッダ-の取り付け方を教えて下さい)
+*note from translator(I'm afraid this is written in Japanese only.)
 
 First, insert the ProMicro supplied pin headers into the PCB. Insert the long one with the short side up.
 
@@ -301,24 +306,30 @@ Install M2 3mm screws and M2 3mm spacers at the positions indicated by the light
 
 <img src="images/DSCF8538.jpg" alt="picture 20" style="zoom: 50%;" /> 
 
+The figure below shows it from the back.
+
+<img src="images/DSCF8530.jpg" alt="picture 20" style="zoom: 40%;" />
+
 #### ProMicro cover
 
-Install M2 3mm screws and M2 6mm spacers on the **front** side of the Main Module PCB; insert M2 3mm screws from the backside of the Main Module PCB to secure.
+Install M2 3mm screws and M2 6mm spacers on the **front** side of Main Module PCB; insert M2 3mm screws from the backside of the Main Module PCB to secure.
 Place the cover plate over the Pro Micro and secure with M2 3mm screws in 4 places.  The plate has two sides, so be sure to align the spacers and cover with each other.
 
-#### Rotary Encoder (Option)
+#### Rotary Encoder (option)
 
 Solder the rotary encoder.  If you use a toray encoder with a push switch, solder the terminals of the switch as well.
 
 <img src="images/DSCF8686.jpg" alt="picture 20" style="zoom: 67%;" /> 
 
-This completes the soldering of the Main Module PCB.
+This completes the soldering of Main Module PCB.
 
 <img src="images/DSCF8691_2.jpg" alt="picture 20" style="zoom: 50%;" />
 
 ### Assemble Pinky Module
 
-Next, Pinky Module is assembled.
+Next, let's assemble Pinky Module.
+
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
 
 Solder the following components as for Main Module,
 
@@ -335,7 +346,9 @@ When using Cherry MX compatible switches, solder SH connectors where it says "Pi
 
 ### Assemble Thumb Module
 
-Finally, Thumb Module is assembled.
+Finally, let's assemble Thumb Module.
+
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
 
 Solder the following components in the same manner as for Main Module and Pinky Module.
 
@@ -354,6 +367,8 @@ Now we have three PCB for Main, Pinky and Thumb.
 
 ### Install Key switches
 
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
+
 Insert the key switches into the top plate of each module and secure it by inserting the legs of the keyswitch into the sockets on the PCB.
 Be careful not to bend the legs of the key switch when inserting it into the socket.
 
@@ -366,6 +381,8 @@ Observe from the backside to verify that all switch legs are in the sockets with
 
 ### Combining Modules
 
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
+
 The three modules will be combined.
 
 #### Signal connection between modules
@@ -373,19 +390,15 @@ The three modules will be combined.
 Connect signals between plates using a cable with SH connectors.
 
 Connect the cable to the Main Module.  If a rotary encoder is installed, also connect the cable between the rotary encoder and Main Module PCB.
-
 <img src="images/DSCF8714.jpg" alt="-" style="zoom: 33%;" />
 
 Fix the cable to the PCB with insulating tape, etc.
-
 <img src="images/DSCF8715.jpg" alt="-" style="zoom: 33%;" />
 
 Connect the other end of the cable to Pinky and Thumb Modules.
-
 <img src="images/DSCF8716.jpg" alt="-" style="zoom: 33%;" />
 
 If the wire is too short, it may be pulled during adjustment, resulting in a restricted range of motion, or the wire may break. It is recommended that the wire be at least 10 cm long. If the wire is too long, it will interfere with the bottom plate.
-
 
 <details>
 <summary>Tips: Organize cables</summary>
@@ -395,12 +408,12 @@ If the cable does not fit well between the PCB and the bottom plate, use tape to
 </div>
 </details>
 
-#### Coupling with bottom plate
+#### Coupling with Bottom Plate
 
 Finally, the PCB and Bottom Plate are integrated. Place Main Module with switches, Thumb Module, and Pinkey Module on top of the Bottom Plate and secure them with M2 3mm screws from the top plate.
 
-First, attach the main module to the bottom plate.
-To make it easier to pass the bottom plate spacers through the PCB holes, loosen the bottom plate screws slightly before overlapping them. <br/>
+First, attach Main Module to Bottom Plate.
+To make it easier to pass Bottom Plate spacers through the PCB holes, loosen the bottom plate screws slightly before overlapping them. <br/>
 When they overlap without any gaps and not at an angle, insert the screws from the surface of the switch plate and tighten them. <br/>
 After tightening the screws, retighten the screws on the side of the bottom plate that you loosened earlier. <br/>
 There are four fixing points.
@@ -416,7 +429,8 @@ Here is a photo of the back side.
 <img src="images/DSCF8719.jpg" alt="-" style="zoom: 33%;" />
 
 Also secure the bottom plate and the feet supporting the ProMicro with M2 3mm screws. Fix two places from the bottom of the bottom plate with M2 3mm screws.
-Join the right hand side in the same manner.
+
+Assemble the right hand side in the same manner.
 
 <img src="images/DSCF8720.jpg" alt="-" style="zoom: 33%;" />
 
@@ -424,29 +438,31 @@ Join the right hand side in the same manner.
 
 Write firmware into ProMicro and check operation.
 
-* [Write firmware]
-  * [Write using QMK Toolbox]
-  * [Write using QMK command]
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
 
-* [Operation check]
+  - [Firmware](#firmware)
+    - [Flash the firmware](#flash-the-firmware)
+    - [Operation check](#operation-check)
 
 In this state, write the firmware and check the operation. If you are confident, you may skip this step and conduct it after completion.
 
+### Flash the firmware
 
-### Write the firmware
+Flash the firmware in one of the following ways.  Download the hex from remap stie.
 
-Write the firmware in one of the following ways.  Download the hex from remap stie.
+#### Flash the firmware using QMK Toolbox
 
-#### Write the firmware using QMK Toolbox
-
-Use QMK Toolbox.
+QMK Toolbox is used here.
 
 Open the hex file in QMK Toolbox. Connect the keyboard.
 
-Press the reset switch to reboot the keyboard in bootloader mode. <br/>
-If it is successful and you enter bootloader mode, you will see the message "~device connected" in QMK Toolbox.
+Press the reset switch to reboot the keyboard in bootloader mode.
+<br/>
+
+Since a reset switch cannot be installed on the right hand side, short the through-hole with tweezers, etc. instead of pressing the reset switch.  If it is successful and you enter bootloader mode, you will see the message "~device connected" in QMK Toolbox.
 
 If pressing the reset switch does not put you in bootloader mode, try pressing the reset switch twice quickly.
+(*note from translater: Since there is a Pro Micro that requires such operation)
 
 Click the "Flush" button on the QML Toolbox. <br/>
 Wait without unplugging the USB cable. <br/>
@@ -454,7 +470,7 @@ When the QMK Toolbox screen indicates success, the write is successful; you can 
 
 Then write the firmware to the other Pro Micro in the same way.  There is no difference between the left and right firmware.
 
-#### Write the firmwarey using QMK command line tool
+#### Flash the firmwarey using QMK command line tool
 
 Go to the QMK directory, and then type
 
@@ -462,7 +478,7 @@ Go to the QMK directory, and then type
 $ cd qmk_firmware
 ```
 
-Writes firmware to the ProMicro, along with Compile.
+Flashes firmware to the ProMicro, along with compile.
 
 ```sh
 $ qmk flash -kb pangaea -km default
@@ -488,6 +504,8 @@ After checking the operation, remove the USB cable and TRRS cable before returni
 ## Final steps
 
 Final finishing touches,
+
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
 
  * [Rubbter feet](#rubbter-feet)
  * [Keycap](#keycap)
@@ -531,6 +549,8 @@ Here is a shot of the Polycaps Seals when they were installed.
 
 Adjust the physical key layout and the software keymap.
 
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
+
 * [Adjust key layout](#adjust-key-layout)
 * [Changing the key map](#changing-the-key-map)
 
@@ -552,7 +572,7 @@ The thumb module is adjustable in lateral position and rotation angle.  The adju
 
 The pinky plate can be adjusted for vertical position and rotation angle.  The adjustable range is +0.25U to -1.25U for vertical position and 0° to 18° for rotation in the direction that the upper side turns outward.
 
-### Changing the key map
+### Modifying the key map
 
 The firmware written by the above procedure supports keymap changes by VIA and [Remap (remap-keys.app)](https://remap-keys.app/).
 
@@ -562,6 +582,8 @@ Pangaea's page in Remap's keyboard catalog is here. [Pangaea - Remap](https://re
 ## Optional features
 
 This section describes the optional features of the standard kit.
+
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
 
 * [Kailh Choc v1 switches](#kailh-choc-v1-switches)
 * [Solder switches on PCB without sockets](#solder-switches-on-pcb-without-sockets)
@@ -588,7 +610,7 @@ Compared to using Cherr MX compatible switches, the following points will change
 
 By pouring a large amount of solder between the keyswitch foot and the hole in the PCB, the keyswitch can be attached without using a switch socket.  Be careful not to forget to attach the switch plate.
 
-### Height
+### Height adjustment
 
 By changing the length of the spacers, the height can be adjusted for each module.
 For example, by changing the spacers, standoffs of Main Module and the Pinkey Module to longer ones, only Thumb Module can be made relatively lower.
@@ -650,6 +672,8 @@ For more information on designing compatible modules, please refer to the "Desig
 
 This section describes modifications using boards outside the standard kit.
 
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
+
 The standard kit is sufficient for simple text input, but there will be times when you will want dedicated keys for specific applications or web conferencing.
 Pangaea is freely expandable and has a standard interface for connection, making it easy to exchange parts.
 
@@ -678,6 +702,7 @@ How to add an OLED display.
 1. installation of OLED display
 2. support for QMK Firmware
 
+
 [Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
 
-EOF
+That's all.
