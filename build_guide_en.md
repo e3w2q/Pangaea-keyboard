@@ -2,12 +2,12 @@
 
 This is a build guide for the Pangaea Keyboard.  The original guide written in Japanese is [here](https://github.com/e3w2q/Pangaea-keyboard/blob/main/build_guide_jp.md).
 
-The intended audience will be those who have assembled keyboard kits before.  If you have never built a keyboard kit or are not confident about assembling one, please expand the "Tips" section and check it out.
-The concept of the Pangaea keyboard is explained in [White Paper](whitepaper_en.md).
-The firmware is described in the [Firmware](#Firmware) section, and QMK Firmware source code is available [here](firmware/).
-The Pangaea Keyboard has a wide variety of optional features that allow you to select the configuration of your choice.  This build guide describes the assembly procedure for a standard configuration.
+The intended audience will be those who have assembled keyboard kits before.  If you have never built a keyboard kit or are not confident about assembling one, please expand the "Tips" section and check it out.  (*note from translater: You will find more detailed information.)
 
-* note:  Please refer to [Optional features](#optional-features) for more information on optional features.
+The concept of the Pangaea keyboard is explained in [White Paper](whitepaper_en.md).
+The firmware is described in the [Firmware](#Firmware) section, and the source code for QMK Firmware is available [here](firmware/).
+
+The Pangaea Keyboard has a wide variety of optional features that allow you to select the configuration of your choice.  This build guide describes the assembly procedure for a standard configuration. <BR/>*note:  Please refer to [Optional features](#optional-features) for more information on optional features.
 
 - [Pangaea Keyboard Build Guide](#pangaea-keyboard-build-guide)
   - [Preparation](#preparation)
@@ -49,18 +49,24 @@ The Pangaea Keyboard has a wide variety of optional features that allow you to s
     - [Adding rotary encoders](#adding-rotary-encoders)
     - [Adding displays](#adding-displays)
 
-
-<img src="images/DSCF8426.jpg" style="zoom: 60%;"/>
-
 ## Preparation
 
 This section describes the preparation before the assembly process.
+
+[Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
 
 * [Understanding the structure](#understanding-the-structure)
 * [Configuration options](#configuration-options)
 * [Required parts](#required-parts)
 
 ### Understanding the structure
+
+First, let's look at the the structure and terminology.
+Hereafter, when the engraved side of the keycap is facing up, the upper side is called the front side and the lower side is called the back side.
+
+When the keyboard is assembled, it looks like the picture.
+
+<img src="images/DSCF8426.jpg" style="zoom: 60%;"/>
 
 One of the most unique features of the Pangaea Keyboard is the ability to move the positions of the thumb and pinky plates  Not only can you assign what keys to what switches in the software, but you can also adjust the physical key layout.  For example, you can adjust the position of the thumb to shift slightly, or adjust the angle slightly to fit your finger.
 
@@ -70,31 +76,30 @@ The Pangaea Keyboard is divided into three modules of parts for its mechanical a
 * The vertical rectangles at the left and right ends are defined as Pinky Modules.
 * The lower arc-shaped one is defined as Thumb Module.
 * The plate with an open slit between them is defined as Bridge Plate.
-
-In addition, the modules are connected by cables to transmit electrical signals between them.
+* In addition, the modules are connected by cables to transmit electrical signals between modules.
 
 <img src="images/DSCF8428.jpg" style="zoom:60%;">
 
 ### Configuration options
 
-The Pangaea keyboard has a variety of optional features.  This build guide describes the assembly procedure for a standard configuration.  
-
+The Pangaea keyboard has a variety of optional features.  This build guide describes the assembly procedure for a standard configuration.
 *note: For more information on optional features, please refer to [Optional features](#optional-features)
 
 The standard configuration described in this build guide is as follows,
 
-* [x] Use MX compatible switches-
+* [x] Use Cherry MX compatible switches
 * [x] Use switch sockets
 * [x] Use through-hole diodes
-* [x] LEDs (optional)
-* [x] Rotary encoder (optional)
-* [x] ProMicro soldered directly to PCB with pin headers
-* [x] Use a vertically orientedreset switch
-* [x] Use pre-built VIA-compatible firmware
-* [x] Use five thumb keys
-* [x] Do not separate the number line, rotary encoder, expansion keys, or ProMicro section.
+* [x] Use LEDs (optional)
+* [x] Use rotary encoder (optional)
+* [x] Solder ProMicro directly to PCB with the pin headers
+* [x] Use a vertical (normal) reset switch
+* [x] Use the pre-built VIA-compatible firmware
+* [x] Use five thumb keys for both hands
+* [x] Do not separate the number line, rotary encoder, expansion keys, and ProMicro section
+* [x] No other modifications
 
-* note: If you choose an option that differs from the standard configuration, please read the assembly instructions properly before proceeding.
+*note: If you choose an option that differs from the standard configuration, please read the assembly instructions properly before proceeding.
 
 ### Required parts
 
@@ -116,12 +121,13 @@ The standard configuration described in this build guide is as follows,
 | --- **Electric patrs** ---                            |      |                                                              |
 | ProMicro or compatible                                | 2    | ATmega32U4                                                   |
 | Pin header                                            | 4    | Included with ProMicro                                       |
-| Tact switch                                           | 2*   | *It can also be omitted                                      |
+| Tact switch                                           | 1*   | *It can also be omitted. <BR />(It cannot be installed on the right side.)                                      |
 | 3.5mm TRRS jack                                       | 2    |                                                              |
 | Diodes                                                | 60   |                                                              |
 | Switch socket for hotswap                             | 60   |                                                              |
 | Cherry MX compatible key switch                       | 60   |                                                              |
-| Rotary encoder (potentiometer)                        | 2*   | *It can also be omitted                                      |
+| SK682MINI-E (LED)                                     | 12   | *optional, it can be omitted.                                |
+| Rotary encoder (potentiometer)                        | 2*   | *optional, it can be omitted                                 |
 | JST SH 4pin reverse cable 10cm length                 | 2*   | Connection between main and rotary encoder, optinal          |
 | JST SH 4pin reverse cable 10cm length                 | 2    | Connection between main and pinky module                     |
 | JST SH 4pin reverse cable 15cm length                 | 2    | Connection between main and thumb modules                    |
@@ -136,24 +142,26 @@ The standard configuration described in this build guide is as follows,
 | USB cable                                             | 1    | Connection between Pro Micro and your  PC.                   |
 | TRRS cable                                            | 1    | Connecttion between the left module and right modules        |
 | Key caps                                              | 60   | All 1u size                                                  |
+| Knob for rotary encoder                               | 2    | Up to 19 mm in diameter                                      |
+| Tapes                                                 | -    | To hold cables together, optional                            |
+| Insulating tape                                       | -    | To secure the cable to the PCB for easier routing, optional  |
 | Rubber foot, 2.2mm thick                              | 10   | Attach to bridge plate                                       |
 | Rubber foot, 3.8mm thick                              | 20   | Attach to bottom plate                                       |
 
-Please refer to [Parts List (BOM)](bom_list_jp.md) for detailed model numbers and availability of each part.
-Please use JST SH cables with the same pin assignments on both ends, reverse cable.
+Please refer to [Parts List (BOM)](bom_list_jp.md) for detailed model numbers and availability of each part.  Please use JST SH cables with the same pin assignments on both ends, reverse cable.
 
 <img src="images/DSCF8481.jpg" alt="sh-cable" style="zoom:40%;" />
 
 The type and number of components required may vary depending on the option selected.
-Please refer to [Optional features](#optional-features) for more information about optional features.
+*note: Please refer to [Optional features](#optional-features) for more information about optional features.
 
 Here is a photo of all the circuit boards lined up. Make sure there are no shortages.
 
 <img src="images/plate_all.jpg" alt="all-parts" style="zoom:40%;"/>
 
-* The main module PCB has different parts on the left and right sides.
-* The pinky and thumb modules are the same on the right and left hand sides.
-* The main module switch plate, main module bottom plate, and bridge plate are the same on the left and right sides, but the orientation used is different
+* Main Module PCB has different parts on the left and right sides.
+* Pinky and Thumb Modules are the same on the right and left hand sides.
+* Main Module switch plate, Main Module bottom plate, and Bridge Plate are the same on the left and right sides, but the orientation used is different.
   * Use them in the orientation where the left hand side is the one with the "L" mark when viewed from the **reverse side** and the right hand side is the one with the "R" mark when viewed from the **reverse side**.
 
 ## Assembly
