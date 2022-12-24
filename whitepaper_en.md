@@ -1,7 +1,7 @@
 Date: 2022/12/24
 Keyboard Maintainer: [@otahinosame](https://twitter.com/otahinosame), [@e3w2q](https://twitter.com/e3w2q), and [@k2___________](https://twitter.com/@k2___________)
 
-*Note: This text is an English translation of [White Paper written in Japanese](#whitepaper_jp.md).
+*Note: This text is an English translation of [White Paper written in Japanese](https://github.com/e3w2q/Pangaea-keyboard/blob/main/whitepaper_jp.md).
 
 # What’s Pangaea?
 
@@ -43,3 +43,4 @@ Electrical connections between islands can be made by using flexible wiring, all
 - Usage support
   - Expanded guides for adjusting placement
   - Introduction of custom examples
+  
