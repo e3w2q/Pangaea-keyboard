@@ -1,4 +1,4 @@
-16134984368983843
+16030538718490799
 #Keebio-Parts
 3_Pin_Jumper
 
@@ -2547,6 +2547,13 @@ connector Samtec  top entry
 0
 40
 40
+#Seeeduino XIAO KICAD
+Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM
+
+
+0
+20
+20
 #footprint
 0.5mm_NPTH
 Resitance 3 pas
@@ -2562,369 +2569,26 @@ R
 0
 0
 #footprint
-1pin_conn
-Resitance 3 pas
-R
-0
-1
-1
-#footprint
-1pin_conn_rev2
-Resitance 3 pas
-R
-0
-1
-0
-#footprint
 1pin_conn_rev3
 Resitance 3 pas
 R
 0
 1
-0
+1
 #footprint
-ArduinoProMicro-ZigZag-BLEMicroPro-Multi
-
-
-0
-50
-26
-#footprint
-ArduinoProMicro-ZigZag-BLEMicroPro-Multi-rev2
-
-
-0
-50
-26
-#footprint
-ArduinoProMicro-ZigZag_rev2
+ArduinoProMicro_ConThrough_rev2
 
 
 0
 24
 24
 #footprint
-ArduinoProMicro-ZigZag_rev3
+CherryMX_Choc_Hotswap_rev9_test
 
 
 0
-24
-24
-#footprint
-ArduinoProMicro-ZigZag_rev4
-
-
-0
-24
-24
-#footprint
-ArduinoProMicro-ZigZag_rev5
-
-
-0
-24
-24
-#footprint
-ArduinoProMicro-ZigZag_rev6
-
-
-0
-24
-24
-#footprint
-ArduinoProMicro_BLEMicroPro_ZigZag
-
-
-0
-26
-26
-#footprint
-ArduinoProMicro_ConThrough
-
-
-0
-24
-24
-#footprint
-ArduinoProMicro_ConThrough_Reversible
-
-
-0
-48
-24
-#footprint
-ArduinoProMicro_ConThrough_Reversible_beta
-
-
-0
-48
-24
-#footprint
-CherryMX
-
-
-0
+8
 2
-2
-#footprint
-CherryMX_Hotswap_Or_Not
-
-
-0
-12
-2
-#footprint
-CherryMX_MidHeight_16mm
-
-
-0
-4
-3
-#footprint
-CherryMX_MidHeight_16mm_rev2
-
-
-0
-2
-2
-#footprint
-CherryMX_MidHeight_Choc_16mm
-
-
-0
-11
-2
-#footprint
-CherryMX_MidHeight_Choc_16mm_rev2
-
-
-0
-15
-2
-#footprint
-CherryMX_MidHeight_Choc_16mm_rev3
-
-
-0
-15
-3
-#footprint
-CherryMX_MidHeight_Choc_16mm_rev4
-
-
-0
-17
-3
-#footprint
-CherryMX_MidHeight_Choc_16mm_rev5
-
-
-0
-17
-3
-#footprint
-CherryMX_MidHeight_Choc_16mm_rev6
-
-
-0
-17
-3
-#footprint
-CherryMX_MidHeight_Choc_16mm_rev7
-
-
-0
-17
-3
-#footprint
-CherryMX_MidHeight_Choc_16mm_rev8
-
-
-0
-17
-3
-#footprint
-CherryMX_MidHeight_Choc_16mm_rev9
-
-
-0
-7
-3
-#footprint
-CherryMX_MidHeight_Choc_Hotswap_2.25U_Outline
-
-
-0
-0
-0
-#footprint
-CherryMX_MidHeight_Choc_Hotswap_2.75U_Outline
-
-
-0
-0
-0
-#footprint
-CherryMX_MidHeight_Choc_Hotswap_2U_Outline
-
-
-0
-0
-0
-#footprint
-CherryMX_MidHeight_Choc_Hotswap_Reversible
-
-
-0
-40
-2
-#footprint
-CherryMX_MidHeight_Choc_Hotswap_Reversible_with_Diode
-
-
-0
-46
-3
-#footprint
-CherryMX_MidHeight_Choc_Hotswap_rev1
-
-
-0
-4
-2
-#footprint
-CherryMX_MidHeight_Choc_Hotswap_rev2
-
-
-0
-20
-2
-#footprint
-CherryMX_MidHeight_Choc_Hotswap_rev3
-
-
-0
-21
-2
-#footprint
-CherryMX_MidHeight_Choc_Hotswap_rev4
-
-
-0
-21
-2
-#footprint
-CherryMX_MidHeight_Choc_Hotswap_rev5
-
-
-0
-21
-2
-#footprint
-CherryMX_MidHeight_Choc_Hotswap_rev6
-
-
-0
-20
-2
-#footprint
-CherryMX_MidHeight_Choc_Hotswap_rev6_with_Diode
-
-
-0
-24
-3
-#footprint
-CherryMX_MidHeight_Choc_Silk
-
-
-0
-0
-0
-#footprint
-CherryMX_MidHeight_Choc_Silk_Line
-
-
-0
-0
-0
-#footprint
-CherryMX_MidHeight_Hotswap_Or_Not
-
-
-0
-12
-2
-#footprint
-CherryMX_MidHeight_Hotswap_Or_Not_a
-
-
-0
-2
-2
-#footprint
-CherryMX_MidHeight_Hotswap_Or_Not_b
-
-
-0
-11
-2
-#footprint
-CherryMX_MidHeight_Hotswap_Or_Not_c
-
-
-0
-13
-3
-#footprint
-Chidori_F_Cu
-
-
-0
-0
-0
-#footprint
-Chidori_F_SilkS
-
-
-0
-0
-0
-#footprint
-D3_SMD
-Resitance 3 pas
-R
-0
-4
-2
-#footprint
-D3_TH_SMD
-Resitance 3 pas
-R
-0
-6
-2
-#footprint
-IDC-Header_2x05_P2.54mm_Vertical
-Through hole straight IDC box header, 2x05, 2.54mm pitch, double rows
-Through hole IDC box header THT 2x05 2.54mm double row
-0
-10
-10
-#footprint
-IDC-Header_2x08_P2.54mm_Vertical
-Through hole straight IDC box header, 2x08, 2.54mm pitch, double rows
-Through hole IDC box header THT 2x08 2.54mm double row
-0
-16
-16
-#footprint
-IDC-Header_2x08_P2.54mm_rev2
-Through hole straight IDC box header, 2x08, 2.54mm pitch, double rows
-Through hole IDC box header THT 2x08 2.54mm double row
-0
-16
-16
 #footprint
 IM_HOLE
 Mounting Hole 2.2mm, no annular, M2
@@ -2933,145 +2597,40 @@ mounting hole 2.2mm no annular m2
 0
 0
 #footprint
-K15R1-0-black-chidori
-
-
+JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical
+JST SH series connector, BM03B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH side entry
 0
-0
-0
+5
+4
 #footprint
-K15R1-0-black-mitsukumite
-
-
+JST_SH_BM03B-SRSS-TB_1x04-1MP_P1.00mm_Vertical
+JST SH series connector, BM03B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH side entry
 0
-0
-0
+6
+5
 #footprint
-K15R1-1-green-ichimatsu
-
-
+JST_SH_BM03B-SRSS-TB_1x04-1MP_P1.00mm_Vertical_onefoot
+JST SH series connector, BM03B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH side entry
 0
-0
-0
+5
+5
 #footprint
-K15R1-1-green-karakusa
-
-
+JST_SH_BM03B-SRSS-TB_1x06-1MP_P1.00mm_Vertical
+JST SH series connector, BM03B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH side entry
 0
-0
-0
+8
+7
 #footprint
-K15R1-2-red-fairisle1
+Joystick_AE-RKJXV122400R
 
 
 0
-0
-0
-#footprint
-K15R1-2-red-fairisle2
-
-
-0
-0
-0
-#footprint
-K15R1-3-blue-mizutama
-
-
-0
-0
-0
-#footprint
-K15R1-3-blue-seigaiha
-
-
-0
-0
-0
-#footprint
-K15R1-4-white-koume
-
-
-0
-0
-0
-#footprint
-K15R1-4-white-maze
-
-
-0
-0
-0
-#footprint
-KG-0-chidori
-
-
-0
-0
-0
-#footprint
-KG-0-mitsukumite
-
-
-0
-0
-0
-#footprint
-KG-1-ichimatsu
-
-
-0
-0
-0
-#footprint
-KG-1-karakusa
-
-
-0
-0
-0
-#footprint
-KG-3-mizutama
-
-
-0
-0
-0
-#footprint
-KG-3-seigaiha
-
-
-0
-0
-0
-#footprint
-KG-4-koume
-
-
-0
-0
-0
-#footprint
-KG-4-maze
-
-
-0
-0
-0
-#footprint
-Kagome_B_Cu
-
-
-0
-0
-0
-#footprint
-Kagome_F_SilkS
-
-
-0
-0
-0
+10
+8
 #footprint
 Keyswitch_Plate_Hole
 
@@ -3088,13 +2647,6 @@ R
 0
 #footprint
 M0.75_Hole
-Resitance 3 pas
-R
-0
-0
-0
-#footprint
-M1.4_tapping_Hole
 Resitance 3 pas
 R
 0
@@ -3143,14 +2695,7 @@ R
 0
 0
 #footprint
-M2_Hole_Edge.Cuts
-Resitance 3 pas
-R
-0
-0
-0
-#footprint
-M2_Nut_Hole
+M2_Nut_Hole_rev2
 
 
 0
@@ -3164,25 +2709,25 @@ R
 1
 1
 #footprint
+M2_Spacer
+Resitance 3 pas
+R
+0
+0
+0
+#footprint
+M2_Spacer_Brass
+Resitance 3 pas
+R
+0
+0
+0
+#footprint
 M2_ThroughHole
 Resitance 3 pas
 R
 0
 1
-0
-#footprint
-M2_spacer
-Resitance 3 pas
-R
-0
-0
-0
-#footprint
-M2_spacer_brass
-Resitance 3 pas
-R
-0
-0
 0
 #footprint
 M3
@@ -3234,7 +2779,28 @@ CONN DEV
 4
 4
 #footprint
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+#footprint
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+#footprint
 PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+4
+4
+#footprint
+PinHeader_1x04_P2.54mm_Vertical_OLED
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
 Through hole pin header THT 1x04 2.54mm single row
 0
@@ -3248,12 +2814,12 @@ Through hole pin header THT 1x06 2.54mm single row
 6
 6
 #footprint
-PinHeader_1x06_P2.54mm_Vertical_rev2
-Through hole straight pin header, 1x06, 2.54mm pitch, single row
-Through hole pin header THT 1x06 2.54mm single row
+PinHeader_1x07_P2.54mm_Vertical
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
 0
-6
-6
+7
+7
 #footprint
 PinHeader_1x08_P2.54mm_Vertical
 Through hole straight pin header, 1x08, 2.54mm pitch, single row
@@ -3269,19 +2835,19 @@ Through hole pin header THT 1x04 2.54mm single row
 8
 8
 #footprint
-PinHeader_1x08_P2.54mm_Vertical_rev2
-Through hole straight pin header, 1x08, 2.54mm pitch, single row
-Through hole pin header THT 1x08 2.54mm single row
-0
-8
-8
-#footprint
 PinHeader_1x10_P2.54mm_Vertical
 Through hole straight pin header, 1x10, 2.54mm pitch, single row
 Through hole pin header THT 1x10 2.54mm single row
 0
 10
 10
+#footprint
+PinHeader_2x03_P2.54mm_Vertical
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
 #footprint
 PinSocket_1x03_P2.00mm_Vertical
 Through hole straight socket strip, 1x03, 2.00mm pitch, single row (from Kicad 4.0.7), script generated
@@ -3318,34 +2884,6 @@ ProMicro
 24
 24
 #footprint
-RJ45
-Shielded, 2 LED, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf
-RJ45 8p8c ethernet cat5
-0
-18
-9
-#footprint
-RJ45_rev2
-Shielded, 2 LED, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf
-RJ45 8p8c ethernet cat5
-0
-18
-9
-#footprint
-RPi_Hat_Mounting_Hole
-Mounting hole, Befestigungsbohrung, 2,7mm, No Annular, Kein Restring,
-Mounting hole, Befestigungsbohrung, 2,7mm, No Annular, Kein Restring,
-0
-0
-0
-#footprint
-RPi_Pin_Header_Straight_2x20
-Through hole pin header
-pin header
-0
-44
-40
-#footprint
 ResetSW
 
 
@@ -3360,12 +2898,12 @@ ResetSW_4P
 4
 2
 #footprint
-RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
-Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
-rotary encoder
+ResetSW_SidePush
+
+
 0
-7
-6
+2
+2
 #footprint
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_rev2
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
@@ -3381,61 +2919,26 @@ tact sw push 6mm
 4
 2
 #footprint
-Samtec_HLE-120-02-xxx-DV-BE-A_2x20_RPi_Bottom
-Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-140-02-xxx-DV-BE-A, 20 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xxx-dv-xx-xx-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-dv-footprint.pdf), generated with kicad-footprint-generator
-connector Samtec  top entry
-0
-40
-40
-#footprint
-Samtec_HLE-120-02-xxx-DV-BE-A_2x20_RPi_Top
-Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-140-02-xxx-DV-BE-A, 20 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xxx-dv-xx-xx-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-dv-footprint.pdf), generated with kicad-footprint-generator
-connector Samtec  top entry
-0
-40
-40
-#footprint
-SolderJumper-2_P1.3mm_Open_Pad1.0x1.0mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open
-solder jumper open
-0
-2
-2
-#footprint
-SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open
-solder jumper open
-0
-2
-2
-#footprint
-Stabilizer_Hole_2U
+Slit
 
 
 0
 0
 0
 #footprint
-StripLED_rev1
+Slitb_b
 
 
 0
-6
-3
+0
+0
 #footprint
-StripLED_rev2
+Slitb_c
 
 
 0
-3
-3
-#footprint
-StripLED_rev3
-
-
 0
-3
-3
+0
 #footprint
 YS-SK6812MINI-E
 
@@ -3444,77 +2947,21 @@ YS-SK6812MINI-E
 6
 4
 #footprint
-diode
-
-
-0
-2
-2
-#footprint
-diode_SMD
-Resitance 3 pas
-R
-0
-2
-2
-#footprint
-diode_TH_SMD
+YS-SK6812MINI-E_backlight
 
 
 0
 6
+4
+#footprint
+diode_TH_SMD_rev3
+
+
+0
+4
 2
-#footprint
-diode_TH_SMD_rev2
-
-
-0
-6
-2
-#footprint
-e3w2q_icon
-
-
-0
-0
-0
-#footprint
-e3w2q_icon_rev2
-
-
-0
-0
-0
-#footprint
-e3w2q_icon_rev3
-
-
-0
-0
-0
-#footprint
-katakana_su
-
-
-0
-0
-0
 #footprint
 mousebite
-
-
-0
-0
-0
-#footprint
-pangaea_1
-
-
-0
-0
-0
-#footprint
-pangaea_2
 
 
 0
@@ -3528,35 +2975,49 @@ pangaea_logo
 0
 0
 #footprint
-ukiha
+promicro_pattern_a2
 
 
 0
 0
 0
 #footprint
-ukiha2
+promicro_pattern_b2
 
 
 0
 0
 0
 #footprint
-ukiha3
+topplate_pattern_a
 
 
 0
 0
 0
 #footprint
-wegener
+topplate_pattern_b
 
 
 0
 0
 0
 #footprint
-wegener_quote
+topplate_pattern_c
+
+
+0
+0
+0
+#footprint
+topplate_pattern_d
+
+
+0
+0
+0
+#footprint
+wegener_quote_rev2
 
 
 0
@@ -3583,6 +3044,27 @@ ArduinoProMicro-ZigZag_rev2
 0
 24
 24
+#kbd
+C_Disc_D3.0mm_W1.6mm_P2.50mm
+C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor
+0
+2
+2
+#kbd
+C_Disc_D4.3mm_W1.9mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor
+0
+2
+2
+#kbd
+C_Disc_D5.0mm_W2.5mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 5mm width 2.5mm Capacitor
+0
+2
+2
 #kbd
 CherryMX_Choc_Hotswap
 
@@ -3647,6 +3129,13 @@ Choc_Hotswap_1.5u
 4
 2
 #kbd
+Crystal_HC49-4H_Vertical
+Crystal THT HC-49-4H http://5hertz.com/pdfs/04404_D.pdf
+THT crystalHC-49-4H
+0
+2
+2
+#kbd
 D3_SMD
 Resitance 3 pas
 R
@@ -3661,9 +3150,23 @@ R
 6
 2
 #kbd
+DIP-28_W7.62mm
+28-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+28
+28
+#kbd
 D_DO-34_SOD68
 Diode, DO-34_SOD68 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=3.04*1.6mm^2, , https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf
 Diode DO-34_SOD68 series Axial Horizontal pin pitch 7.62mm  length 3.04mm diameter 1.6mm
+0
+2
+2
+#kbd
+D_DO-35_SOD27_P7.62mm_Horizontal
+Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
 0
 2
 2
@@ -3780,6 +3283,13 @@ R
 2
 2
 #kbd
+R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.16666666666666666W = 1/6W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.16666666666666666W = 1/6W length 3.6mm diameter 1.6mm
+0
+2
+2
+#kbd
 ResetSW
 
 
@@ -3821,6 +3331,20 @@ StripLED_rev
 0
 6
 3
+#kbd
+USB_C_GCT_USB4085
+
+
+0
+20
+17
+#kbd
+USB_MINIB_Akizuki_MUSB-5BF01AS
+
+
+0
+9
+6
 #kbd
 corne
 
@@ -4031,6 +3555,13 @@ JPC2
 0
 3
 2
+#kbd2
+Joystick_Sparkfan
+
+
+0
+14
+8
 #kbd2
 Jumper
 
