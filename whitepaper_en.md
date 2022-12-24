@@ -1,7 +1,7 @@
 Date: 2022/12/24
 Keyboard Maintainer: [@otahinosame](https://twitter.com/otahinosame), [@e3w2q](https://twitter.com/e3w2q), and [@k2___________](https://twitter.com/@k2___________)
 
-* note: this text is an English translation of a white paper written in Japanese.
+*Note: This text is an English translation of [White Paper written in Japanese](https://github.com/e3w2q/Pangaea-keyboard/blob/main/whitepaper_jp.md).
 
 # What’s Pangaea?
 
@@ -18,7 +18,7 @@ By moving the island, you can adjust the key layout to suit your preference and 
 What was it made for?
 Original experience (by @otahinosame)
 
-There are various column-staggered keyboards, but the differences that interest me are the height of the little finger and the position of the thumb keys. However, you won’t know which one fits you until you try it out. You can’t test it in actual use without spending tens of thousands Japanese Yen to make it. I want to at least make sure how high it fits before I buy the kit. (I want to avoid local solutions, I want to avoid bias since I’ve just bought it, I want to actually compare and decide.)
+There are various column-staggered keyboards, but the differences that interest me are the height of the little finger and the position of the thumb keys. However, you won’t know which one fits you until you try it out. If you want to try a little layout changes in actual usage, it costs a certain money to make it.  I want to at least make sure how high it fits before I buy the kit. (I want to avoid local solutions, I want to avoid bias since I’ve just bought it, I want to actually compare and decide.)
 
 # What kind of things do we want?
 
@@ -38,8 +38,9 @@ Electrical connections between islands can be made by using flexible wiring, all
 
 - Hardware
   - Variety of parts with different layouts
-  - Row and Staggered Arrays
-  - Orthogonal Linear
+  - Row-staggered layout
+  - Ortholinear layout
 - Usage support
   - Expanded guides for adjusting placement
   - Introduction of custom examples
+  

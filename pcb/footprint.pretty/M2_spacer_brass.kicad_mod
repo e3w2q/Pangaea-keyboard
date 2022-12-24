@@ -1,4 +1,4 @@
-(footprint "M2_spacer_brass" (version 20210228) (generator pcbnew) (layer "F.Cu")
+(footprint "M2_Spacer_Brass" (version 20210228) (generator pcbnew) (layer "F.Cu")
   (tedit 60CC8506)
   (descr "Resitance 3 pas")
   (tags "R")
