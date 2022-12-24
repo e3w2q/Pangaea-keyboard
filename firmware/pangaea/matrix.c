@@ -254,7 +254,9 @@ __attribute__((weak)) bool transport_master_if_connected(matrix_row_t master_mat
     return true;  // Treat the transport as always connected
 }
 
-bool matrix_post_scan(void) {
+#ifdef SPLIT_KEYBOARD
+//bool matrix_post_scan(void) {
+bool matrix_post_custom(matrix_row_t current_matrix[]) {
     bool changed = false;
     if (is_keyboard_master()) {
         matrix_row_t slave_matrix[ROWS_PER_HAND] = {0};
@@ -284,6 +286,7 @@ bool matrix_post_scan(void) {
 
     return changed;
 }
+#endif
 
 uint8_t matrix_scan(void) {
     matrix_row_t curr_matrix[MATRIX_ROWS] = {0};
