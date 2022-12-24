@@ -108,6 +108,7 @@ The standard configuration described in this build guide is as follows,
 | --- **PCBs** ---                                      |      |                                                              |
 | Main module PCB for left side                         | 1    |                                                              |
 | Main module PCB for right side                        | 1    |                                                              |
+| Main module cover plate for ProMicro                  | 2    |                                                              |
 | Main module switch plate                              | 2    | Common parts for both side                                   |
 | Main module bottom plate                              | 2    | Common parts for both side                                   |
 | Pinky module PCB                                      | 2    | Common parts for both side                                   |
@@ -121,13 +122,13 @@ The standard configuration described in this build guide is as follows,
 | --- **Electric patrs** ---                            |      |                                                              |
 | ProMicro or compatible                                | 2    | ATmega32U4                                                   |
 | Pin header                                            | 4    | Included with ProMicro                                       |
-| Tact switch                                           | 1*   | *It can also be omitted. <BR />(It cannot be installed on the right side.)                                      |
+| Tact switch for reset                                 | 1*   | *It can also be omitted.<BR/>(It cannot be installed on the right side.)|
 | 3.5mm TRRS jack                                       | 2    |                                                              |
 | Diodes                                                | 60   |                                                              |
 | Switch socket for hotswap                             | 60   |                                                              |
 | Cherry MX compatible key switch                       | 60   |                                                              |
-| SK682MINI-E (LED)                                     | 12   | optional, it can be omitted.                                |
-| Rotary encoder (potentiometer)                        | 2*   | optional, it can be omitted                                 |
+| SK682MINI-E (LED)                                     | 12   | optional, it can be omitted.                                 |
+| Rotary encoder (potentiometer)                        | 2*   | optional, it can be omitted                                  |
 | JST SH 4pin reverse cable 10cm length                 | 2*   | Connection between main and rotary encoder, optinal          |
 | JST SH 4pin reverse cable 10cm length                 | 2    | Connection between main and pinky module                     |
 | JST SH 4pin reverse cable 15cm length                 | 2    | Connection between main and thumb modules                    |
