@@ -1,4 +1,4 @@
-# Pangaea Keyboard Build Guide
+# Pangaea keyboard Build Guide
 
 This is a build guide for the Pangaea Keyboard V1.2.  The original Build Guide written in Japanese is [here](build_guide_jp.md).
 
@@ -9,7 +9,7 @@ The firmware is described in the [Firmware](#Firmware) section, and the source c
 
 The Pangaea Keyboard has a wide variety of optional features that allow you to select the configuration of your choice.  This build guide describes the assembly procedure for a standard configuration. <BR/>*note:  Please refer to [Optional features](#optional-features) for more information on optional features.
 
-- [Pangaea Keyboard Build Guide](#pangaea-keyboard-build-guide)
+- [Pangaea keyboard Build Guide](#pangaea-keyboard-build-guide)
   - [Preparation](#preparation)
     - [Understanding the structure](#understanding-the-structure)
     - [Configuration options](#configuration-options)
@@ -103,7 +103,7 @@ The standard configuration described in this build guide is as follows,
 
 ### Required parts
 
-| Category                                                  | # | comment                                                     |
+| Category                                              | #    | comment                                                      |
 | ----------------------------------------------------- | ---- | ------------------------------------------------------------ |
 | --- **PCBs** ---                                      |      |                                                              |
 | Main module PCB for left side                         | 1    |                                                              |
@@ -138,12 +138,12 @@ The standard configuration described in this build guide is as follows,
 | M2 double thread hexagonal spacer, 3mm length         | 4    | PCB support around ProMicro, 2 pieces for one-hand           |
 | M2 double thread hexagonal spacer, 6mm length         | 8    | Supporting ProMicro covers, 4 pieces for one-hand            |
 | M2 screw, 8mm length                                  | 24   | Fixing the bottom plate, 12 for one-handed                   |
-| M2 screw, 3mm length                                  | 48   | Fixing the switch plate, PCB and MPU cover, 24 for one-hand  |
+| M2 screw, 3mm length                                  | 48   | Fixing the switch plate, PCB and ProMicro cover, 24 for one-hand |
 | --- **Others** ---                                    |      |                                                              |
-| USB cable                                             | 1    | Connection between Pro Micro and your  PC.                   |
+| USB cable                                             | 1    | Connection between ProMicro and your PC                      |
 | TRRS cable                                            | 1    | Connecttion between the left module and right modules        |
 | Key caps                                              | 60   | All 1u size                                                  |
-| Knob for rotary encoder                               | 2    | Up to 19 mm in diameter                                      |
+| Knob for rotary encoder                               | 2    | Up to 19mm in diameter                                       |
 | Tapes                                                 | -    | To hold cables together, optional                            |
 | Insulating tape                                       | -    | To secure the cable to the PCB for easier routing, optional  |
 | Rubber foot, 2.2mm thick                              | 10   | Attach to bridge plate                                       |
@@ -198,7 +198,6 @@ The picture below shows it from the back.
 For smoother operation after assembly, we recommend using washers and spring washers for moving parts. If you screw directly, the screws will loosen easily, and it will be inconvenient to use a screwdriver to screw in the screws for adjustment. By using washers and spring washers, the parts can be moved even when the screws are tightened to some extent, which makes adjustment after assembly easier.
 </div>
 </details>
-
 
 *note: The lengths of screws and spacers used for assembly are shown in the figure below.
 
@@ -663,7 +662,7 @@ The Pro Micro portion of Main Module can be detached. If you want to add keys on
 1. detatch the PCB
 2. wiring the main plate to the Micro Pro board
 
- ###  Compatible modules
+### Compatible modules
 
 Each module can be replaced with one designed to the same standard as the Pangaea keyboard, or additional modules can be added.  In the future, there will be a part with the outermost keys of the module lowered downward.  You can also design your own compatible modules.
 
@@ -702,7 +701,6 @@ How to add an OLED display.
 
 1. installation of OLED display
 2. support for QMK Firmware
-
 
 [Preparation](#preparation) > [Assembly](#assembly) > [Firmware](#firmware) > [Final steps](#final-steps) > [Adjustments](#final-steps) (> [Optional Features](#optional-features) > [Further Modifications](#further-modifications))
 
