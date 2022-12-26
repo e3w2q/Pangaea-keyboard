@@ -17,15 +17,17 @@ https://user-images.githubusercontent.com/50942793/145424793-fb12e412-2e66-4725-
 
 ## Link
 
-[ホワイトペーパー](whitepaper_jp.md)
+[ホワイトペーパー](whitepaper_jp.md), [White Paper](whitepaper_en.md)
 
-[ビルドガイド](build_guide_jp.md)
+[ビルドガイド](build_guide_jp.md), [Build Guide](build_guide_en.md)
 
 [パーツリスト](bom_list_jp.md)
 
 [Firmware](firmware/)
 
-[PCB](pcb/)
+[PCB](design/)
+
+[Gerbers](products/)
 
 ## License
 
