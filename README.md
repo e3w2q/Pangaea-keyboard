@@ -1,9 +1,10 @@
 # Pangaea
 
-![Revision](https://img.shields.io/badge/PCB%20Revision-0.1-blue.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+![Revision](https://img.shields.io/badge/PCB%20Revision-1.2-blue.svg)
+![Gerber:CC-BY-NC](https://img.shields.io/badge/Gerber%20License-CC--BY--NC-blue.svg)
+![KiCAD design License:MIT](https://img.shields.io/badge/KiCAD%20design%20License-MIT-brightgreen.svg)
 
-Parts adjustable keyboard.
+Parts adjustable keyboard
 
 ![pangaea_v027_by_same](images/pangaea_v027_by_same.jpg)
 
