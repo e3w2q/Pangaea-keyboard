@@ -121,7 +121,7 @@ The standard configuration described in this build guide is as follows,
 | Pinkey bridge palte                                   | 2    | Common parts for both side                                   |
 | Thumb bridge plate                                    | 2    | Common parts for both side                                   |
 | --- **Electric patrs** ---                            |      |                                                              |
-| ProMicro or compatible                                | 2    | ATmega32U4                                                   |
+| ProMicro or compatible                                | 2    | ATmega32U4, 5V                                               |
 | Pin header                                            | 4    | Included with ProMicro                                       |
 | Tact switch for reset                                 | 1*   | *It can also be omitted.<BR/>(It cannot be installed on the right side.)|
 | 3.5mm TRRS jack                                       | 2    |                                                              |
