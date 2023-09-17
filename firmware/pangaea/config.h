@@ -1,7 +1,5 @@
 #pragma once
 
-#include "config_common.h"
-
 /* the frequency at which the switch matrix is being scanned.*/
 //#define DEBUG_MATRIX_SCAN_RATE
 
@@ -44,7 +42,9 @@
 /* RGB LED options
  See https://docs.qmk.fm/#/feature_rgblight?id=changing-the-order-of-the-leds
 */
-#define RGB_DI_PIN D3 // The pin connected to the data pin of the LEDs
+#undef WS2812_DI_PIN
+#define WS2812_DI_PIN D3
+//#define RGB_DI_PIN D3 // The pin connected to the data pin of the LEDs
 #ifdef RGBLIGHT_ENABLE
   //#ifndef RGBLED_NUM
   #undef RGBLED_NUM

@@ -62,6 +62,16 @@ __attribute__((weak)) void matrix_read_rows_on_col(matrix_row_t current_matrix[]
 __attribute__((weak)) void matrix_slave_scan_kb(void) { matrix_slave_scan_user(); }
 __attribute__((weak)) void matrix_slave_scan_user(void) {}
 
+__attribute__ ((weak))
+void matrix_init_quantum(void) {
+    matrix_init_kb();
+}
+
+__attribute__ ((weak))
+void matrix_scan_quantum(void) {
+    matrix_scan_kb();
+}
+
 static inline void setPinOutput_writeLow(pin_t pin) {
     ATOMIC_BLOCK_FORCEON {
         setPinOutput(pin);
