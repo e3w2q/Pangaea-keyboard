@@ -1,5 +1,5 @@
 /** Nov 30, 2022
-Pangaea ver.1.2 for QMK 0.18.17
+Pangaea ver.1.2 for QMK 0.22.10
 [Quantum Mechanical Keyboard Firmware](https://docs.qmk.fm/#/)
 
 This program is free software: you can redistribute it and/or modify
@@ -443,19 +443,19 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       break;
      case IMEON: // IME On/Off --- for Mac and Windows
        if (record->event.pressed) {
-         register_code(KC_LANG1);   // Mac. IME_ON
+         register_code(KC_LNG1);   // Mac. IME_ON
          register_code(KC_F23);     // Win
        } else {
-         unregister_code(KC_LANG1); // Mac. IME_ON toggle
+         unregister_code(KC_LNG1); // Mac. IME_ON toggle
          unregister_code(KC_F23);   // Win
        }
        break;
     case IMEOFF:
        if (record->event.pressed) {
-         register_code(KC_LANG2);   // Mac
+         register_code(KC_LNG2);   // Mac
          register_code(KC_F24);     // Win
        } else {
-         unregister_code(KC_LANG2); // Mac
+         unregister_code(KC_LNG2); // Mac
          unregister_code(KC_F24);   // WIn
        }
        break;
