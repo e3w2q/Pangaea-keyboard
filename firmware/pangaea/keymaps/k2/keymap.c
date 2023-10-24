@@ -188,9 +188,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_ESC,   KC_1,   KC_2,   KC_3,   KC_4,   KC_5,                                   KC_6,   KC_7,   KC_8,   KC_9,   KC_0,KC_MINS,
   KC_TAB,   KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,                                   KC_Y,   KC_U,   KC_I,   KC_O,   KC_P, KC_EQL,
  K2_CTAB,   KC_A,   KC_S,   KC_D,   KC_F,   KC_G,_______,_______,_______,_______,   KC_H,   KC_J,   KC_K,   KC_L,KC_SCLN,KC_QUOT,
- KC_LSFT,   KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,KC_LBRC,_______,_______,KC_RBRC,   KC_N,   KC_M,KC_COMM, KC_DOT,KC_SLSH,KC_RSFT,
+ KC_LSFT,   KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,KC_ESC ,KC_LGUI,_______,KC_RBRC,   KC_N,   KC_M,KC_COMM, KC_DOT,KC_SLSH,KC_RSFT,
          KC_LALT,  RAISE,KC_BSPC, K2_GDEL,XXXXXXX,                               XXXXXXX, KC_ENT, KC_SPC,  LOWER,XXXXXXX,
-         _______,_______,_______,                                                        _______,_______,_______
+         _______,_______,_______,                                                                _______,_______,_______
  ),
  [_LOWER] = LAYOUT( // Lower + minus- to enter debug layout
  _______,_______,_______,_______,_______,_______,                                _______,_______,_______,_______,_______,_______,
@@ -519,6 +519,6 @@ bool oled_task_user(void)
 OS が US Keyboard の設定だと JIS keyboard の特有キーである変換、無変換などを認識しない
 つまり変換/無変換/ひらがな/カタカナ/全角半角など US keyboard設定では QMK の Keycode を出力しても無視される
 例えばJISでのIME切り替えは全角半角のトグルだが、US Keyboard設定では Alt+` でないと切り替わらない
-JIS特有の操作を使いたい場合は OS設定を JIS にした上で 目的の key code をを出力する必要がある
-対策としてIME On/Off を F22,F23 などあまり利用されないところに割り当てて使う方法がある
+JIS特有の操作を使いたい場合は OS設定を JIS にした上で 目的の keycode をを出力する必要がある
+別の対策として、IME On/Off を F22,F23 などあまり利用されないところに割り当てて使う方法がある
 */
