@@ -3,3 +3,4 @@ specification_jp.md
 *.bkp
 *.dtmp
 *.bak
+.DS_Store
