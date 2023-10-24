@@ -53,6 +53,7 @@
       "console": false,
       "command": false,
       "nkor": true,
+      "encoder": true,
       "backlight": false,
       "rgblight": true
     },

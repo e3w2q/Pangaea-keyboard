@@ -256,27 +256,16 @@ void matrix_scan_user(void) {
 void led_set_user(uint8_t usb_led) {
 }
 
-#ifdef ENCODER_ENABLE
+#ifdef ENCODER_MAP_ENABLE
 // Rotary encoder
-bool encoder_update_user(uint8_t index, bool clockwise) {
-#ifdef CONSOLE_ENABLE
-  uprintf("EN: index: %u, clockwise: %u\n", index, clockwise);
-#endif
-  if (index == 0) { /* first encoder, left side */
-        if (clockwise) {
-            tap_code(KC_VOLU);
-        } else {
-            tap_code(KC_VOLD);
-        }
-  } else if (index == 1) { /* second encoder, right side */
-        if (clockwise) {
-            tap_code(KC_PGUP); /* Mouse Wheel Up */
-        } else {
-            tap_code(KC_PGDN); /* Mouse Wheel Down */
-        }
-  }
-  return 1;
-}
+const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
+    [0] =   { ENCODER_CCW_CW(KC_A, KC_B), ENCODER_CCW_CW(KC_C, KC_D) },
+    [1] =   { ENCODER_CCW_CW(KC_1, KC_2), ENCODER_CCW_CW(KC_3, KC_4) },
+    [2] =   { ENCODER_CCW_CW(KC_LEFT, KC_RIGHT), ENCODER_CCW_CW(KC_UP, KC_DOWN) },
+    [3] =   { ENCODER_CCW_CW(KC_X, KC_Y), ENCODER_CCW_CW(KC_V, KC_W) },
+    [4] =   { ENCODER_CCW_CW(KC_S, KC_T), ENCODER_CCW_CW(KC_N, KC_M) },
+    //        Left encorder             , Right encorder
+};
 #endif
 
 
