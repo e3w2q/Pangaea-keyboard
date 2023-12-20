@@ -30,6 +30,7 @@
         "lto": true
     },
     "rgblight": {
+      "pin": "D3",
       "led_count": 12,
       "saturation_steps": 8,
       "brightness_steps": 8,
