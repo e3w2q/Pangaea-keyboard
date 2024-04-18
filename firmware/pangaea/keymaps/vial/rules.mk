@@ -7,6 +7,7 @@ VIAL_ENABLE = yes
 LTO_ENABLE = yes
 RGBLIGHT_ENABLE = yes        # Enable keyboard RGB underglow
 
+MOUSEKEY_ENABLE = no
 
 SPACE_CADET_ENABLE = no
 GRAVE_ESC_ENABLE = no
